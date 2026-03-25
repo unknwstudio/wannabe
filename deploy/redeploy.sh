@@ -5,4 +5,4 @@ git pull
 npm install
 npm run build
 pm2 restart wannabe
-echo "Redeployed successfully"
+echo "Redeployed"
