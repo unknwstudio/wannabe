@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>wannabe.ru — style guide</title>
+<style>
+@font-face { font-family:'Unica 77 LL'; src:url('../public/fonts/Unica77LLCyr-Regular.otf') format('opentype'); font-weight:400; }
+@font-face { font-family:'Unica 77 LL'; src:url('../public/fonts/Unica77LLCyr-Medium.otf') format('opentype'); font-weight:500; }
+@font-face { font-family:'Unica 77 LL'; src:url('../public/fonts/Unica77LLCyr-Bold.otf') format('opentype'); font-weight:700; }
+
+*, *::before, *::after { box-sizing:border-box; margin:0; padding:0; }
+body { font-family:'Unica 77 LL',sans-serif; background:#fff; color:#000; padding:40px; }
+
+/* ── Text scale (mirrors globals.css) ─────────────────────── */
+.text-h1   { font-size:clamp(40px,6vw,80px);  font-weight:700; letter-spacing:-0.02em; line-height:1; }
+.text-h2   { font-size:clamp(40px,6vw,80px);  font-weight:500; letter-spacing:-0.05em; line-height:0.8; }
+.text-h3   { font-size:clamp(24px,3vw,52px);  font-weight:500; letter-spacing:-0.02em; }
+.text-h4   { font-size:clamp(18px,2vw,24px);  font-weight:500; line-height:1em; letter-spacing:-0.01em; text-transform:lowercase; }
+.text-body { font-size:clamp(14px,1.5vw,17px); font-weight:400; }
+.text-small { font-size:14px; font-weight:400; }
+
+/* ── Buttons ──────────────────────────────────────────────── */
+.btn-green { background:#4ef968; color:#000; border:none; border-radius:40px; padding:16px 24px; font-family:inherit; font-size:16px; cursor:pointer; transition:all 150ms ease; }
+.btn-green:hover { filter:brightness(110%); transform:scale(1.01); }
+.btn-circle { width:50px; height:50px; border-radius:50%; background:#000; color:#fff; border:none; cursor:pointer; display:inline-flex; align-items:center; justify-content:center; font-size:18px; transition:opacity 150ms ease; }
+.btn-circle:hover { opacity:0.8; }
+.btn-subscribe { padding:16px; border-radius:4px; border:none; background:#cfbeff; color:#000; font-family:inherit; font-size:15px; cursor:pointer; display:inline-flex; gap:48px; transition:all 150ms ease; }
+.btn-subscribe:hover { filter:brightness(105%); }
+.btn-menu { background:none; border:none; font-family:inherit; font-weight:500; font-size:28px; letter-spacing:-0.04em; cursor:pointer; transition:opacity 150ms ease; }
+.btn-menu:hover { opacity:0.6; }
+
+/* ── Chip ─────────────────────────────────────────────────── */
+.chip { display:inline-block; padding:4px 16px; border-radius:4px; background:#fff; box-shadow:0 1px 2px rgba(0,0,0,0.25); font-size:15px; font-weight:500; letter-spacing:-0.01em; text-decoration:none; color:#000; transition:opacity 150ms ease; }
+.chip:hover { opacity:0.7; }
+
+/* ── Toggle ───────────────────────────────────────────────── */
+.toggle-pill { border:1px solid #000; border-radius:40px; padding:4px; display:inline-flex; }
+.toggle-opt { flex:1; padding:16px; border-radius:40px; border:none; cursor:pointer; font-family:inherit; font-size:14px; background:transparent; color:#000; transition:background 150ms ease, color 150ms ease; }
+.toggle-opt.active { background:#000; color:#fff; }
+
+/* ── Layout ───────────────────────────────────────────────── */
+section { margin-bottom:56px; }
+h1 { font-size:28px; font-weight:500; letter-spacing:-0.03em; margin-bottom:4px; }
+.date { font-size:13px; color:#7c7c7c; margin-bottom:48px; }
+h2 { font-size:10px; font-weight:500; letter-spacing:0.12em; text-transform:uppercase; color:#7c7c7c; margin-bottom:20px; padding-bottom:8px; border-bottom:1px solid #cacaca; }
+.row { display:flex; flex-wrap:wrap; gap:24px; align-items:flex-end; }
+.col { display:flex; flex-direction:column; gap:8px; }
+.meta { font-size:10px; color:#7c7c7c; line-height:1.5; }
+.note { font-size:11px; color:#cc0003; margin-top:12px; }
+.group-lbl { font-size:10px; font-weight:500; letter-spacing:0.08em; text-transform:uppercase; color:#cacaca; margin:20px 0 12px; }
+.group-lbl:first-child { margin-top:0; }
+
+/* ── Spacing demo bars ────────────────────────────────────── */
+.sp-track { display:flex; align-items:flex-end; gap:24px; }
+.sp-item { display:flex; flex-direction:column; align-items:center; gap:6px; }
+.sp-bar { background:#4ef968; border-radius:2px; }
+</style>
+</head>
+<body>
+
+<h1>wannabe.ru — style guide</h1>
+<p class="date">Generated 2026-03-25 · v3 — .text-h4 added</p>
+
+<!-- ══════════════════ 1. COLORS ══════════════════════════ -->
+<section>
+  <h2>1 — Colors</h2>
+  <div class="group-lbl">Brand</div>
+  <div class="row" style="align-items:flex-start;">
+    <div class="col"><div style="width:60px;height:60px;background:#000;border-radius:4px;"></div><span class="meta">#000000<br>black</span></div>
+    <div class="col"><div style="width:60px;height:60px;background:#fff;border-radius:4px;border:1px solid #eaeaea;"></div><span class="meta">#ffffff<br>white</span></div>
+    <div class="col"><div style="width:60px;height:60px;background:#4ef968;border-radius:4px;"></div><span class="meta">#4ef968<br>green</span></div>
+    <div class="col"><div style="width:60px;height:60px;background:#8f67ff;border-radius:4px;"></div><span class="meta">#8f67ff<br>purple</span></div>
+    <div class="col"><div style="width:60px;height:60px;background:#cfbeff;border-radius:4px;"></div><span class="meta">#cfbeff<br>purple-light</span></div>
+    <div class="col"><div style="width:60px;height:60px;background:#ff6225;border-radius:4px;"></div><span class="meta">#ff6225<br>orange</span></div>
+  </div>
+  <div class="group-lbl">Greys</div>
+  <div class="row" style="align-items:flex-start;">
+    <div class="col"><div style="width:60px;height:60px;background:#7c7c7c;border-radius:4px;"></div><span class="meta">#7c7c7c<br>grey-text<br>← absorbs #aaa</span></div>
+    <div class="col"><div style="width:60px;height:60px;background:#cacaca;border-radius:4px;"></div><span class="meta">#cacaca<br>grey-border<br>← absorbs #ccc</span></div>
+    <div class="col"><div style="width:60px;height:60px;background:#eaeaea;border-radius:4px;"></div><span class="meta">#eaeaea<br>grey-bg<br>← absorbs #e5e5e5</span></div>
+    <div class="col"><div style="width:60px;height:60px;background:#4b4b4b;border-radius:4px;"></div><span class="meta">#4b4b4b<br>progress-track<br>← absorbs #444</span></div>
+  </div>
+  <p class="note">⚠ dark-purple #1c1a31 consolidated to black #000000 across all components.</p>
+</section>
+
+<!-- ══════════════════ 2. TYPOGRAPHY ═════════════════════ -->
+<section>
+  <h2>2 — Typography · .text-h1 → .text-small</h2>
+  <div style="border-bottom:1px solid #eaeaea;padding:16px 0;display:flex;align-items:baseline;gap:24px;">
+    <span class="text-h1" style="flex:1;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;">wannabe</span>
+    <span class="meta" style="text-align:right;flex-shrink:0;">.text-h1 · clamp(40px,6vw,80px) / 700 / -0.02em<br>Footer wordmark</span>
+  </div>
+  <div style="border-bottom:1px solid #eaeaea;padding:16px 0;display:flex;align-items:baseline;gap:24px;">
+    <span class="text-h2" style="flex:1;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;">дизайн-лидер</span>
+    <span class="meta" style="text-align:right;flex-shrink:0;">.text-h2 · clamp(40px,6vw,80px) / 500 / -0.05em lh 0.8<br>Tariff section heading</span>
+  </div>
+  <div style="border-bottom:1px solid #eaeaea;padding:16px 0;display:flex;align-items:baseline;gap:24px;">
+    <span class="text-h3" style="flex:1;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;">9 450₽ в месяц</span>
+    <span class="meta" style="text-align:right;flex-shrink:0;">.text-h3 · clamp(24px,3vw,52px) / 500 / -0.02em<br>Prices only</span>
+  </div>
+  <div style="border-bottom:1px solid #eaeaea;padding:16px 0;display:flex;align-items:baseline;gap:24px;">
+    <span class="text-h4" style="flex:1;">тариф 01 · эксклюзивная группа со мной · + к основной программе</span>
+    <span class="meta" style="text-align:right;flex-shrink:0;">.text-h4 · clamp(18px,2vw,24px) / 500 / -0.01em lh 1em lowercase<br>Sub-headings, labels, card text</span>
+  </div>
+  <div style="border-bottom:1px solid #eaeaea;padding:16px 0;display:flex;align-items:baseline;gap:24px;">
+    <span class="text-body" style="flex:1;">Гайды и чеклисты · библиотека · мероприятия</span>
+    <span class="meta" style="text-align:right;flex-shrink:0;">.text-body · clamp(14px,1.5vw,17px) / 400<br>Links, nav, footer body</span>
+  </div>
+  <div style="padding:16px 0;display:flex;align-items:baseline;gap:24px;">
+    <span class="text-small" style="flex:1;">с 13 марта вырастет до 105 000 ₽ · рассрочка на 10 мес</span>
+    <span class="meta" style="text-align:right;flex-shrink:0;">.text-small · 14px / 400<br>Badges, captions, disclaimers</span>
+  </div>
+  <p class="note">⚠ .text-h3 is now reserved for prices only. All sub-headings and card text use .text-h4. Mobile logo text kept at .text-h3 (clamp min 24px gives adequate mobile size).</p>
+</section>
+
+<!-- ══════════════════ 3. BUTTONS ════════════════════════ -->
+<section>
+  <h2>3 — Buttons · hover states active</h2>
+  <div class="row">
+    <div class="col">
+      <button class="btn-green">выбрать</button>
+      <span class="meta">.btn-green<br>#4ef968 · hover: brightness(110%) + scale(1.01)</span>
+    </div>
+    <div class="col">
+      <div class="toggle-pill">
+        <button class="toggle-opt active">как физическое лицо</button>
+        <button class="toggle-opt">как юр.лицо *</button>
+      </div>
+      <span class="meta">.toggle-pill / .toggle-opt.active<br>#000 active · transition: 150ms</span>
+    </div>
+    <div class="col">
+      <button class="btn-circle">♡</button>
+      <span class="meta">.btn-circle<br>#000 · 50×50px · hover: opacity 0.8</span>
+    </div>
+    <div class="col">
+      <button class="btn-subscribe">Подписаться <span>→</span></button>
+      <span class="meta">.btn-subscribe<br>#cfbeff · hover: brightness(105%)</span>
+    </div>
+    <div class="col">
+      <button class="btn-menu">+меню</button>
+      <span class="meta">.btn-menu<br>text-only · hover: opacity 0.6</span>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════ 4. INPUTS ═════════════════════════ -->
+<section>
+  <h2>4 — Inputs & Form Elements</h2>
+  <div class="row" style="align-items:flex-start;">
+    <div class="col" style="min-width:280px;">
+      <input type="email" placeholder="ivanivanov@gmail.ru"
+        style="width:100%;padding:16px;border-radius:4px;border:1px solid #cacaca;background:#fff;font-size:15px;font-family:inherit;outline:none;" />
+      <span class="meta">.input-email<br>white bg · 1px #cacaca border · 16px padding · focus: border #000</span>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════ 5. BADGES & PILLS ════════════════ -->
+<section>
+  <h2>5 — Badges & Pills</h2>
+  <div class="row" style="align-items:flex-start;">
+    <div class="col">
+      <a href="#" class="chip">next level concepts</a>
+      <span class="meta">.chip<br>white bg + shadow · 4px radius</span>
+    </div>
+    <div class="col">
+      <span class="text-small" style="border:1px solid #000;border-radius:40px;padding:4px 16px;display:inline-block;">с 13 марта вырастет до 105 000 ₽</span>
+      <span class="meta">badge-outline<br>1px border · 40px radius · .text-small</span>
+    </div>
+    <div class="col">
+      <span class="text-small" style="border:1px solid #000;border-radius:40px;padding:4px 16px;display:inline-block;">включено в тариф:</span>
+      <span class="meta">badge-outline-sm<br>same — used for «включено в тариф:»</span>
+    </div>
+    <div class="col">
+      <span class="text-small" style="background:#8f67ff;color:#fff;border-radius:40px;padding:16px 24px;display:inline-block;">тестовый запуск только в марте</span>
+      <span class="meta">badge-purple<br>#8f67ff bg · 40px radius · .text-small</span>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════ 6. SPACING ════════════════════════ -->
+<section>
+  <h2>6 — Spacing Scale · 4 / 16 / 24 / 48 + fluid</h2>
+  <div class="sp-track" style="margin-bottom:24px;">
+    <div class="sp-item"><div class="sp-bar" style="width:32px;height:4px;"></div><span class="meta">4px<br>dividers<br>pill gap</span></div>
+    <div class="sp-item"><div class="sp-bar" style="width:32px;height:16px;"></div><span class="meta">16px<br>links<br>fields</span></div>
+    <div class="sp-item"><div class="sp-bar" style="width:32px;height:24px;"></div><span class="meta">24px<br>card pad<br>col gap</span></div>
+    <div class="sp-item"><div class="sp-bar" style="width:32px;height:48px;"></div><span class="meta">48px<br>section<br>columns</span></div>
+  </div>
+  <div style="display:flex;flex-direction:column;gap:8px;">
+    <div style="display:flex;align-items:center;gap:16px;">
+      <div style="height:16px;background:#eaeaea;border-radius:2px;width:clamp(20px,15vw,220px);flex-shrink:0;"></div>
+      <span class="meta">Outer padding · clamp(20px,15vw,220px) — Nav ✓ Footer ✓ TariffSection ✓</span>
+    </div>
+    <div style="display:flex;align-items:center;gap:16px;">
+      <div style="height:16px;background:#cfbeff;border-radius:2px;width:clamp(40px,6vw,90px);flex-shrink:0;"></div>
+      <span class="meta">Section vertical padding · clamp(40px,6vw,90px) — TariffSection ✓ Footer ✓</span>
+    </div>
+  </div>
+  <p class="note">⚠ CENTER margin-bottom: clamp(32px,4vw,60px) → 48px (on-scale). All non-scale clamp() values removed from TariffSection.</p>
+</section>
+
+</body>
+</html>

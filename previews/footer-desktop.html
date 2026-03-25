@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Footer Desktop — wannabe</title>
+<style>
+@font-face { font-family:'Unica 77 LL'; src:url('../public/fonts/Unica77LLCyr-Regular.otf') format('opentype'); font-weight:400; }
+@font-face { font-family:'Unica 77 LL'; src:url('../public/fonts/Unica77LLCyr-Medium.otf') format('opentype'); font-weight:500; }
+@font-face { font-family:'Unica 77 LL'; src:url('../public/fonts/Unica77LLCyr-Bold.otf') format('opentype'); font-weight:700; }
+
+*, *::before, *::after { box-sizing:border-box; }
+body { margin:0; font-family:'Unica 77 LL',sans-serif; background:#333; }
+
+.text-h1   { font-size:clamp(40px,6vw,80px); font-weight:700; letter-spacing:-0.02em; line-height:1; }
+.text-body { font-size:clamp(14px,1.5vw,17px); font-weight:400; }
+.text-small { font-size:14px; font-weight:400; }
+.chip { display:inline-block; padding:4px 16px; border-radius:4px; background:#fff; box-shadow:0 1px 2px rgba(0,0,0,0.25); font-size:clamp(13px,1.2vw,17px); font-weight:500; letter-spacing:-0.01em; text-decoration:none; color:#000; white-space:nowrap; transition:opacity 150ms ease; }
+.chip:hover { opacity:0.7; }
+.input-email { width:100%; padding:16px; border-radius:4px; border:1px solid #cacaca; background:#fff; font-size:clamp(14px,1.5vw,17px); font-family:inherit; outline:none; }
+.input-email:focus { border-color:#000; }
+.btn-subscribe { width:100%; padding:16px; border-radius:4px; border:none; background:#cfbeff; color:#000; font-family:inherit; font-size:clamp(14px,1.5vw,17px); cursor:pointer; display:flex; justify-content:space-between; transition:all 150ms ease; }
+.btn-subscribe:hover { filter:brightness(105%); }
+
+footer { background:#000; }
+.inner { padding-left:clamp(20px,15vw,220px); padding-right:clamp(20px,15vw,220px); padding-top:clamp(40px,6vw,90px); padding-bottom:clamp(40px,6vw,90px); }
+.top { display:flex; flex-wrap:wrap; gap:48px; margin-bottom:48px; }
+.col-left { flex:1; min-width:240px; display:flex; flex-direction:column; gap:48px; }
+.col-right { width:clamp(240px,33vw,476px); flex-shrink:0; display:flex; flex-direction:column; gap:16px; }
+.pills { display:flex; flex-wrap:wrap; gap:4px; }
+.footer-link { text-decoration:none; color:#fff; }
+.footer-link:hover { opacity:0.7; }
+.bottom { display:flex; flex-direction:column; gap:16px; }
+.bottom-row { display:flex; align-items:center; justify-content:space-between; }
+</style>
+</head>
+<body>
+
+<p style="font-size:11px;color:#aaa;padding:8px 20px;margin:0;background:#222;font-family:'Unica 77 LL',sans-serif;">
+  Footer · Desktop · resize window to test fluid scaling
+</p>
+
+<footer>
+  <div class="inner">
+    <div class="top">
+      <div class="col-left">
+        <div class="pills">
+          <a href="#" class="chip">next level concepts</a>
+          <a href="#" class="chip">next level ui</a>
+          <a href="#" class="chip">superpowered</a>
+          <a href="#" class="chip">t-shaped</a>
+          <a href="#" class="chip">ai brands shorts</a>
+          <a href="#" class="chip">ai movies shorts</a>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:16px;">
+          <span class="text-body" style="color:#cfbeff;font-weight:500;">Документы</span>
+          <a href="#" class="text-body footer-link">Публичная оферта</a>
+          <a href="#" class="text-body footer-link">Пользовательское соглашение</a>
+          <a href="#" class="text-body footer-link">Информация об «ООО»</a>
+          <a href="#" class="text-body footer-link">Info@wannabelike.ru</a>
+        </div>
+      </div>
+      <div class="col-right">
+        <span class="text-body" style="color:#cfbeff;font-weight:500;">Ресурсы</span>
+        <a href="#" class="text-body footer-link">Гайды и чеклисты</a>
+        <a href="#" class="text-body footer-link">Мероприятия</a>
+        <a href="#" class="text-body footer-link">Клуб CPO</a>
+        <a href="#" class="text-body footer-link">Телеграм-канал</a>
+        <a href="#" class="text-body footer-link">Статьи</a>
+        <div style="display:flex;flex-direction:column;gap:16px;margin-top:16px;">
+          <input class="input-email" type="email" placeholder="ivanivanov@gmail.ru" />
+          <button class="btn-subscribe">Подписаться <span>→</span></button>
+          <p class="text-small" style="margin:0;color:#7c7c7c;line-height:1.4;">
+            Нажимая кнопку, я принимаю <u>условия оферты</u> и соглашаюсь на <u>обработку персональных данных</u>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="bottom">
+      <div class="bottom-row">
+        <span class="text-h1" style="color:#fff;">wannabe</span>
+        <img src="../public/icons/wannabe-logo.svg" alt="" style="width:clamp(40px,5.3vw,76px);filter:invert(1);" />
+      </div>
+      <p class="text-body" style="margin:0;font-weight:500;color:#fff;">Проект создан в 2019 году.</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

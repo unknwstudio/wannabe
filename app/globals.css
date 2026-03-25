@@ -1,26 +1,153 @@
 @import "tailwindcss";
 
+/* ── Fonts ───────────────────────────────────────────────────────────── */
+@font-face { font-family:'Unica 77 LL'; src:url('/fonts/Unica77LLCyr-Light.otf') format('opentype'); font-weight:300; font-display:swap; }
+@font-face { font-family:'Unica 77 LL'; src:url('/fonts/Unica77LLCyr-Regular.otf') format('opentype'); font-weight:400; font-display:swap; }
+@font-face { font-family:'Unica 77 LL'; src:url('/fonts/Unica77LLCyr-Medium.otf') format('opentype'); font-weight:500; font-display:swap; }
+@font-face { font-family:'Unica 77 LL'; src:url('/fonts/Unica77LLCyr-Bold.otf') format('opentype'); font-weight:700; font-display:swap; }
+
+/* ── Color tokens ────────────────────────────────────────────────────── */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --black:        #000;
+  --white:        #fff;
+  --green:        #4ef968;
+  --purple:       #8f67ff;
+  --purple-light: #cfbeff;
+  --orange:       #ff6225;
+  --grey-text:    #7c7c7c;
+  --grey-border:  #cacaca;
+  --grey-bg:      #eaeaea;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+/* ── Base ────────────────────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; }
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  font-family: 'Unica 77 LL', sans-serif;
+  line-height: 1.2;
+  color: var(--black);
+  background: var(--white);
+  -webkit-font-smoothing: antialiased;
 }
+
+/* ── Text scale ──────────────────────────────────────────────────────── */
+.text-h1   { font-size: clamp(40px, 6vw, 80px);  font-weight: 700; letter-spacing: -0.02em; line-height: 1; }
+.text-h2   { font-size: clamp(40px, 6vw, 80px);  font-weight: 500; letter-spacing: -0.05em; line-height: 0.8; }
+.text-h3   { font-size: clamp(24px, 3vw, 52px);  font-weight: 500; letter-spacing: -0.02em; }
+.text-h4   {
+  font-family: 'Unica 77 LL Cyr', 'Unica 77 LL', sans-serif;
+  font-size: clamp(18px, 2vw, 24px);
+  font-weight: 500;
+  line-height: 1em;
+  letter-spacing: -0.01em;
+  text-transform: lowercase;
+}
+.text-body { font-size: clamp(14px, 1.5vw, 17px); font-weight: 400; }
+.text-small { font-size: 14px; font-weight: 400; }
+
+/* ── Chip — shared between Nav + Footer ──────────────────────────────── */
+.chip {
+  display: inline-block;
+  padding: 4px 16px;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.25);
+  font-size: clamp(13px, 1.2vw, 17px);
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  text-decoration: none;
+  color: #000;
+  white-space: nowrap;
+  transition: opacity 150ms ease;
+}
+.chip:hover { opacity: 0.7; }
+
+/* ── Buttons ─────────────────────────────────────────────────────────── */
+.btn-green {
+  background: #4ef968;
+  color: #000;
+  border: none;
+  border-radius: 40px;
+  padding: 16px 24px;
+  font-family: inherit;
+  font-size: clamp(14px, 1.2vw, 17px);
+  cursor: pointer;
+  transition: all 150ms ease;
+}
+.btn-green:hover { filter: brightness(110%); transform: scale(1.01); }
+
+.btn-circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  flex-shrink: 0;
+  transition: opacity 150ms ease;
+}
+.btn-circle:hover { opacity: 0.8; }
+
+.btn-subscribe {
+  width: 100%;
+  padding: 16px;
+  border-radius: 4px;
+  border: none;
+  background: var(--purple-light);
+  color: #000;
+  font-family: inherit;
+  font-size: clamp(14px, 1.5vw, 17px);
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  transition: all 150ms ease;
+}
+.btn-subscribe:hover { filter: brightness(105%); }
+
+.btn-menu {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 500;
+  letter-spacing: -0.04em;
+  transition: opacity 150ms ease;
+}
+.btn-menu:hover { opacity: 0.6; }
+
+/* ── Toggle pill ─────────────────────────────────────────────────────── */
+.toggle-pill { border: 1px solid #000; border-radius: 40px; padding: 4px; display: flex; }
+.toggle-opt {
+  flex: 1;
+  padding: 16px;
+  border-radius: 40px;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: clamp(13px, 1.2vw, 17px);
+  letter-spacing: 0.01em;
+  background: transparent;
+  color: #000;
+  transition: background 150ms ease, color 150ms ease;
+}
+.toggle-opt.active { background: #000; color: #fff; }
+
+/* ── Email input ─────────────────────────────────────────────────────── */
+.input-email {
+  width: 100%;
+  padding: 16px;
+  border-radius: 4px;
+  border: 1px solid var(--grey-border);
+  background: #fff;
+  font-size: clamp(14px, 1.5vw, 17px);
+  font-family: inherit;
+  outline: none;
+  box-sizing: border-box;
+}
+.input-email:focus { border-color: #000; }

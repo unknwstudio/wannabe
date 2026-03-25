@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Nav Desktop — wannabe</title>
+<style>
+@font-face { font-family:'Unica 77 LL'; src:url('../public/fonts/Unica77LLCyr-Regular.otf') format('opentype'); font-weight:400; }
+@font-face { font-family:'Unica 77 LL'; src:url('../public/fonts/Unica77LLCyr-Medium.otf') format('opentype'); font-weight:500; }
+
+*, *::before, *::after { box-sizing:border-box; }
+body { margin:0; font-family:'Unica 77 LL',sans-serif; background:#f0f0f0; }
+
+.text-h3 { font-size:clamp(24px,3vw,52px); font-weight:500; letter-spacing:-0.02em; }
+.text-body { font-size:clamp(14px,1.5vw,17px); font-weight:400; }
+.chip { display:inline-block; padding:4px 16px; border-radius:4px; background:#fff; box-shadow:0 1px 2px rgba(0,0,0,0.25); font-size:clamp(13px,1.2vw,17px); font-weight:500; letter-spacing:-0.01em; text-decoration:none; color:#000; white-space:nowrap; transition:opacity 150ms ease; }
+.chip:hover { opacity:0.7; }
+
+nav { background:#fff; border-bottom:1px solid #cacaca; position:sticky; top:0; z-index:50; }
+.row { display:flex; align-items:center; justify-content:space-between; padding-left:clamp(20px,15vw,220px); padding-right:clamp(20px,15vw,220px); }
+.row-1 { padding-top:16px; padding-bottom:4px; }
+.row-2 { padding-top:4px; padding-bottom:4px; gap:16px; }
+.logo { display:flex; align-items:center; gap:16px; text-decoration:none; color:#000; }
+.logo img { width:38px; height:38px; }
+.nav-links { display:flex; gap:24px; }
+.nav-links a { text-decoration:none; color:#000; letter-spacing:0.01em; }
+.nav-links a:hover { opacity:0.6; }
+.pills { display:flex; flex-wrap:wrap; gap:4px; }
+.demo-label { padding:12px 20px; font-size:12px; color:#999; text-align:center; }
+</style>
+</head>
+<body>
+
+<p class="demo-label">Nav · Desktop · resize window to test fluid scaling</p>
+
+<nav>
+  <div class="row row-1">
+    <a href="/" class="logo">
+      <img src="../public/icons/wannabe-logo.svg" alt="wannabe" />
+      <span class="text-h3" style="letter-spacing:-0.04em;">wannabe</span>
+    </a>
+    <div class="nav-links">
+      <a href="#" class="text-body">библиотека</a>
+      <a href="#" class="text-body">мероприятия</a>
+      <a href="#" class="text-body">для компаний</a>
+    </div>
+  </div>
+  <div class="row row-2">
+    <div class="pills">
+      <a href="#" class="chip">next level concepts</a>
+      <a href="#" class="chip">next level ui</a>
+      <a href="#" class="chip">superpowered</a>
+      <a href="#" class="chip">t-shaped</a>
+      <a href="#" class="chip">ai brands shorts</a>
+      <a href="#" class="chip">ai movies shorts</a>
+    </div>
+    <a href="#" class="chip">Профили</a>
+  </div>
+</nav>
+
+<div style="height:2000px;display:flex;align-items:center;justify-content:center;color:#aaa;font-family:'Unica 77 LL',sans-serif;">
+  scroll to test sticky nav
+</div>
+
+</body>
+</html>

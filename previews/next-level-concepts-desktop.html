@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Next Level Concepts — wannabe</title>
+<style>
+@font-face { font-family:'Unica 77 LL'; src:url('../public/fonts/Unica77LLCyr-Regular.otf') format('opentype'); font-weight:400; }
+@font-face { font-family:'Unica 77 LL'; src:url('../public/fonts/Unica77LLCyr-Medium.otf') format('opentype'); font-weight:500; }
+@font-face { font-family:'Unica 77 LL'; src:url('../public/fonts/Unica77LLCyr-Bold.otf') format('opentype'); font-weight:700; }
+*, *::before, *::after { box-sizing:border-box; }
+body { margin:0; font-family:'Unica 77 LL',sans-serif; -webkit-font-smoothing:antialiased; }
+
+/* ── Style guide ── */
+.text-h2    { font-size:clamp(40px,6vw,80px); font-weight:500; letter-spacing:-0.05em; line-height:0.8; margin:0; }
+.text-h3    { font-size:clamp(24px,3vw,52px); font-weight:500; letter-spacing:-0.02em; margin:0; }
+.text-h4    { font-size:clamp(18px,2vw,24px); font-weight:500; line-height:1em; letter-spacing:-0.01em; text-transform:lowercase; margin:0; }
+.text-body  { font-size:clamp(14px,1.5vw,17px); font-weight:400; }
+.text-small { font-size:14px; font-weight:400; }
+.btn-green  { background:#4ef968; color:#000; border:none; border-radius:40px; padding:16px 24px; font-family:inherit; font-size:clamp(14px,1.2vw,17px); cursor:pointer; }
+.btn-circle { width:50px; height:50px; border-radius:50%; background:#000; color:#fff; border:none; cursor:pointer; display:flex; align-items:center; justify-content:center; font-size:18px; flex-shrink:0; }
+.toggle-pill { border:1px solid #000; border-radius:40px; padding:4px; display:flex; width:100%; align-self:stretch; }
+.toggle-opt  { flex:1; padding:0; height:100%; display:flex; align-items:center; justify-content:center; border-radius:40px; border:none; cursor:pointer; font-family:inherit; font-size:14px; background:transparent; }
+.toggle-opt.active { background:#000; }
+
+/* ── Tariff shared ── */
+.px { padding-left:clamp(20px,15vw,220px); padding-right:clamp(20px,15vw,220px); }
+.py { padding-top:clamp(40px,6vw,90px); padding-bottom:clamp(40px,6vw,90px); }
+.center { text-align:center; margin-bottom:48px; }
+.two-col { display:flex; flex-wrap:wrap; gap:24px; max-width:1000px; margin:0 auto; }
+.col { flex:1; min-width:280px; }
+.fcard { border-radius:12px; padding:24px; margin-bottom:16px; }
+.divider-black  { height:1px; background:#000; margin:4px 0; }
+.divider-grey   { height:1px; background:#cacaca; margin:4px 0; }
+.divider-purple { height:1px; background:#8f67ff; margin:16px 0; }
+.progress-track { height:8px; border-radius:4px; overflow:hidden; margin-bottom:4px; }
+.progress-fill  { height:100%; border-radius:4px; background:#4ef968; }
+.price-card { background:#fff; border-radius:8px; padding:24px; margin-top:24px; color:#000; }
+.price-card.bordered { border:1px solid #000; }
+.price-inner { display:flex; flex-wrap:wrap; gap:48px; margin-bottom:16px; }
+.price-left  { flex:1; min-width:200px; display:flex; flex-direction:column; gap:16px; }
+.price-right { flex:1; min-width:200px; display:flex; flex-direction:column; gap:4px; }
+.badge-pill  { color:#000; border:1px solid #000; border-radius:40px; padding:4px 16px; display:inline-block; align-self:flex-start; }
+.price-bottom { display:flex; gap:16px; align-items:stretch; }
+.pb-left  { flex:1; display:flex; align-items:stretch; }
+.pb-right { flex:1; display:flex; gap:16px; align-items:stretch; }
+.pb-right .btn-green { flex:1; }
+.max1000 { max-width:1000px; margin:0 auto; }
+
+/* ── Program Stages ── */
+.card    { padding:21px 23px; display:flex; flex-direction:column; justify-content:space-between; }
+.ps-row1 { display:flex; gap:5px; height:clamp(300px,35vw,480px); }
+.ps-ca   { width:clamp(200px,22vw,313px); background:#6243F5; border-radius:30px; }
+.ps-cb   { flex:1; background:#4EF968; border-radius:999px; align-items:center; }
+.ps-cc   { background:#FF6225; border-radius:999px; width:100%; height:clamp(300px,35vw,480px); align-items:center; overflow:hidden; position:relative; }
+.ps-row3 { background:#000; padding:10px; }
+.ps-cd   { border:1px solid #fff; border-radius:999px; height:clamp(300px,35vw,480px); align-items:center; overflow:hidden; text-align:center; }
+
+/* ── Theory List ── */
+.tl-hr    { border:none; border-top:1px solid rgba(255,255,255,0.3); margin:0; }
+.tl-item  { display:flex; flex-direction:column; gap:20px; padding:48px 0; }
+</style>
+</head>
+<body>
+<p style="font-size:11px;color:#aaa;padding:8px 20px;margin:0;background:#111;font-family:'Unica 77 LL',sans-serif;">Next Level Concepts · Desktop (1440px)</p>
+
+<!-- ═══ TARIFF 01 ═══════════════════════════════════════════ -->
+<section class="px py" style="background:#000;color:#fff;">
+  <div class="center">
+    <p class="text-h4" style="margin:0 0 16px;color:#fff;">тариф 01</p>
+    <h2 class="text-h2" style="color:#fff;margin:0 0 16px;">дизайн-лидер</h2>
+    <p class="text-h4" style="margin:0;color:#fff;">научу создавать концепты мирового уровня,<br>работать со стратегией, стейкхолдерами и командой</p>
+  </div>
+  <div class="two-col">
+    <div class="col">
+      <div style="background:#4b4b4b;border-radius:12px;aspect-ratio:1/1;width:100%;margin-bottom:16px;"></div>
+      <p class="text-h4" style="margin:0 0 16px;color:#fff;">эксклюзивная группа со мной</p>
+      <p class="text-body" style="margin:0 0 16px;">только 20 человек</p>
+      <div class="progress-track" style="background:#4b4b4b;"><div class="progress-fill" style="width:35%;"></div></div>
+      <p class="text-small" style="color:#ff6225;margin:0;">осталось 13 мест</p>
+    </div>
+    <div class="col">
+      <p class="text-h4" style="margin:0 0 16px;color:#fff;">+ к основной программе:</p>
+      <div class="fcard" style="background:#4ef968;">
+        <p class="text-h4" style="color:#000;margin:0 0 16px;">воркшопы каждую неделю:</p>
+        <p class="text-h4" style="color:#000;margin:0;">продажи</p><div class="divider-black"></div>
+        <p class="text-h4" style="color:#000;margin:0;">самопрезентация</p><div class="divider-black"></div>
+        <p class="text-h4" style="color:#000;margin:0;">публичные выступления</p><div class="divider-black"></div>
+        <p class="text-h4" style="color:#000;margin:0;">работа со стейкхолдерами</p><div class="divider-black"></div>
+        <p class="text-h4" style="color:#000;margin:0;">лидерство</p><div class="divider-black"></div>
+        <p class="text-h4" style="color:#000;margin:0;">самопродвижение</p><div class="divider-black"></div>
+        <p class="text-h4" style="color:#000;margin:0;">предпринимательство</p>
+      </div>
+      <div class="fcard" style="background:#4ef968;"><p class="text-h4" style="color:#000;">расскажу о деньгах в дизайне: кто сколько зарабатывает, как поднять и защитить свою стоимость</p></div>
+      <div class="fcard" style="background:#4ef968;"><p class="text-h4" style="color:#000;">персонально поработаю с каждым и возьму лучших в проекты unknw и pinkman</p></div>
+      <div class="fcard" style="background:#4ef968;"><p class="text-h4" style="color:#000;">по итогам курса сделаю ревью и рекомендацию в linkedin</p></div>
+    </div>
+  </div>
+  <div class="max1000">
+    <div class="price-card">
+      <div class="price-inner">
+        <div class="price-left">
+          <span class="badge-pill text-small">с 13 марта вырастет до 105 000 ₽</span>
+          <div><p class="text-h3" style="color:#000;margin:0;">9 450₽ в месяц</p><p class="text-small" style="color:#000;margin:4px 0 0;">рассрочка на 10 мес</p></div>
+          <p class="text-h4" style="color:#000;margin:0;">94 500₽ полная стоимость</p>
+        </div>
+        <div class="price-right">
+          <span class="badge-pill text-small" style="margin-bottom:16px;">включено в тариф:</span>
+          <p class="text-small" style="color:#000;margin:0;">✓ учёба в группе 2,5 месяца</p><div class="divider-grey"></div>
+          <p class="text-small" style="color:#000;margin:0;">✓ доступ к контенту интенсива на 6 месяцев</p><div class="divider-grey"></div>
+          <p class="text-small" style="color:#000;margin:0;">✓ 10 фидбэков от миши розова — еженедельно по расписанию</p>
+        </div>
+      </div>
+      <div class="price-bottom"><div class="pb-left"><div class="toggle-pill"><button class="toggle-opt active" style="color:#fff;">как физическое лицо</button><button class="toggle-opt" style="color:#000;">как юр.лицо *</button></div></div><div class="pb-right"><button class="btn-green">выбрать</button><button class="btn-circle">♡</button></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ TARIFF 02 ═══════════════════════════════════════════ -->
+<section class="px py" style="background:#eaeaea;color:#000;">
+  <div class="center">
+    <p class="text-h4" style="margin:0 0 16px;">тариф 02</p>
+    <h2 class="text-h2" style="margin:0 0 16px;">мастерская</h2>
+    <p class="text-h4" style="margin:0;">арт-директор проведет группу от начала<br>до результата и поможет сделать кейс мирового уровня</p>
+  </div>
+  <div class="two-col">
+    <div class="col">
+      <div style="background:#7c7c7c;border-radius:12px;aspect-ratio:1/1;width:100%;margin-bottom:16px;"></div>
+      <p class="text-h4" style="margin:0 0 4px;">илья мещеряков</p>
+      <p class="text-small" style="color:#7c7c7c;margin:0 0 16px;">арт-директор тарифа</p>
+      <p class="text-body" style="margin:0 0 16px;">в каждой группе только 20 человек</p>
+      <div class="progress-track" style="background:#cacaca;"><div class="progress-fill" style="width:55%;"></div></div>
+      <p class="text-small" style="color:#ff6225;margin:0;">осталось 9 мест</p>
+    </div>
+    <div class="col">
+      <div class="fcard" style="background:#8f67ff;"><p class="text-h4" style="color:#cacaca;margin:0;">живой фидбек — каждую неделю от арт-директора группы</p></div>
+      <div class="fcard" style="background:#8f67ff;"><p class="text-h4" style="color:#cacaca;margin:0;">разбираем не только учебные, но и реальные рабочие проекты</p></div>
+      <div class="fcard" style="background:#8f67ff;"><p class="text-h4" style="color:#cacaca;margin:0;">воркшоп с арт-директором — раз в месяц</p></div>
+      <div class="fcard" style="background:#8f67ff;"><p class="text-h4" style="color:#cacaca;margin:0;">работа в небольшом чате, мотивация и поддержка</p></div>
+    </div>
+  </div>
+  <div class="max1000" style="margin-top:24px;">
+    <div style="background:#fff;border-radius:12px;padding:24px;">
+      <p class="text-h3" style="color:#000;margin:0 0 16px;">стандарты арт-директора по методологии wannabe:</p>
+      <p class="text-h4" style="color:#000;margin:0;"><span style="color:#4ef968;">● </span>это выпускники wannabe, которые знают и исповедуют наш подход</p><div class="divider-purple"></div>
+      <p class="text-h4" style="color:#000;margin:0;"><span style="color:#4ef968;">● </span>работают на высоких позициях в лучших компаниях</p><div class="divider-purple"></div>
+      <p class="text-h4" style="color:#000;margin:0;"><span style="color:#4ef968;">● </span>имеют опыт не менее 5 лет в профессии</p><div class="divider-purple"></div>
+      <p class="text-h4" style="color:#000;margin:0;"><span style="color:#4ef968;">● </span>прошли тот же путь, что предстоит тебе</p>
+    </div>
+  </div>
+  <div class="max1000">
+    <div class="price-card">
+      <div class="price-inner">
+        <div class="price-left">
+          <span class="badge-pill text-small">с 13 марта вырастет до 69 600 ₽</span>
+          <div><p class="text-h3" style="color:#000;margin:0;">6 264₽ в месяц</p><p class="text-small" style="color:#000;margin:4px 0 0;">рассрочка на 10 мес</p></div>
+          <p class="text-h4" style="color:#000;margin:0;">62 640₽ полная стоимость</p>
+        </div>
+        <div class="price-right">
+          <span class="badge-pill text-small" style="margin-bottom:16px;">включено в тариф:</span>
+          <p class="text-small" style="color:#000;margin:0;">✓ учёба в группе 2,5 месяца</p><div class="divider-grey"></div>
+          <p class="text-small" style="color:#000;margin:0;">✓ доступ к контенту интенсива на 6 месяцев</p><div class="divider-grey"></div>
+          <p class="text-small" style="color:#000;margin:0;">✓ 10 фидбэков от арт-директоров — еженедельно по расписанию</p>
+        </div>
+      </div>
+      <div class="price-bottom"><div class="pb-left"><div class="toggle-pill"><button class="toggle-opt active" style="color:#fff;">как физическое лицо</button><button class="toggle-opt" style="color:#000;">как юр.лицо *</button></div></div><div class="pb-right"><button class="btn-green">выбрать</button><button class="btn-circle">♡</button></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ TARIFF 03 ═══════════════════════════════════════════ -->
+<section class="px py" style="background:#fff;color:#000;">
+  <div class="center">
+    <p class="text-h4" style="margin:0 0 16px;">тариф 03</p>
+    <h2 class="text-h2" style="margin:0 0 16px;">в своём темпе</h2>
+    <p class="text-h4" style="margin:0;">сделаешь кейс мирового уровня в удобном для тебя темпе</p>
+  </div>
+  <div style="max-width:500px;margin:0 auto 24px;">
+    <div class="fcard" style="background:#eaeaea;"><p class="text-h4" style="color:#000;">смотришь материалы и выполняешь задания, когда есть ресурс</p></div>
+    <div class="fcard" style="background:#eaeaea;"><p class="text-h4" style="color:#000;margin:0 0 16px;">4 фидбек-сессии в течение 4 месяцев от арт-директоров wannabe</p><p class="text-small" style="color:#000;margin:0;">каждую сессию ведет разный арт-директор</p></div>
+  </div>
+  <div class="max1000">
+    <div class="price-card bordered">
+      <div class="price-inner">
+        <div class="price-left">
+          <span class="badge-pill text-small">скидки и промокоды на этот тариф не действуют</span>
+          <div><p class="text-h3" style="color:#000;margin:0;">2 422₽ в месяц</p><p class="text-small" style="color:#000;margin:4px 0 0;">рассрочка на 10 мес</p></div>
+          <p class="text-h4" style="color:#000;margin:0;">24 225₽ полная стоимость</p>
+        </div>
+        <div class="price-right">
+          <span class="badge-pill text-small" style="margin-bottom:16px;">включено в тариф:</span>
+          <p class="text-small" style="color:#000;margin:0;">✓ старт 31 марта</p><div class="divider-grey"></div>
+          <p class="text-small" style="color:#000;margin:0;">✓ 4 фидбэка в течение 4 месяцев от арт-директоров — 1 раз в месяц</p><div class="divider-grey"></div>
+          <p class="text-small" style="color:#000;margin:0;">✓ доступ к контенту интенсива на 4 месяца с первого дня учёбы</p>
+        </div>
+      </div>
+      <div class="price-bottom"><div class="pb-left"><div class="toggle-pill"><button class="toggle-opt active" style="color:#fff;">как физическое лицо</button><button class="toggle-opt" style="color:#000;">как юр.лицо *</button></div></div><div class="pb-right"><button class="btn-green">выбрать</button><button class="btn-circle">♡</button></div></div>
+    </div>
+    <div style="text-align:center;margin-top:16px;"><span class="text-small" style="background:#8f67ff;color:#fff;border-radius:40px;padding:16px 24px;display:inline-block;">тестовый запуск только в марте — судьба тарифа зависит от вашего фидбэка</span></div>
+  </div>
+</section>
+
+<!-- ═══ PROGRAM STAGES ════════════════════════════════════════ -->
+<section class="px" style="background:#1C1A31;padding-top:20px;padding-bottom:20px;">
+  <h2 class="text-h2" style="color:#fff;text-align:center;max-width:789px;margin:0 auto 48px;letter-spacing:-4px;">в новом сезоне пройдём этапы создания концептов будущего</h2>
+  <div style="display:flex;flex-direction:column;gap:5px;">
+
+    <div class="ps-row1">
+      <div class="ps-ca card" style="height:100%;">
+        <p class="text-h2" style="color:#fff;">ideation</p>
+        <div>
+          <img src="../public/images/stage-ideation.png" alt="" style="width:155px;height:190px;object-fit:contain;mix-blend-mode:screen;display:block;margin-bottom:8px;" />
+          <p class="text-body" style="color:#fff;">начало работы: исследование, синтез, поиск идей</p>
+        </div>
+      </div>
+      <div class="ps-cb card" style="height:100%;">
+        <p class="text-h2" style="color:#1C1A31;text-align:center;">concept</p>
+        <img src="../public/images/stage-concept.png" alt="" style="width:236px;height:202px;object-fit:contain;mix-blend-mode:screen;" />
+        <p class="text-body" style="color:#1C1A31;text-align:center;">визуализация и оформление концепции</p>
+      </div>
+    </div>
+
+    <div class="ps-cc card">
+      <p class="text-h2" style="color:#fff;white-space:nowrap;position:relative;z-index:1;">design development</p>
+      <img src="../public/images/stage-development.png" alt="" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:1000px;height:500px;object-fit:contain;mix-blend-mode:screen;" />
+      <p class="text-body" style="color:#fff;text-align:center;max-width:330px;">детальная проработка всех элементов концепта</p>
+    </div>
+
+    <div class="ps-row3">
+      <div class="ps-cd card">
+        <p class="text-h2" style="color:#fff;">showcase</p>
+        <p class="text-body" style="color:#fff;text-align:center;max-width:582px;">финальная презентация и защита перед командой арт-директоров</p>
+        <p class="text-body" style="color:#fff;text-align:center;">твой новый кейс мирового уровня готов</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ THEORY LIST ═══════════════════════════════════════════ -->
+<section class="px" style="background:#1C1A31;padding-bottom:90px;">
+  <hr class="tl-hr" />
+  <p class="text-h2" style="color:#fff;text-align:center;padding:48px 0;margin:0;">теория</p>
+  <hr class="tl-hr" />
+  <div class="tl-item"><p class="text-h3" style="color:#fff;">experimental ux</p><p class="text-body" style="color:#fff;">нестандартные паттерны взаимодействия и ux нового поколения</p></div>
+  <hr class="tl-hr" />
+  <div class="tl-item"><p class="text-h3" style="color:#fff;">все детали ui</p><p class="text-body" style="color:#fff;">полный разбор интерфейсных компонентов: от типографики до микроанимаций</p></div>
+  <hr class="tl-hr" />
+  <div class="tl-item"><p class="text-h3" style="color:#fff;">experimental ui</p><p class="text-body" style="color:#fff;">экспериментальные визуальные решения и нестандартные подходы к дизайну</p></div>
+  <hr class="tl-hr" />
+  <div class="tl-item"><p class="text-h3" style="color:#fff;">after effects base &amp; advanced</p><p class="text-body" style="color:#fff;">базовые и продвинутые техники моушн-дизайна для дизайнеров интерфейсов</p></div>
+  <hr class="tl-hr" />
+  <div class="tl-item"><p class="text-h3" style="color:#FF6225;">claude code</p><p class="text-body" style="color:#FF6225;">разработка интерфейсов с помощью ai инструментов нового поколения</p></div>
+  <hr class="tl-hr" />
+  <div class="tl-item"><p class="text-h3" style="color:#4EF968;">ai static &amp; motion</p><p class="text-body" style="color:#4EF968;">создание статичных и анимированных материалов с помощью ai</p></div>
+</section>
+
+</body>
+</html>

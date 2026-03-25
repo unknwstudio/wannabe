@@ -1,0 +1,79 @@
+{
+  "raw": [
+    "screen and (max-width: 991px)",
+    "screen and (max-width: 767px)",
+    "screen and (max-width: 479px)",
+    "(min-width: 768px)",
+    "(max-width: 600px)",
+    "(min-width: 480px)",
+    "(max-width: 991px)",
+    "(min-width: 992px) and (hover: hover)",
+    "(max-width: 478px)"
+  ],
+  "parsed": [
+    {
+      "query": "screen and (max-width: 991px)",
+      "minWidth": null,
+      "maxWidth": {
+        "value": 991,
+        "unit": "px"
+      }
+    },
+    {
+      "query": "screen and (max-width: 767px)",
+      "minWidth": null,
+      "maxWidth": {
+        "value": 767,
+        "unit": "px"
+      }
+    },
+    {
+      "query": "screen and (max-width: 479px)",
+      "minWidth": null,
+      "maxWidth": {
+        "value": 479,
+        "unit": "px"
+      }
+    },
+    {
+      "query": "(max-width: 600px)",
+      "minWidth": null,
+      "maxWidth": {
+        "value": 600,
+        "unit": "px"
+      }
+    },
+    {
+      "query": "(max-width: 478px)",
+      "minWidth": null,
+      "maxWidth": {
+        "value": 478,
+        "unit": "px"
+      }
+    },
+    {
+      "query": "(min-width: 480px)",
+      "minWidth": {
+        "value": 480,
+        "unit": "px"
+      },
+      "maxWidth": null
+    },
+    {
+      "query": "(min-width: 768px)",
+      "minWidth": {
+        "value": 768,
+        "unit": "px"
+      },
+      "maxWidth": null
+    },
+    {
+      "query": "(min-width: 992px) and (hover: hover)",
+      "minWidth": {
+        "value": 992,
+        "unit": "px"
+      },
+      "maxWidth": null
+    }
+  ]
+}
