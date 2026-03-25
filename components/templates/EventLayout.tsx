@@ -1,0 +1,179 @@
+'use client'
+import React, { useState } from 'react'
+
+type EventLayoutProps = {
+  badges: string[]
+  title: string
+  ctaLabel: string
+  description: string
+  eventDate: string
+  eventInfo: string
+  speakerAvatar: string
+  speakerName: string
+  speakerRoles: string[]
+  quote: string
+  quoteHighlight: string
+  forWhomTitle: string
+  forWhom: { number: string; boldText: string; text: string }[]
+  programTitle: string
+  programDate: string
+  programItems: { number: string; text: string }[]
+  speakerSectionTitle: string
+  speakerAbout: { icon: string; text: string; links?: { label: string; href: string }[] }[]
+  formDate: string
+  formInfo: string
+  formEndpoint: string
+}
+
+const PX: React.CSSProperties = { paddingLeft: 'clamp(20px,15vw,220px)', paddingRight: 'clamp(20px,15vw,220px)' }
+const CARD: React.CSSProperties = { background: '#fff', boxShadow: '0 1px 4px rgba(0,0,0,0.12)', borderRadius: 12, padding: 24 }
+const BG: React.CSSProperties = { background: '#e5e5e5', ...PX, paddingBottom: 'clamp(40px,6vw,90px)' }
+
+const CSS = `
+  .ev-hero { display:flex; gap:48px; align-items:flex-start; padding-top:clamp(40px,6vw,90px); }
+  .ev-hero-l { flex:1; min-width:0; }
+  .ev-hero-r { width:clamp(180px,18vw,240px); flex-shrink:0; }
+  .ev-two { display:flex; gap:48px; align-items:flex-start; }
+  .ev-quote { display:flex; gap:24px; align-items:flex-start; }
+  .ev-cards { display:flex; gap:16px; flex-wrap:wrap; }
+  .ev-cards > * { flex:1; min-width:180px; }
+  .ev-prog > * + * { margin-top:4px; }
+  @media(max-width:600px) {
+    .ev-hero, .ev-two, .ev-quote { flex-direction:column; }
+    .ev-hero-r { width:100%; }
+  }
+`
+
+export default function EventLayout(p: EventLayoutProps) {
+  const [form, setForm] = useState({ name: '', email: '', phone: '', question: '' })
+  const hi = p.quote.indexOf(p.quoteHighlight)
+  const [datePart, ...restParts] = p.formDate.split(' ')
+
+  return (
+    <div>
+      <style>{CSS}</style>
+
+      {/* 1 — Hero */}
+      <section style={{ background: '#e5e5e5', ...PX }}>
+        <div className="ev-hero">
+          <div className="ev-hero-l">
+            <div style={{ display: 'flex', gap: 4, flexWrap: 'wrap', marginBottom: 16 }}>
+              {p.badges.map(b => (
+                <span key={b} className="text-small" style={{ background: '#cfbeff', borderRadius: 4, padding: '4px 12px' }}>{b}</span>
+              ))}
+            </div>
+            <p className="text-h1" style={{ margin: '0 0 24px' }}>{p.title}</p>
+            <button className="text-body" style={{ background: '#000', color: '#fff', border: 'none', borderRadius: 8, padding: '16px 24px', width: '100%', cursor: 'pointer', marginBottom: 16, textAlign: 'left' }}>
+              {p.ctaLabel}
+            </button>
+            <p className="text-body" style={{ color: '#7c7c7c', margin: 0 }}>{p.description}</p>
+          </div>
+          <div className="ev-hero-r">
+            <div style={{ background: '#cfbeff', borderRadius: 12, padding: 16 }}>
+              <img src={p.speakerAvatar} alt={p.speakerName} style={{ width: 40, height: 40, borderRadius: '50%', objectFit: 'cover', display: 'block', marginBottom: 8 }} />
+              <p className="text-small" style={{ margin: '0 0 4px' }}>{p.eventInfo}</p>
+              <p className="text-h3" style={{ margin: 0 }}>{p.eventDate}</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* 2 — Quote */}
+      <section style={BG}>
+        <div className="ev-quote">
+          <img src={p.speakerAvatar} alt={p.speakerName} style={{ width: 128, height: 128, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }} />
+          <p className="text-h3" style={{ color: '#7c7c7c', margin: 0 }}>
+            {p.quote.slice(0, hi)}
+            <span style={{ color: '#8f67ff' }}>{p.quoteHighlight}</span>
+            {p.quote.slice(hi + p.quoteHighlight.length)}
+          </p>
+        </div>
+      </section>
+
+      {/* 3 — For whom */}
+      <section style={BG}>
+        <p className="text-h2" style={{ margin: '0 0 24px' }}>{p.forWhomTitle}</p>
+        <div className="ev-cards">
+          {p.forWhom.map(f => (
+            <div key={f.number} style={CARD}>
+              <p className="text-body" style={{ color: '#7c7c7c', margin: '0 0 4px' }}>{f.number}</p>
+              <p className="text-body" style={{ margin: 0 }}><strong>{f.boldText}</strong>{f.text ? ` ${f.text}` : ''}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* 4 — Program */}
+      <section style={BG}>
+        <p className="text-h2" style={{ margin: '0 0 16px' }}>{p.programTitle}</p>
+        <p className="text-h3" style={{ color: '#8f67ff', margin: '0 0 24px' }}>{p.programDate}</p>
+        <div className="ev-prog">
+          {p.programItems.map(item => (
+            <div key={item.number} style={{ ...CARD, display: 'flex', gap: 16, padding: '16px 24px' }}>
+              <span className="text-body" style={{ color: '#7c7c7c', width: 72, flexShrink: 0 }}>{item.number}</span>
+              <span className="text-body">{item.text}</span>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* 5 — Speaker */}
+      <section style={BG}>
+        <p className="text-h2" style={{ margin: '0 0 24px' }}>{p.speakerSectionTitle}</p>
+        <div className="ev-two">
+          <div style={{ flexShrink: 0 }}>
+            <img src={p.speakerAvatar} alt={p.speakerName} style={{ width: 'clamp(160px,18vw,260px)', aspectRatio: '1/1', objectFit: 'cover', borderRadius: 12, display: 'block', marginBottom: 16 }} />
+            <p className="text-h3" style={{ margin: '0 0 8px' }}>{p.speakerName}</p>
+            {p.speakerRoles.map(r => <p key={r} className="text-body" style={{ color: '#7c7c7c', margin: 0 }}>{r}</p>)}
+          </div>
+          <div style={{ flex: 1, display: 'flex', flexDirection: 'column', gap: 4 }}>
+            {p.speakerAbout.map((ab, i) => (
+              <div key={i} style={CARD}>
+                <div style={{ display: 'flex', gap: 16, alignItems: 'flex-start' }}>
+                  <span style={{ width: 40, height: 40, borderRadius: '50%', background: '#cfbeff', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, fontSize: 18 }}>{ab.icon}</span>
+                  <p className="text-body" style={{ color: '#7c7c7c', margin: 0 }}>{ab.text}</p>
+                </div>
+                {ab.links && (
+                  <div style={{ borderTop: '1px solid #cacaca', marginTop: 16, paddingTop: 16, display: 'flex', gap: 8, flexWrap: 'wrap' }}>
+                    {ab.links.map(l => (
+                      <a key={l.href} href={l.href} className="text-small" style={{ background: '#eaeaea', borderRadius: 40, padding: '4px 12px', textDecoration: 'none', color: '#000' }}>{l.label} →</a>
+                    ))}
+                  </div>
+                )}
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 6 — Registration */}
+      <section style={{ background: '#fff', ...PX, paddingTop: 'clamp(40px,6vw,90px)', paddingBottom: 'clamp(40px,6vw,90px)' }}>
+        <div className="ev-two">
+          <div style={{ flex: 1 }}>
+            <p className="text-h3" style={{ margin: '0 0 16px' }}>
+              <span style={{ color: '#8f67ff' }}>{datePart}</span>{restParts.length ? ' ' + restParts.join(' ') : ''}
+            </p>
+            <p className="text-body" style={{ margin: 0 }}>{p.formInfo}</p>
+          </div>
+          <form style={{ flex: 1, display: 'flex', flexDirection: 'column', gap: 16 }}
+            onSubmit={async e => { e.preventDefault(); await fetch(p.formEndpoint, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(form) }) }}>
+            {(['name', 'email', 'phone'] as const).map(f => (
+              <input key={f} type={f === 'email' ? 'email' : 'text'}
+                placeholder={f === 'name' ? 'Имя' : f === 'email' ? 'Email' : 'Телефон'}
+                value={form[f]} onChange={e => setForm(s => ({ ...s, [f]: e.target.value }))}
+                className="text-body" style={{ background: '#eaeaea', border: 'none', borderRadius: 4, padding: 16, outline: 'none' }} />
+            ))}
+            <textarea placeholder="Вопрос" value={form.question} onChange={e => setForm(s => ({ ...s, question: e.target.value }))}
+              className="text-body" rows={4} style={{ background: '#eaeaea', border: 'none', borderRadius: 4, padding: 16, resize: 'vertical', fontFamily: 'inherit', outline: 'none' }} />
+            <button type="submit" className="text-body" style={{ background: '#000', color: '#fff', border: 'none', borderRadius: 8, padding: '16px 24px', cursor: 'pointer' }}>
+              Зарегистрироваться →
+            </button>
+            <p className="text-small" style={{ color: '#7c7c7c', margin: 0 }}>
+              Нажимая кнопку, я принимаю <u>условия оферты</u> и соглашаюсь на <u>обработку персональных данных</u>
+            </p>
+          </form>
+        </div>
+      </section>
+    </div>
+  )
+}
