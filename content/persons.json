@@ -3,102 +3,153 @@
     "id": "misha-rozov",
     "name": "Миша Розов",
     "photo": "/images/persons/misha-rozov.webp",
-    "roles": ["Сооснователь WANNABE", "Основатель Pinkman"]
+    "roles": [
+      "основал топ3-студию pinkman. за 7 лет студия заработала больше 1 миллиарда ру...",
+      "основал wannabe и передал свой опыт и навыки >2000 человек. у курсов — уровен...",
+      "выступает на мероприятиях и входит в жюри: Дизайн-выходные, G8, РИФ, RIW, Tag...",
+      "имеет актуальный и редкий скиллсет, больше 50 наград на разных конкурсах"
+    ]
   },
   {
     "id": "liza-severova",
     "name": "Лиза Северова",
     "photo": "/images/persons/liza-severova.webp",
-    "roles": ["Арт-директор WANNABE", "Лидер тарифа «Мастерская» на T-Shaped Designer"]
+    "roles": [
+      "Арт-директор WANNABE",
+      "Лидер тарифа «Мастерская» на T-Shaped Designer"
+    ]
   },
   {
     "id": "dasha-shcherbakova",
     "name": "Даша Щербакова",
     "photo": "/images/persons/dasha-shcherbakova.webp",
-    "roles": ["Дизайнер"]
+    "roles": [
+      "Арт-директор и эксперт WANNABE",
+      "Продуктовый дизайнер в Emex. Ранее работала в Tinkoff Group и Сбербанке, где ..."
+    ]
   },
   {
     "id": "artem-kazakov",
     "name": "Артём Казаков",
     "photo": "/images/persons/artem-kazakov.webp",
-    "roles": ["Дизайнер"]
+    "roles": [
+      "Дизайнер",
+      "Участник WANNABE"
+    ]
   },
   {
     "id": "yura-meshalkin",
     "name": "Юра Мешалкин",
     "photo": "/images/persons/yura-meshalkin.webp",
-    "roles": ["Дизайнер"]
+    "roles": [
+      "7+ лет опыта, Product Manager в RapidSeedbox, co-founder caik.agency и ex-cof..."
+    ]
   },
   {
     "id": "pasha-okhotin",
     "name": "Паша Охотин",
     "photo": "/images/persons/pasha-okhotin.webp",
-    "roles": ["Senior Communication Designer в Okta"]
+    "roles": [
+      "Senior Communication Designer в Otello",
+      "Арт-директор wannabe и лидер тарифа «Мастерская» на T-Shaped Designer",
+      "Работал в pinkman и лидировал мультидисциплинарные проекты для Яндекса, Т-Бан..."
+    ]
   },
   {
     "id": "valeria-rozova",
     "name": "Валерия Розова",
     "photo": "/images/persons/valeria-rozova.webp",
-    "roles": ["ex-CPO Qlean", "CEO Emex DWC"]
+    "roles": [
+      "ex-CPO Qlean",
+      "CEO Emex DWC"
+    ]
   },
   {
     "id": "andrey-denisov",
     "name": "Андрей Денисов",
     "photo": "/images/persons/andrey-denisov.webp",
-    "roles": ["Дизайнер"]
+    "roles": [
+      "7+ лет опыта, CPO в WANNABE, ex Profile School, LiveClasses и ProductHub, авт..."
+    ]
   },
   {
     "id": "emir-kasymov",
     "name": "Эмир Касымов",
     "photo": "/images/persons/emir-kasymov.webp",
-    "roles": ["Дизайнер"]
+    "roles": [
+      "Дизайнер в студии pinkman",
+      "Работал с компаниями Яндекс, Т-Банк, Сбер, SILA SVETA, VK, Ютека и другими кр..."
+    ]
   },
   {
     "id": "anastasia-neguritsa",
     "name": "Анастасия Негурица",
     "photo": "/images/persons/anastasia-neguritsa.webp",
-    "roles": ["Дизайнер"]
+    "roles": [
+      "Продакт-менеджер",
+      "Middle → Senior PM"
+    ]
   },
   {
     "id": "masha-dybkina",
     "name": "Маша Дыбкина",
     "photo": "/images/persons/masha-dybkina.webp",
-    "roles": ["Дизайнер"]
+    "roles": [
+      "Продакт-менеджер"
+    ]
   },
   {
     "id": "alina-verbenchuk",
     "name": "Алина Вербенчук",
     "photo": "/images/persons/alina-verbenchuk.webp",
-    "roles": ["Дизайнер"]
+    "roles": [
+      "Основатель сервиса Verbetcetera",
+      "Кофаундер стартапа Korda",
+      "Эксперт в продуктовом менеджменте и карьерном консультировании"
+    ]
   },
   {
     "id": "seva-vikulin",
     "name": "Сева Викулин",
     "photo": "/images/persons/seva-vikulin.webp",
-    "roles": ["Дизайнер"]
+    "roles": [
+      "Руководитель внедрения LLM в Поиск Яндекса",
+      "ex-VK (NLP в Марусе)"
+    ]
   },
   {
     "id": "andrey-sergunin",
     "name": "Андрей Сергунин",
     "photo": "/images/persons/andrey-sergunin.webp",
-    "roles": ["Дизайнер"]
+    "roles": [
+      "Дизайн-директор студии ЦЕХ"
+    ]
   },
   {
     "id": "anna-gorokhova",
     "name": "Анна Горохова",
     "photo": "/images/persons/anna-gorokhova.webp",
-    "roles": ["Дизайнер"]
+    "roles": [
+      "Concept designer в Dodo"
+    ]
   },
   {
     "id": "natalya-kumpan",
     "name": "Наталья Кумпан",
     "photo": "/images/persons/natalya-kumpan.webp",
-    "roles": ["Дизайнер"]
+    "roles": [
+      "Руководитель направления аналитики (UX) и автоматизации в банке"
+    ]
   },
   {
     "id": "mitya-osadchuk",
     "name": "Митя Осадчук",
     "photo": "/images/persons/mitya-osadchuk.webp",
-    "roles": ["Дизайнер"]
+    "roles": [
+      "UX/UI-директор и руководитель центра дизайн-компетенций B2C «Сбера»",
+      "Основатель одной из первых в российском IT инхаус-команд для создания брендов...",
+      "Делал цифровой продукт и ребрендинг в «Иви». Работал над ребрендингом VK, зап...",
+      "Участвовал в разработке трёх шрифтов, получившие международные награды"
+    ]
   }
 ]
