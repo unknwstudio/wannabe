@@ -1,0 +1,40 @@
+{
+  "slug": "valuedesigner",
+  "publishedPath": "/events/valuedesigner",
+  "badges": [],
+  "title": "Кого уволят в 2026 — и как дизайнеру стать тем, на кого рассчитывают",
+  "ctaLabel": "Зарегистрироваться",
+  "description": "Эфир с Мишей Розовым, Дашей Щербаковой, Артёмом Казаковым и Эмиром Касымовым. 18 декабря в 19:30 по Москве",
+  "eventDate": "18 декабря в 19:30 по МосквеЗарегистрироваться↓Буд, 19:30",
+  "eventInfo": "",
+  "speakerAvatar": "/images/events/valuedesigner/speaker.webp",
+  "speakerName": "Фото Артёма",
+  "speakerRoles": [],
+  "quote": "Часто ощущают тревогу: «А вдруг уволят?», «Достаточно ли я хорош?»",
+  "quoteHighlight": "",
+  "forWhomTitle": "для кого",
+  "forWhom": [],
+  "programTitle": "программа",
+  "programDate": "",
+  "programItems": [],
+  "speakerSectionTitle": "спикер",
+  "speakerAbout": [],
+  "hosts": null,
+  "formDate": "",
+  "formInfo": "Зарегистрироваться→Нажимая кнопку, я принимаю условия оферты и соглашаюсь на обработку персональных данных←НазадРасскажите о себе, чтобы продолжитьВ каком направлении вы работаете? Маркетинг Продакт-м",
+  "formEndpoint": "/api/events/valuedesigner/register",
+  "extraSections": [
+    {
+      "position": "after-hero",
+      "html": "<div class=\"hero__grid\"><div class=\"container-749 flex-v-24 flex-v-24--mob-12\"><div class=\"tags-wrap\"><div class=\"violet-tag\">Дизайн-кружок WANNABE</div></div><h1 class=\"h1-negative-margin\">Кого уволят в&nbsp;2026&nbsp;— и&nbsp;как&nbsp;дизайнеру стать тем, на&nbsp;кого рассчитывают</h1><p class=\"is--dark-grey is--m-bold\">Встреча с&nbsp;дизайн-лидами, чтобы&nbsp;разобраться: кого увольняют в&nbsp;первую очередь, а&nbsp;с&nbsp;кем работают до&nbsp;самого конца&nbsp;— и&nbsp;какие сигналы решают судьбу дизайнера</p></div><div class=\"card card--announcement card--sm\"><div class=\"flex-v-12 flex-v-12--mob-8\"><div class=\"event__photos-block\"><img src=\"https://cdn.prod.website-files.com/663e20e43c55b32b80cbc405/671f56f99a01de9dc8e02d80_misha-dark-crop.webp\" loading=\"eager\" alt=\"\" class=\"icon-40 icon-40--bordered\"><img src=\"https://cdn.prod.website-files.com/663e20e43c55b32b80cbc405/68cab17d9d7b688e6fe3d884_dasha-crop-l.webp\" loading=\"eager\" alt=\"\" class=\"icon-40 icon-40--bordered\"><img src=\"https://cdn.prod.website-files.com/663e20e43c55b32b80cbc405/6891164a02adc9a1c354f199_artem-kazakov.webp\" loading=\"eager\" alt=\"Фото Артёма Казакова\" class=\"icon-40 icon-40--bordered\"><img src=\"https://cdn.prod.website-files.com/663e20e43c55b32b80cbc405/69385efa630a62583f385fa1_emir.webp\" loading=\"eager\" alt=\"\" class=\"icon-40 icon-40--bordered\"></div><p class=\"text-xs\">Эфир с&nbsp;Мишей Розовым, Дашей Щербаковой, Артёмом&nbsp;Казаковым и&nbsp;Эмиром Касымовым</p><p class=\"h3\">18&nbsp;декабря в&nbsp;19:30 по&nbsp;Москве</p></div></div><div id=\"w-node-aea6ecef-bb14-5fe5-010f-363961cefc72-ca75dd2a\" class=\"container-749 flex-v-24 flex-v-24--mob-12\"><div class=\"container-498 is--full-width-mob\"><a href=\"#request\" class=\"btn btn--arrow btn--l btn--black w-inline-block\"><p>Зарегистрироваться</p><p>↓</p></a></div></div></div>"
+    },
+    {
+      "position": "after-quote",
+      "html": "<div class=\"flex-v-48 flex-v-48--mob-20\"><h2>Будет полезно дизайнерам, которые:</h2><div class=\"flex-v-4 flex-v-4--mob-8 container-749\"><div class=\"card\"><p class=\"is--dark-grey container-574\">Переживают, что их&nbsp;могут заменить в&nbsp;любой момент</p></div><div class=\"card\"><p class=\"is--dark-grey container-574\">Часто ощущают тревогу: «А&nbsp;вдруг уволят?», «Достаточно&nbsp;ли я&nbsp;хорош?»</p></div><div class=\"card\"><p class=\"is--dark-grey container-574\">Хотят выстроить траекторию роста, которая защитит от&nbsp;увольнений и&nbsp;турбулентности рынка</p></div></div></div>"
+    },
+    {
+      "position": "after-for-whom",
+      "html": "<div class=\"event__photo-grid\"><img src=\"https://cdn.prod.website-files.com/663e20e43c55b32b80cbc405/66759defe3422fd369c44a68_misha-gradient.webp\" loading=\"eager\" alt=\"\" class=\"photo-128\"><p class=\"h3 is--dark-grey\">Увольнение&nbsp;— это почти никогда не&nbsp;случайность. Это&nbsp;сумма сигналов, поведения и&nbsp;решений. А&nbsp;вот тех, кого&nbsp;держат до&nbsp;последнего, объединяют очень конкретные качества&nbsp;— и&nbsp;им&nbsp;можно научиться. <span class=\"is--violet\">Устойчивость&nbsp;— это&nbsp;навык, а&nbsp;не&nbsp;врождённая черта</span></p></div>"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "cleansheet",
+  "publishedPath": "/events/cleansheet",
+  "badges": [],
+  "title": "У меня нет вдохновения: как дизайнерам работать с чистым листом и выдавать качественные решения",
+  "ctaLabel": "Зарегистрироваться",
+  "description": "Мастер-класс от Миши Розова 09 декабря, 19:00 по Москве",
+  "eventDate": "09 декабря в 19:00 по МосквеЗарегистрироваться↓Плю, 19:00",
+  "eventInfo": "",
+  "speakerAvatar": "/images/events/cleansheet/speaker.webp",
+  "speakerName": "Логотип Сбербанка",
+  "speakerRoles": [],
+  "quote": "Расскажем, как дизайнеру запускать процесс без вдохновения и собирать сильные визуальные решения, даже когда «чистый лист» давит и идей нет",
+  "quoteHighlight": "",
+  "forWhomTitle": "для кого",
+  "forWhom": [],
+  "programTitle": "программа",
+  "programDate": "",
+  "programItems": [],
+  "speakerSectionTitle": "спикер",
+  "speakerAbout": [],
+  "hosts": null,
+  "formDate": "",
+  "formInfo": "Зарегистрироваться→Нажимая кнопку, я принимаю условия оферты и соглашаюсь на обработку персональных данных←НазадРасскажите о себе, чтобы продолжитьВ каком направлении вы работаете? Маркетинг Продакт-м",
+  "formEndpoint": "/api/events/cleansheet/register",
+  "extraSections": [
+    {
+      "position": "after-hero",
+      "html": "<div class=\"hero__grid\"><div class=\"container-749 flex-v-24 flex-v-24--mob-12\"><div class=\"tags-wrap\"><div class=\"violet-tag\">Дизайн-кружок WANNABE</div></div><h1 class=\"h1-negative-margin\">У&nbsp;меня нет вдохновения: как&nbsp;дизайнерам работать с&nbsp;чистым листом и&nbsp;выдавать качественные решения</h1><p class=\"is--dark-grey is--m-bold\">Расскажем, как дизайнеру запускать процесс без вдохновения и&nbsp;собирать сильные визуальные решения, даже когда «чистый лист» давит и&nbsp;идей нет</p></div><div class=\"card card--announcement card--sm\"><div class=\"flex-v-12 flex-v-12--mob-8\"><div class=\"event__photos-block\"><img src=\"https://cdn.prod.website-files.com/663e20e43c55b32b80cbc405/671f96b853a744c49d8900c2_misha-dark-crop-large.webp\" loading=\"eager\" alt=\"\" class=\"icon-40 icon-40--bordered\"></div><p class=\"text-xs\">Эфир с&nbsp;Мишей Розовым, без&nbsp;записи</p><p class=\"h3\">09&nbsp;декабря в&nbsp;19:00 по&nbsp;Москве</p></div></div><div id=\"w-node-c67e45e6-b5d8-7380-c728-68fe8a52e0dc-ecfed72c\" class=\"container-749 flex-v-24 flex-v-24--mob-12\"><div class=\"container-498 is--full-width-mob\"><a href=\"#request\" class=\"btn btn--arrow btn--l btn--black w-inline-block\"><p>Зарегистрироваться</p><p>↓</p></a></div><p class=\"is--dark-grey is--m-bold\"><span class=\"is--violet\">Плюс Live Challenge:</span> Миша создаст четыре концепта по&nbsp;идеям участников прямо на&nbsp;ивенте</p></div></div>"
+    },
+    {
+      "position": "after-quote",
+      "html": "<div class=\"heading-block\"><h2>Будет полезно дизайнерам, которые:</h2></div><div class=\"flex-v-4 flex-v-4--mob-8 container-749\"><div class=\"card\"><p class=\"is--dark-grey container-574\">Сталкиваются со&nbsp;ступором и&nbsp;отсутствием вдохновения</p></div><div class=\"card\"><p class=\"is--dark-grey container-574\">Теряются перед чистым листом и&nbsp;не&nbsp;понимают, с&nbsp;чего&nbsp;начать</p></div><div class=\"card\"><p class=\"is--dark-grey container-574\">Имеют много идей в&nbsp;голове, но&nbsp;не&nbsp;могут собрать их&nbsp;в&nbsp;цельное решение</p></div></div>"
+    },
+    {
+      "position": "after-for-whom",
+      "html": "<div class=\"event__photo-grid\"><img src=\"https://cdn.prod.website-files.com/663e20e43c55b32b80cbc405/66759defe3422fd369c44a68_misha-gradient.webp\" loading=\"eager\" alt=\"\" class=\"photo-128\"><p class=\"h3 is--dark-grey\">Вдохновение приходит не&nbsp;по&nbsp;расписанию&nbsp;— и&nbsp;можно часами сидеть перед чистым листом. Поэтому сильного дизайнера отличает умение запускать процесс самому: <span class=\"is--violet\">пользоваться логикой, референсами и&nbsp;ассоциациями, чтобы превращать идею в&nbsp;визуальное решение</span></p></div>"
+    }
+  ]
+}
