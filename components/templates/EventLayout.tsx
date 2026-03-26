@@ -20,13 +20,19 @@ type EventLayoutProps = {
   programItems: { number: string; text: string }[]
   speakerSectionTitle: string
   speakerAbout: { icon: string; text: string; links?: { label: string; href: string }[] }[]
+  hosts?: {
+    title: string
+    speakers: { name: string; photo: string; roles: string[] }[]
+  }
   formDate: string
   formInfo: string
   formEndpoint: string
 }
 
 const PX: React.CSSProperties = { paddingLeft: 'clamp(20px,15vw,220px)', paddingRight: 'clamp(20px,15vw,220px)' }
+const PY = { paddingTop: 'clamp(40px,6vw,90px)' as const, paddingBottom: 'clamp(40px,6vw,90px)' as const }
 const CARD: React.CSSProperties = { background: '#fff', boxShadow: '0 1px 4px rgba(0,0,0,0.12)', borderRadius: 12, padding: 24 }
+const FLAT: React.CSSProperties = { background: '#eaeaea', borderRadius: 12, padding: 24 }
 const BG: React.CSSProperties = { background: '#e5e5e5', ...PX, paddingBottom: 'clamp(40px,6vw,90px)' }
 
 const CSS = `
@@ -35,9 +41,11 @@ const CSS = `
   .ev-hero-r { width:clamp(180px,18vw,240px); flex-shrink:0; }
   .ev-two { display:flex; gap:48px; align-items:flex-start; }
   .ev-quote { display:flex; gap:24px; align-items:flex-start; }
-  .ev-cards { display:flex; gap:16px; flex-wrap:wrap; }
+  .ev-cards { display:flex; gap:4px; flex-wrap:wrap; }
   .ev-cards > * { flex:1; min-width:180px; }
   .ev-prog > * + * { margin-top:4px; }
+  .ev-hosts { display:flex; gap:16px; flex-wrap:wrap; }
+  .ev-hosts > * { flex:1; min-width:200px; }
   @media(max-width:600px) {
     .ev-hero, .ev-two, .ev-quote { flex-direction:column; }
     .ev-hero-r { width:100%; }
@@ -79,7 +87,7 @@ export default function EventLayout(p: EventLayoutProps) {
       </section>
 
       {/* 2 — Quote */}
-      <section style={BG}>
+      <section style={{ ...BG, paddingTop: 'clamp(40px,6vw,90px)' }}>
         <div className="ev-quote">
           <img src={p.speakerAvatar} alt={p.speakerName} style={{ width: 128, height: 128, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }} />
           <p className="text-h3" style={{ color: '#7c7c7c', margin: 0 }}>
@@ -95,7 +103,7 @@ export default function EventLayout(p: EventLayoutProps) {
         <p className="text-h2" style={{ margin: '0 0 24px' }}>{p.forWhomTitle}</p>
         <div className="ev-cards">
           {p.forWhom.map(f => (
-            <div key={f.number} style={CARD}>
+            <div key={f.number} style={FLAT}>
               <p className="text-body" style={{ color: '#7c7c7c', margin: '0 0 4px' }}>{f.number}</p>
               <p className="text-body" style={{ margin: 0 }}><strong>{f.boldText}</strong>{f.text ? ` ${f.text}` : ''}</p>
             </div>
@@ -146,8 +154,24 @@ export default function EventLayout(p: EventLayoutProps) {
         </div>
       </section>
 
-      {/* 6 — Registration */}
-      <section style={{ background: '#fff', ...PX, paddingTop: 'clamp(40px,6vw,90px)', paddingBottom: 'clamp(40px,6vw,90px)' }}>
+      {/* 6 — Hosts (optional) */}
+      {p.hosts && (
+        <section style={{ background: '#e5e5e5', ...PX, ...PY }}>
+          <p className="text-h2" style={{ margin: '0 0 24px' }}>{p.hosts.title}</p>
+          <div className="ev-hosts">
+            {p.hosts.speakers.map(s => (
+              <div key={s.name} style={{ ...CARD, display: 'flex', flexDirection: 'column', gap: 16 }}>
+                <img src={s.photo} alt={s.name} style={{ width: 150, height: 150, borderRadius: '50%', objectFit: 'cover' }} />
+                <p className="text-h3" style={{ margin: 0 }}>{s.name}</p>
+                <div>{s.roles.map(r => <p key={r} className="text-body" style={{ color: '#7c7c7c', margin: 0 }}>— {r}</p>)}</div>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {/* 7 — Registration */}
+      <section style={{ background: '#fff', ...PX, ...PY }}>
         <div className="ev-two">
           <div style={{ flex: 1 }}>
             <p className="text-h3" style={{ margin: '0 0 16px' }}>
