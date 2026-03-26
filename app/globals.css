@@ -31,7 +31,7 @@ body {
 }
 
 /* ── Text scale ──────────────────────────────────────────────────────── */
-.text-h1   { font-size: clamp(40px, 3.8vw, 55px); font-weight: 500; letter-spacing: -0.02em; line-height: 0.805; }
+.text-h1   { font-size: clamp(40px, 6.9vw, 100px); font-weight: 500; letter-spacing: -0.02em; line-height: 0.805; }
 .text-h2   { font-size: clamp(40px, 6vw, 80px);  font-weight: 500; letter-spacing: -0.05em; line-height: 0.8; }
 .text-h3   { font-size: clamp(24px, 3vw, 52px);  font-weight: 500; letter-spacing: -0.02em; line-height: 0.966; }
 .text-h4   {
