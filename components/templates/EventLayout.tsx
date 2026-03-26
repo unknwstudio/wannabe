@@ -45,7 +45,7 @@ const CSS = `
   .ev-cards { display:flex; gap:4px; flex-wrap:wrap; }
   .ev-cards > * { flex:1; min-width:180px; }
   .ev-prog > * + * { margin-top:4px; }
-  .ev-hosts { display:flex; gap:16px; flex-wrap:wrap; }
+  .ev-hosts { display:flex; gap:4px; flex-wrap:wrap; }
   .ev-hosts > * { flex:1; min-width:200px; }
   @media(max-width:600px) {
     .ev-hero, .ev-two, .ev-quote { flex-direction:column; }
@@ -70,7 +70,7 @@ export default function EventLayout(p: EventLayoutProps) {
               {p.badges.map(b => <span key={b} className="chip">{b}</span>)}
             </div>
             <p className="text-h1" style={{ margin: '0 0 24px' }}>{p.title}</p>
-            <button className="btn-subscribe-black" style={{ marginBottom: 16 }}>{p.ctaLabel}</button>
+            <button className="btn-subscribe-black" style={{ marginBottom: 16 }}><span>{p.ctaLabel}</span><span>↓</span></button>
             <p className="text-body" style={{ color: '#7c7c7c', margin: 0 }}>{p.description}</p>
           </div>
           <div className="ev-hero-r">
@@ -141,7 +141,7 @@ export default function EventLayout(p: EventLayoutProps) {
                 {ab.links && (
                   <div style={{ borderTop: '1px solid #cacaca', marginTop: 16, paddingTop: 16, display: 'flex', gap: 8, flexWrap: 'wrap' }}>
                     {ab.links.map(l => (
-                      <a key={l.href} href={l.href} className="text-small" style={{ background: '#eaeaea', borderRadius: 40, padding: '4px 12px', textDecoration: 'none', color: '#000' }}>{l.label} →</a>
+                      <a key={l.href} href={l.href} className="chip">{l.label} →</a>
                     ))}
                   </div>
                 )}
@@ -176,7 +176,7 @@ export default function EventLayout(p: EventLayoutProps) {
             </p>
             <p className="text-body" style={{ margin: 0 }}>{p.formInfo}</p>
           </div>
-          <form style={{ flex: 1, display: 'flex', flexDirection: 'column', gap: 16 }}
+          <form style={{ flex: 1, display: 'flex', flexDirection: 'column', gap: 4 }}
             onSubmit={async e => { e.preventDefault(); await fetch(p.formEndpoint, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(form) }) }}>
             {(['name', 'email', 'phone'] as const).map(f => (
               <input key={f} type={f === 'email' ? 'email' : 'text'}
@@ -186,7 +186,7 @@ export default function EventLayout(p: EventLayoutProps) {
             ))}
             <textarea placeholder="Вопрос" value={form.question} onChange={e => setForm(s => ({ ...s, question: e.target.value }))}
               className="text-body" rows={4} style={{ background: '#eaeaea', border: 'none', borderRadius: 4, padding: 16, resize: 'vertical', fontFamily: 'inherit', outline: 'none' }} />
-            <button type="submit" className="btn-subscribe-black">Зарегистрироваться →</button>
+            <button type="submit" className="btn-subscribe-black"><span>Зарегистрироваться</span><span>→</span></button>
             <p className="text-small" style={{ color: '#7c7c7c', margin: 0 }}>
               Нажимая кнопку, я принимаю <u>условия оферты</u> и соглашаюсь на <u>обработку персональных данных</u>
             </p>
