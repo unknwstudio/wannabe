@@ -38,7 +38,7 @@ const CSS = `
   .ev-hero{display:flex;gap:48px;align-items:flex-start;}
   .ev-hero-l{flex:1;min-width:0;display:flex;flex-direction:column;gap:16px;}
   .ev-hero-r{width:clamp(180px,18vw,240px);flex-shrink:0;}
-  .ev-two{display:flex;gap:48px;align-items:flex-start;flex-wrap:wrap;}
+  .ev-two{display:flex;gap:24px;align-items:flex-start;flex-wrap:wrap;}
   .ev-two>*{flex:1;min-width:220px;}
   .ev-quote{display:flex;gap:24px;align-items:flex-start;}
   .ev-cards{display:flex;gap:4px;flex-wrap:wrap;}
@@ -54,7 +54,7 @@ export default function EventLayout(p: EventLayoutProps) {
   const [datePart, ...rest] = (p.formDate || '').split(' ')
   const hi = p.quote && p.quoteHighlight ? p.quote.indexOf(p.quoteHighlight) : -1
   const quotePerson = p.quoteSpeakerId ? getPersonById(p.quoteSpeakerId) : null
-  const heroAvatar  = p.speakerIds?.[0] ? getPersonById(p.speakerIds[0]) : null
+  const hasHeroCard = !!(p.eventDate || p.heroSubline || p.speakerIds?.length)
 
   return (
     <div>
@@ -68,19 +68,20 @@ export default function EventLayout(p: EventLayoutProps) {
             <p className="text-h1" style={{ margin: 0 }}>{p.title}</p>
             {p.ctaLabel && <button className="btn-subscribe-black"><span>{p.ctaLabel}</span><span>↓</span></button>}
             {p.description && <p className="text-body" style={{ color: '#7c7c7c', margin: 0 }}>{p.description}</p>}
-            {!!p.speakerIds?.length && (
-              <div style={{ display: 'flex', gap: 8, alignItems: 'center' }}>
-                {p.speakerIds.map(id => { const q = getPersonById(id); return q ? <img key={id} src={q.photo} alt={q.name} style={{ width: 48, height: 48, borderRadius: '50%', objectFit: 'cover' }} /> : null })}
-                {p.heroSubline && <p className="text-body" style={{ margin: 0 }}>{p.heroSubline}</p>}
-              </div>
-            )}
-            {p.eventDate && <p className="text-body" style={{ margin: 0 }}>{p.eventDate}</p>}
           </div>
-          {p.eventDate && (
+          {hasHeroCard && (
             <div className="ev-hero-r">
-              <div style={{ background: '#cfbeff', borderRadius: 12, padding: 16 }}>
-                {heroAvatar && <img src={heroAvatar.photo} alt={heroAvatar.name} style={{ width: 40, height: 40, borderRadius: '50%', objectFit: 'cover', display: 'block', marginBottom: 8 }} />}
-                <p className="text-h3" style={{ margin: 0 }}>{p.eventDate}</p>
+              <div style={{ background: '#cfbeff', borderRadius: 12, padding: 16, display: 'flex', flexDirection: 'column', gap: 8 }}>
+                {!!p.speakerIds?.length && (
+                  <div style={{ display: 'flex' }}>
+                    {p.speakerIds.map((id, i) => {
+                      const q = getPersonById(id)
+                      return q ? <img key={id} src={q.photo} alt={q.name} style={{ width: 40, height: 40, borderRadius: '50%', objectFit: 'cover', marginLeft: i === 0 ? 0 : -8, border: '2px solid #cfbeff' }} /> : null
+                    })}
+                  </div>
+                )}
+                {p.heroSubline && <p className="text-small" style={{ margin: 0, color: '#000' }}>{p.heroSubline}</p>}
+                {p.eventDate && <p className="text-h3" style={{ margin: 0, fontWeight: 500 }}>{p.eventDate}</p>}
               </div>
             </div>
           )}
@@ -102,7 +103,7 @@ export default function EventLayout(p: EventLayoutProps) {
       {/* 3 — Content sections */}
       {p.contentSections?.map((sec, si) => (
         <section key={si} style={BG}>
-          <p className="text-h1" style={{ margin: '0 0 24px' }}>{sec.headline}</p>
+          <p className="text-h2" style={{ margin: '0 0 24px' }}>{sec.headline}</p>
           <div className="ev-cards">{sec.items.map((item, ii) => <div key={ii} style={CARD}><p className="text-body" style={{ margin: 0 }}>{item}</p></div>)}</div>
         </section>
       ))}
@@ -110,7 +111,7 @@ export default function EventLayout(p: EventLayoutProps) {
       {/* 4 — Speaker cards */}
       {!!p.speakerCardIds?.length && (
         <section style={BG}>
-          <p className="text-h1" style={{ margin: '0 0 24px' }}>спикеры</p>
+          <p className="text-h2" style={{ margin: '0 0 24px' }}>спикеры</p>
           <div className="ev-cards">
             {p.speakerCardIds.map(id => { const q = getPersonById(id); return q ? (
               <div key={id} style={{ ...CARD, display: 'flex', flexDirection: 'column', gap: 16 }}>
@@ -128,15 +129,27 @@ export default function EventLayout(p: EventLayoutProps) {
         const q = getPersonById(p.speakerFull.speakerId)
         return (
           <section style={BG}>
-            <p className="text-h1" style={{ margin: '0 0 24px' }}>спикер</p>
+            <p className="text-h2" style={{ margin: '0 0 24px' }}>спикер</p>
             <div className="ev-two">
-              <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
-                {q && <><img src={q.photo} alt={q.name} style={{ width: 375, height: 375, maxWidth: '100%', borderRadius: 12, objectFit: 'cover' }} /><p className="text-h3" style={{ margin: 0 }}>{q.name}</p><div>{q.roles.map((r, i) => <p key={i} className="text-body" style={{ color: '#7c7c7c', margin: 0 }}>— {r}</p>)}</div></>}
+              <div style={{ maxWidth: 375, display: 'flex', flexDirection: 'column', gap: 16 }}>
+                {q && <>
+                  <img src={q.photo} alt={q.name} style={{ width: '100%', aspectRatio: '1/1', borderRadius: 12, objectFit: 'cover', display: 'block' }} />
+                  <p className="text-h3" style={{ margin: 0 }}>{q.name}</p>
+                  <div>{q.roles.map((r, i) => <p key={i} className="text-body" style={{ color: '#7c7c7c', margin: 0 }}>— {r}</p>)}</div>
+                </>}
                 {p.speakerFull.description && <p className="text-body" style={{ margin: 0 }}>{p.speakerFull.description}</p>}
               </div>
               <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
-                {p.speakerFull.bullets.map((b, i) => <p key={i} className="text-body" style={{ margin: 0 }}>{b}</p>)}
-                {!!p.speakerFull.links?.length && <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>{p.speakerFull.links.map(l => <a key={l.href} href={l.href} className="chip">{l.label}</a>)}</div>}
+                {p.speakerFull.bullets.map((b, i) => (
+                  <div key={i} style={CARD}>
+                    <p className="text-body" style={{ color: '#7c7c7c', margin: 0 }}>{b}</p>
+                  </div>
+                ))}
+                {!!p.speakerFull.links?.length && (
+                  <div style={{ borderTop: '1px solid #cacaca', paddingTop: 16, display: 'flex', gap: 8, flexWrap: 'wrap' }}>
+                    {p.speakerFull.links.map(l => <a key={l.href} href={l.href} className="chip">{l.label}</a>)}
+                  </div>
+                )}
               </div>
             </div>
           </section>
