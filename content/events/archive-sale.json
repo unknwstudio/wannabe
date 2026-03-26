@@ -20,7 +20,7 @@
   "speakerSectionTitle": "спикер",
   "speakerAbout": [],
   "hosts": null,
-  "formDate": "",
+  "formDate": "Расскажите о себе, чтобы продолжить",
   "formInfo": "Довольны обучениемНашли новую работуВыросли в грейдеПовысили доходThank you! Your submission has been received!Oops! Something went wrong while submitting the form.",
   "formEndpoint": "/api/events/archive-sale/register",
   "slug": "archive-sale",

@@ -1,24 +1,42 @@
 {
-  "badges": [],
+  "badges": [
+    "Дизайн-кружок WANNABE"
+  ],
   "title": "Кого уволят в 2026 — и как дизайнеру стать тем, на кого рассчитывают",
   "ctaLabel": "Зарегистрироваться",
   "description": "Эфир с Мишей Розовым, Дашей Щербаковой, Артёмом Казаковым и Эмиром Касымовым. 18 декабря в 19:30 по Москве",
   "eventDate": "18 декабря в 19:30 по",
-  "eventInfo": "",
+  "eventInfo": "Эфир с Мишей Розовым, Дашей Щербаковой, Артёмом Казаковым и Эмиром Касымовым",
   "speakerAvatar": "/images/events/valuedesigner/speaker.webp",
-  "speakerName": "",
+  "speakerName": "Артёма Казакова",
   "speakerRoles": [],
   "quote": "Часто ощущают тревогу: «А вдруг уволят?», «Достаточно ли я хорош?»",
-  "quoteHighlight": "",
+  "quoteHighlight": "Устойчивость — это навык, а не врождённая черта",
   "forWhomTitle": "для кого",
-  "forWhom": [],
+  "forWhom": [
+    {
+      "number": "01",
+      "boldText": "",
+      "text": "Переживают, что их могут заменить в любой момент"
+    },
+    {
+      "number": "02",
+      "boldText": "",
+      "text": "Часто ощущают тревогу: «А вдруг уволят?», «Достаточно ли я хорош?»"
+    },
+    {
+      "number": "03",
+      "boldText": "",
+      "text": "Хотят выстроить траекторию роста, которая защитит от увольнений и турбулентности рынка"
+    }
+  ],
   "programTitle": "программа",
   "programDate": "",
   "programItems": [],
   "speakerSectionTitle": "спикер",
   "speakerAbout": [],
   "hosts": null,
-  "formDate": "",
+  "formDate": "18 декабря в 19:30 по мск",
   "formInfo": "",
   "formEndpoint": "/api/events/valuedesigner/register",
   "slug": "valuedesigner",
