@@ -6,21 +6,32 @@
   "ctaLabel": "Зарегистрироваться",
   "description": "Мастер-класс от Миши Розова и Мити Осадчука 16 июня в 19:00 по мск",
   "eventDate": "16 июня в 19:00 по мск",
-  "eventInfo": "",
+  "eventInfo": "Митя Осадчук даёт фидбэк Мише Розову",
   "speakerAvatar": "/images/events/artdirection/speaker.webp",
   "speakerName": "Миша Розов",
   "speakerRoles": [],
   "quote": "За 7 лет студия Pinkman заработала больше 1 миллиарда рублей и поработала с «Яндексом», Mercedes, Nike, McDonald’s, СберБанком и другими",
-  "quoteHighlight": "",
+  "quoteHighlight": "без внешнего арт-дирекшена рано или поздно начнёшь стагнировать.",
   "forWhomTitle": "для кого",
-  "forWhom": [],
+  "forWhom": [
+    {
+      "number": "01",
+      "boldText": "",
+      "text": "Чувствуют стагнацию, варятся в собственном соку, только в контексте своей команды, не растут и долго остаются в одном грейде"
+    },
+    {
+      "number": "02",
+      "boldText": "",
+      "text": "Регулярно сдают задачи с десятого раза и с кучей стресса, так как не понимают, где ошибка, почему не работает то или иное решение"
+    }
+  ],
   "programTitle": "программа",
   "programDate": "",
   "programItems": [],
   "speakerSectionTitle": "спикер",
   "speakerAbout": [],
   "hosts": null,
-  "formDate": "",
+  "formDate": "16 июня в 19:00 по мск",
   "formInfo": "",
   "formEndpoint": "/api/events/artdirection/register",
   "slug": "artdirection",
