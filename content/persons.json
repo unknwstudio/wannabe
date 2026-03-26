@@ -1,0 +1,104 @@
+[
+  {
+    "id": "misha-rozov",
+    "name": "Миша Розов",
+    "photo": "/images/persons/misha-rozov.webp",
+    "roles": ["Сооснователь WANNABE", "Основатель Pinkman"]
+  },
+  {
+    "id": "liza-severova",
+    "name": "Лиза Северова",
+    "photo": "/images/persons/liza-severova.webp",
+    "roles": ["Арт-директор WANNABE", "Лидер тарифа «Мастерская» на T-Shaped Designer"]
+  },
+  {
+    "id": "dasha-shcherbakova",
+    "name": "Даша Щербакова",
+    "photo": "/images/persons/dasha-shcherbakova.webp",
+    "roles": ["Дизайнер"]
+  },
+  {
+    "id": "artem-kazakov",
+    "name": "Артём Казаков",
+    "photo": "/images/persons/artem-kazakov.webp",
+    "roles": ["Дизайнер"]
+  },
+  {
+    "id": "yura-meshalkin",
+    "name": "Юра Мешалкин",
+    "photo": "/images/persons/yura-meshalkin.webp",
+    "roles": ["Дизайнер"]
+  },
+  {
+    "id": "pasha-okhotin",
+    "name": "Паша Охотин",
+    "photo": "/images/persons/pasha-okhotin.webp",
+    "roles": ["Senior Communication Designer в Okta"]
+  },
+  {
+    "id": "valeria-rozova",
+    "name": "Валерия Розова",
+    "photo": "/images/persons/valeria-rozova.webp",
+    "roles": ["ex-CPO Qlean", "CEO Emex DWC"]
+  },
+  {
+    "id": "andrey-denisov",
+    "name": "Андрей Денисов",
+    "photo": "/images/persons/andrey-denisov.webp",
+    "roles": ["Дизайнер"]
+  },
+  {
+    "id": "emir-kasymov",
+    "name": "Эмир Касымов",
+    "photo": "/images/persons/emir-kasymov.webp",
+    "roles": ["Дизайнер"]
+  },
+  {
+    "id": "anastasia-neguritsa",
+    "name": "Анастасия Негурица",
+    "photo": "/images/persons/anastasia-neguritsa.webp",
+    "roles": ["Дизайнер"]
+  },
+  {
+    "id": "masha-dybkina",
+    "name": "Маша Дыбкина",
+    "photo": "/images/persons/masha-dybkina.webp",
+    "roles": ["Дизайнер"]
+  },
+  {
+    "id": "alina-verbenchuk",
+    "name": "Алина Вербенчук",
+    "photo": "/images/persons/alina-verbenchuk.webp",
+    "roles": ["Дизайнер"]
+  },
+  {
+    "id": "seva-vikulin",
+    "name": "Сева Викулин",
+    "photo": "/images/persons/seva-vikulin.webp",
+    "roles": ["Дизайнер"]
+  },
+  {
+    "id": "andrey-sergunin",
+    "name": "Андрей Сергунин",
+    "photo": "/images/persons/andrey-sergunin.webp",
+    "roles": ["Дизайнер"]
+  },
+  {
+    "id": "anna-gorokhova",
+    "name": "Анна Горохова",
+    "photo": "/images/persons/anna-gorokhova.webp",
+    "roles": ["Дизайнер"]
+  },
+  {
+    "id": "natalya-kumpan",
+    "name": "Наталья Кумпан",
+    "photo": "/images/persons/natalya-kumpan.webp",
+    "roles": ["Дизайнер"]
+  },
+  {
+    "id": "mitya-osadchuk",
+    "name": "Митя Осадчук",
+    "photo": "/images/persons/mitya-osadchuk.webp",
+    "roles": ["Дизайнер"]
+  }
+]
