@@ -1,5 +1,6 @@
 'use client'
 import React, { useState } from 'react'
+import Footer from '@/components/global/Footer'
 
 type EventLayoutProps = {
   badges: string[]
@@ -31,8 +32,8 @@ type EventLayoutProps = {
 
 const PX: React.CSSProperties = { paddingLeft: 'clamp(20px,15vw,220px)', paddingRight: 'clamp(20px,15vw,220px)' }
 const PY = { paddingTop: 'clamp(40px,6vw,90px)' as const, paddingBottom: 'clamp(40px,6vw,90px)' as const }
+const PLAIN: React.CSSProperties = { background: '#fff', borderRadius: 12, padding: 24 }
 const CARD: React.CSSProperties = { background: '#fff', boxShadow: '0 1px 4px rgba(0,0,0,0.12)', borderRadius: 12, padding: 24 }
-const FLAT: React.CSSProperties = { background: '#eaeaea', borderRadius: 12, padding: 24 }
 const BG: React.CSSProperties = { background: '#e5e5e5', ...PX, paddingBottom: 'clamp(40px,6vw,90px)' }
 
 const CSS = `
@@ -66,14 +67,10 @@ export default function EventLayout(p: EventLayoutProps) {
         <div className="ev-hero">
           <div className="ev-hero-l">
             <div style={{ display: 'flex', gap: 4, flexWrap: 'wrap', marginBottom: 16 }}>
-              {p.badges.map(b => (
-                <span key={b} className="text-small" style={{ background: '#cfbeff', borderRadius: 4, padding: '4px 12px' }}>{b}</span>
-              ))}
+              {p.badges.map(b => <span key={b} className="chip">{b}</span>)}
             </div>
             <p className="text-h1" style={{ margin: '0 0 24px' }}>{p.title}</p>
-            <button className="text-body" style={{ background: '#000', color: '#fff', border: 'none', borderRadius: 8, padding: '16px 24px', width: '100%', cursor: 'pointer', marginBottom: 16, textAlign: 'left' }}>
-              {p.ctaLabel}
-            </button>
+            <button className="btn-subscribe-black" style={{ marginBottom: 16 }}>{p.ctaLabel}</button>
             <p className="text-body" style={{ color: '#7c7c7c', margin: 0 }}>{p.description}</p>
           </div>
           <div className="ev-hero-r">
@@ -103,8 +100,8 @@ export default function EventLayout(p: EventLayoutProps) {
         <p className="text-h2" style={{ margin: '0 0 24px' }}>{p.forWhomTitle}</p>
         <div className="ev-cards">
           {p.forWhom.map(f => (
-            <div key={f.number} style={FLAT}>
-              <p className="text-body" style={{ color: '#7c7c7c', margin: '0 0 4px' }}>{f.number}</p>
+            <div key={f.number} style={PLAIN}>
+              <p className="text-small" style={{ color: '#7c7c7c', margin: '0 0 4px' }}>{f.number}</p>
               <p className="text-body" style={{ margin: 0 }}><strong>{f.boldText}</strong>{f.text ? ` ${f.text}` : ''}</p>
             </div>
           ))}
@@ -117,9 +114,9 @@ export default function EventLayout(p: EventLayoutProps) {
         <p className="text-h3" style={{ color: '#8f67ff', margin: '0 0 24px' }}>{p.programDate}</p>
         <div className="ev-prog">
           {p.programItems.map(item => (
-            <div key={item.number} style={{ ...CARD, display: 'flex', gap: 16, padding: '16px 24px' }}>
+            <div key={item.number} style={{ ...PLAIN, display: 'flex', gap: 16, padding: '16px 24px' }}>
               <span className="text-body" style={{ color: '#7c7c7c', width: 72, flexShrink: 0 }}>{item.number}</span>
-              <span className="text-body">{item.text}</span>
+              <span className="text-body" style={{ color: '#000000' }}>{item.text}</span>
             </div>
           ))}
         </div>
@@ -160,7 +157,7 @@ export default function EventLayout(p: EventLayoutProps) {
           <p className="text-h2" style={{ margin: '0 0 24px' }}>{p.hosts.title}</p>
           <div className="ev-hosts">
             {p.hosts.speakers.map(s => (
-              <div key={s.name} style={{ ...CARD, display: 'flex', flexDirection: 'column', gap: 16 }}>
+              <div key={s.name} style={{ ...PLAIN, display: 'flex', flexDirection: 'column', gap: 16 }}>
                 <img src={s.photo} alt={s.name} style={{ width: 150, height: 150, borderRadius: '50%', objectFit: 'cover' }} />
                 <p className="text-h3" style={{ margin: 0 }}>{s.name}</p>
                 <div>{s.roles.map(r => <p key={r} className="text-body" style={{ color: '#7c7c7c', margin: 0 }}>— {r}</p>)}</div>
@@ -189,15 +186,15 @@ export default function EventLayout(p: EventLayoutProps) {
             ))}
             <textarea placeholder="Вопрос" value={form.question} onChange={e => setForm(s => ({ ...s, question: e.target.value }))}
               className="text-body" rows={4} style={{ background: '#eaeaea', border: 'none', borderRadius: 4, padding: 16, resize: 'vertical', fontFamily: 'inherit', outline: 'none' }} />
-            <button type="submit" className="text-body" style={{ background: '#000', color: '#fff', border: 'none', borderRadius: 8, padding: '16px 24px', cursor: 'pointer' }}>
-              Зарегистрироваться →
-            </button>
+            <button type="submit" className="btn-subscribe-black">Зарегистрироваться →</button>
             <p className="text-small" style={{ color: '#7c7c7c', margin: 0 }}>
               Нажимая кнопку, я принимаю <u>условия оферты</u> и соглашаюсь на <u>обработку персональных данных</u>
             </p>
           </form>
         </div>
       </section>
+
+      <Footer />
     </div>
   )
 }
