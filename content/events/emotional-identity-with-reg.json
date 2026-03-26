@@ -1,0 +1,40 @@
+{
+  "slug": "emotional-identity-with-reg",
+  "publishedPath": "/events/emotional-identity-with-reg",
+  "badges": [],
+  "title": "Как дизайнеру сделать эмоциональный визуал, который отражает идею бренда",
+  "ctaLabel": "Зарегистрироваться",
+  "description": "Эфир с Артёмом Казаковым, Лизой Северовой и Пашей Охотиным 19 марта в 19:00 по Москве",
+  "eventDate": "19 марта в 19:00 по МосквеЗарегистрироваться↓Будет, 19:00",
+  "eventInfo": "",
+  "speakerAvatar": "/images/events/emotional-identity-with-reg/speaker.webp",
+  "speakerName": "Фото Артёма",
+  "speakerRoles": [],
+  "quote": "Арт-директор wannabe и лидер тарифа «Мастерская» на T-Shaped Designer",
+  "quoteHighlight": "",
+  "forWhomTitle": "для кого",
+  "forWhom": [],
+  "programTitle": "программа",
+  "programDate": "",
+  "programItems": [],
+  "speakerSectionTitle": "спикер",
+  "speakerAbout": [],
+  "hosts": null,
+  "formDate": "",
+  "formInfo": "Зарегистрироваться→Нажимая кнопку, я принимаю условия оферты и соглашаюсь на обработку персональных данных←НазадРасскажите о себе, чтобы продолжитьВ каком направлении вы работаете? Маркетинг Продакт-м",
+  "formEndpoint": "/api/events/emotional-identity-with-reg/register",
+  "extraSections": [
+    {
+      "position": "after-hero",
+      "html": "<div class=\"hero__grid\"><div class=\"container-749 flex-v-24 flex-v-24--mob-12\"><div class=\"tags-wrap\"><div class=\"violet-tag\">Дизайн-кружок WANNABE</div></div><h1 class=\"h1-negative-margin\">Как дизайнеру сделать эмоциональный визуал, который отражает идею бренда</h1><p class=\"is--dark-grey is--m-bold\">Арт-директора расскажут, как&nbsp;превратить идею бренда в&nbsp;визуальную концепцию, а&nbsp;потом на&nbsp;её&nbsp;основе собрать яркие и&nbsp;цельные коммуникации</p></div><div class=\"card card--announcement card--sm\"><div class=\"flex-v-12 flex-v-12--mob-8\"><div class=\"event__photos-block\"><img src=\"https://cdn.prod.website-files.com/663e20e43c55b32b80cbc405/6891164a02adc9a1c354f199_artem-kazakov.webp\" loading=\"eager\" alt=\"Фото Артёма Казакова\" class=\"icon-40 icon-40--bordered\"><img src=\"https://cdn.prod.website-files.com/663e20e43c55b32b80cbc405/669a8b984630114110c8b33b_liza.webp\" loading=\"eager\" alt=\"\" class=\"icon-40 icon-40--bordered\"><img src=\"https://cdn.prod.website-files.com/663e20e43c55b32b80cbc405/69b32ace44f055f2a7da224f_pasha-okhotin.webp\" loading=\"eager\" alt=\"\" class=\"icon-40 icon-40--bordered\"></div><p class=\"text-xs\">Эфир с&nbsp;Артёмом Казаковым, Лизой Северовой и&nbsp;Пашей Охотиным</p><p class=\"h3\">19&nbsp;марта в&nbsp;19:00 по&nbsp;Москве</p></div></div><div class=\"container-498 is--full-width-mob\"><a href=\"#request\" class=\"btn btn--arrow btn--l btn--black w-inline-block\"><p>Зарегистрироваться</p><p>↓</p></a></div></div>"
+    },
+    {
+      "position": "after-quote",
+      "html": "<div><div class=\"heading-block\"><h2>Будет полезно дизайнерам, которые:</h2></div><div class=\"flex-v-4 flex-v-4--mob-8 container-749\"><div class=\"card\"><p class=\"is--dark-grey container-574\">Хотят делать не&nbsp;отдельные макеты, а&nbsp;полноценные дизайн-концепции</p></div><div class=\"card\"><p class=\"is--dark-grey container-574\">Хотят научиться создавать визуальный язык бренда и&nbsp;переносить его в&nbsp;разные форматы дизайна</p></div><div class=\"card\"><p class=\"is--dark-grey container-574\">Работают с&nbsp;брендом фрагментами и&nbsp;хотят начать мыслить системно</p></div><div class=\"card\"><p class=\"is--dark-grey container-574\">Используют AI&nbsp;как генератор картинок, но&nbsp;пока не&nbsp;понимают, как&nbsp;применять его для поиска концепции и&nbsp;визуальной идеи</p></div></div></div>"
+    },
+    {
+      "position": "after-for-whom",
+      "html": "<div class=\"event__photo-grid\"><img src=\"https://cdn.prod.website-files.com/663e20e43c55b32b80cbc405/6891164a02adc9a1c354f199_artem-kazakov.webp\" loading=\"eager\" alt=\"Фото Артёма Казакова\" class=\"photo-128\"><p class=\"h3 is--dark-grey\">Сегодня уже недостаточно просто собрать красивую айдентику. Важно понимать, как&nbsp;из&nbsp;ценностей и&nbsp;видения компании рождается visual metaphor, а&nbsp;из&nbsp;неё&nbsp;— вся&nbsp;система бренда. <span class=\"is--violet\">Именно это отличает случайный визуал от&nbsp;сильной бренд-коммуникации</span></p></div>"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "notboringdesign",
+  "publishedPath": "/events/notboringdesign",
+  "badges": [],
+  "title": "«Все мои работы одинаковые»: как создавать экстраординарный дизайн через работу с референсами",
+  "ctaLabel": "Зарегистрироваться",
+  "description": "Мастер-класс от Миши Розова и Артёма Казакова 10 марта, 19:00 по Москве",
+  "eventDate": "10 марта в 19:00 по МосквеЗарегистрироваться↓Встре, 19:00",
+  "eventInfo": "",
+  "speakerAvatar": "/images/events/notboringdesign/speaker.webp",
+  "speakerName": "Фото Артёма",
+  "speakerRoles": [],
+  "quote": "Смотришь на своё портфолио и думаешь: «Ну... нормально»",
+  "quoteHighlight": "",
+  "forWhomTitle": "для кого",
+  "forWhom": [],
+  "programTitle": "программа",
+  "programDate": "",
+  "programItems": [],
+  "speakerSectionTitle": "спикер",
+  "speakerAbout": [],
+  "hosts": null,
+  "formDate": "",
+  "formInfo": "Зарегистрироваться→Нажимая кнопку, я принимаю условия оферты и соглашаюсь на обработку персональных данных←НазадРасскажите о себе, чтобы продолжитьВ каком направлении вы работаете? Маркетинг Продакт-м",
+  "formEndpoint": "/api/events/notboringdesign/register",
+  "extraSections": [
+    {
+      "position": "after-hero",
+      "html": "<div class=\"hero__grid\"><div class=\"container-749 flex-v-24 flex-v-24--mob-12\"><div class=\"tags-wrap\"><div class=\"violet-tag\">Дизайн-кружок WANNABE</div></div><h1 class=\"h1-negative-margin\">«Все мои работы одинаковые»: как&nbsp;создавать экстраординарный дизайн через работу с&nbsp;референсами</h1></div><div class=\"card card--announcement card--sm\"><div class=\"flex-v-12 flex-v-12--mob-8\"><div class=\"event__photos-block\"><img src=\"https://cdn.prod.website-files.com/663e20e43c55b32b80cbc405/671f56f99a01de9dc8e02d80_misha-dark-crop.webp\" loading=\"eager\" alt=\"\" class=\"icon-40 icon-40--bordered\"><img src=\"https://cdn.prod.website-files.com/663e20e43c55b32b80cbc405/6891164a02adc9a1c354f199_artem-kazakov.webp\" loading=\"eager\" alt=\"Фото Артёма Казакова\" class=\"icon-40 icon-40--bordered\"></div><p class=\"text-xs\">Миша Розов и&nbsp;Артём Казаков</p><p class=\"h3\">10&nbsp;марта в&nbsp;19:00 по&nbsp;Москве</p></div></div><div id=\"w-node-_8e8c0da4-aac1-9919-4780-ed0abfec182a-79f145d9\" class=\"container-749 flex-v-24 flex-v-24--mob-12\"><div class=\"container-498 is--full-width-mob\"><a href=\"#request\" class=\"btn btn--arrow btn--l btn--black w-inline-block\"><p>Зарегистрироваться</p><p>↓</p></a></div><p class=\"is--dark-grey\">Встреча с&nbsp;арт-директорами о&nbsp;том, как&nbsp;через референсы, эмоцию и&nbsp;визуальное направление делать работы, которые запоминают</p></div></div>"
+    },
+    {
+      "position": "after-quote",
+      "html": "<div class=\"container-749\"><div class=\"heading-block\"><h2>Будет полезно, если ты:</h2></div><div class=\"flex-v-4 flex-v-4--mob-8\"><div class=\"card\"><p class=\"is--dark-grey container-574\">Смотришь на&nbsp;своё портфолио и&nbsp;думаешь: «Ну... нормально»</p></div><div class=\"card\"><p class=\"is--dark-grey container-574\">Видишь, что визуально всё аккуратно, но&nbsp;ничего не&nbsp;цепляет</p></div><div class=\"card\"><p class=\"is--dark-grey container-574\">Собираешь референсы пачками, но&nbsp;не&nbsp;понимаешь, как&nbsp;из&nbsp;них&nbsp;рождается идея</p></div><div class=\"card\"><p class=\"is--dark-grey container-574\">Слышишь от&nbsp;заказчиков: «Всё&nbsp;ок, но&nbsp;хочется чего-то поинтереснее»</p></div></div></div>"
+    },
+    {
+      "position": "after-for-whom",
+      "html": "<div class=\"event__photo-grid\"><img src=\"https://cdn.prod.website-files.com/663e20e43c55b32b80cbc405/66759defe3422fd369c44a68_misha-gradient.webp\" loading=\"eager\" alt=\"\" class=\"photo-128\"><p class=\"h3 is--dark-grey\">Большинство дизайнеров смотрят референсы, но&nbsp;немногие умеют превращать их&nbsp;в&nbsp;систему. Экстраординарный дизайн начинается не&nbsp;с&nbsp;вкуса, а&nbsp;с&nbsp;того, как ты&nbsp;работаешь с&nbsp;визуалом, эмоцией и&nbsp;направлением. <span class=\"is--violet\">Это&nbsp;навык&nbsp;— и&nbsp;его можно разобрать</span></p></div>"
+    }
+  ]
+}

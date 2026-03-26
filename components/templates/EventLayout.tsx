@@ -25,6 +25,7 @@ type EventLayoutProps = {
     title: string
     speakers: { name: string; photo: string; roles: string[] }[]
   }
+  extraSections?: { position: string; html: string }[]
   formDate: string
   formInfo: string
   formEndpoint: string
@@ -57,6 +58,9 @@ export default function EventLayout(p: EventLayoutProps) {
   const [form, setForm] = useState({ name: '', email: '', phone: '', question: '' })
   const hi = p.quote.indexOf(p.quoteHighlight)
   const [datePart, ...restParts] = p.formDate.split(' ')
+  const extra = (pos: string) => (p.extraSections || []).filter(s => s.position === pos).map((s, i) => (
+    <section key={i} style={{ background: '#e5e5e5', ...PX, ...PY }} dangerouslySetInnerHTML={{ __html: s.html }} />
+  ))
 
   return (
     <div>
@@ -83,6 +87,8 @@ export default function EventLayout(p: EventLayoutProps) {
         </div>
       </section>
 
+      {extra('after-hero')}
+
       {/* 2 — Quote */}
       <section style={{ ...BG, paddingTop: 'clamp(40px,6vw,90px)' }}>
         <div className="ev-quote">
@@ -94,6 +100,8 @@ export default function EventLayout(p: EventLayoutProps) {
           </p>
         </div>
       </section>
+
+      {extra('after-quote')}
 
       {/* 3 — For whom */}
       <section style={BG}>
@@ -108,6 +116,8 @@ export default function EventLayout(p: EventLayoutProps) {
         </div>
       </section>
 
+      {extra('after-for-whom')}
+
       {/* 4 — Program */}
       <section style={BG}>
         <p className="text-h2" style={{ margin: '0 0 16px' }}>{p.programTitle}</p>
@@ -121,6 +131,8 @@ export default function EventLayout(p: EventLayoutProps) {
           ))}
         </div>
       </section>
+
+      {extra('after-program')}
 
       {/* 5 — Speaker */}
       <section style={BG}>
@@ -151,6 +163,8 @@ export default function EventLayout(p: EventLayoutProps) {
         </div>
       </section>
 
+      {extra('after-speaker')}
+
       {/* 6 — Hosts (optional) */}
       {p.hosts && (
         <section style={{ background: '#e5e5e5', ...PX, ...PY }}>
@@ -166,6 +180,8 @@ export default function EventLayout(p: EventLayoutProps) {
           </div>
         </section>
       )}
+
+      {extra('before-form')}
 
       {/* 7 — Registration */}
       <section style={{ background: '#fff', ...PX, ...PY }}>
