@@ -1,12 +1,12 @@
 # Scrape Report
-Generated: 2026-03-26T00:56:45.855Z
+Generated: 2026-03-26T00:58:10.441Z
 
 ## Summary
-- Pages scraped successfully: 15
+- Pages scraped successfully: 20
 - Pages with errors: 0
-- Pages with extra sections: 15
-- Pages with missing data: 15
-- Images downloaded: 97
+- Pages with extra sections: 20
+- Pages with missing data: 20
+- Images downloaded: 128
 
 ## Successful Pages
 - ✓ design-trial-reg
@@ -24,6 +24,11 @@ Generated: 2026-03-26T00:56:45.855Z
 - ✓ referenceandvisualconcept
 - ✓ designprotection
 - ✓ product-trial-reg
+- ✓ productcompetencesai
+- ✓ product-trial-fb
+- ✓ product-trial-ya
+- ✓ uxuiliveshow
+- ✓ productpagewithjtbd
 
 ## Errors
 
@@ -43,6 +48,11 @@ Generated: 2026-03-26T00:56:45.855Z
 - referenceandvisualconcept: 3 section(s) at [after-hero, after-quote, after-for-whom]
 - designprotection: 3 section(s) at [after-hero, after-quote, after-for-whom]
 - product-trial-reg: 3 section(s) at [after-hero, after-quote, after-for-whom]
+- productcompetencesai: 3 section(s) at [after-hero, after-quote, after-for-whom]
+- product-trial-fb: 3 section(s) at [after-hero, after-quote, after-for-whom]
+- product-trial-ya: 3 section(s) at [after-hero, after-quote, after-for-whom]
+- uxuiliveshow: 3 section(s) at [after-hero, after-quote, after-for-whom]
+- productpagewithjtbd: 3 section(s) at [after-hero, after-quote, after-for-whom]
 
 ## Missing Data
 - design-trial-reg: missing eventDate, programItems
@@ -60,6 +70,11 @@ Generated: 2026-03-26T00:56:45.855Z
 - referenceandvisualconcept: missing programItems
 - designprotection: missing programItems
 - product-trial-reg: missing eventDate, programItems
+- productcompetencesai: missing programItems
+- product-trial-fb: missing eventDate, programItems
+- product-trial-ya: missing eventDate, programItems
+- uxuiliveshow: missing programItems
+- productpagewithjtbd: missing eventDate, programItems
 
 ## Images
 - ✓ design-trial-reg/speaker.webp
@@ -159,3 +174,34 @@ Generated: 2026-03-26T00:56:45.855Z
 - ✓ product-trial-reg/image-6.webp
 - ✓ product-trial-reg/image-7.webp
 - ✓ product-trial-reg/image-9.svg
+- ✓ productcompetencesai/speaker.webp
+- ✓ productcompetencesai/image-1.webp
+- ✓ product-trial-fb/speaker.webp
+- ✓ product-trial-fb/image-2.webp
+- ✓ product-trial-fb/image-3.webp
+- ✓ product-trial-fb/image-4.webp
+- ✓ product-trial-fb/image-5.webp
+- ✓ product-trial-fb/image-6.webp
+- ✓ product-trial-fb/image-7.webp
+- ✓ product-trial-fb/image-9.svg
+- ✓ product-trial-ya/speaker.webp
+- ✓ product-trial-ya/image-2.webp
+- ✓ product-trial-ya/image-3.webp
+- ✓ product-trial-ya/image-4.webp
+- ✓ product-trial-ya/image-5.webp
+- ✓ product-trial-ya/image-6.webp
+- ✓ product-trial-ya/image-7.webp
+- ✓ product-trial-ya/image-9.svg
+- ✓ uxuiliveshow/speaker.webp
+- ✓ uxuiliveshow/image-1.webp
+- ✓ uxuiliveshow/image-3.svg
+- ✓ uxuiliveshow/image-5.webp
+- ✓ productpagewithjtbd/speaker.webp
+- ✓ productpagewithjtbd/image-1.webp
+- ✓ productpagewithjtbd/image-3.webp
+- ✓ productpagewithjtbd/image-4.webp
+- ✓ productpagewithjtbd/image-5.webp
+- ✓ productpagewithjtbd/image-6.webp
+- ✓ productpagewithjtbd/image-7.webp
+- ✓ productpagewithjtbd/image-8.svg
+- ✓ productpagewithjtbd/image-9.svg

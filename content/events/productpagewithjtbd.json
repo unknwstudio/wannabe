@@ -1,0 +1,43 @@
+{
+  "slug": "productpagewithjtbd",
+  "publishedPath": "/minicoursefree/productpagewithjtbd",
+  "badges": [
+    "Бесплатный курс в телеграм-боте от Миши Розова",
+    "Начать учиться бесплатно"
+  ],
+  "title": "Делаем продуктовую страницу при помощи Jobs To Be Done",
+  "ctaLabel": "Зарегистрироваться",
+  "description": "Мини-курс для дизайнеров в телеграм-боте от Миши Розова",
+  "eventDate": "",
+  "eventInfo": "",
+  "speakerAvatar": "/images/events/productpagewithjtbd/speaker.webp",
+  "speakerName": "Логотип Сбербанка",
+  "speakerRoles": [],
+  "quote": "Начните бесплатный курс «Делаем продуктовую страницу при помощи Jobs To Be Done»",
+  "quoteHighlight": "",
+  "forWhomTitle": "для кого",
+  "forWhom": [],
+  "programTitle": "программа",
+  "programDate": "",
+  "programItems": [],
+  "speakerSectionTitle": "спикер",
+  "speakerAbout": [],
+  "hosts": null,
+  "formDate": "",
+  "formInfo": "Зарегистрироваться→Нажимая кнопку, я принимаю условия оферты и соглашаюсь на обработку персональных данных←НазадРасскажите о себе, чтобы продолжитьВ каком направлении вы работаете? Маркетинг Продакт-м",
+  "formEndpoint": "/api/events/productpagewithjtbd/register",
+  "extraSections": [
+    {
+      "position": "after-hero",
+      "html": "<div class=\"hero__grid hero__grid--wider hero__grid--wider--with-img\"><div class=\"container-749 flex-v-24 flex-v-24--mob-12\"><div class=\"tags-wrap\"><div class=\"violet-tag mob-wrap\">Бесплатный курс в&nbsp;телеграм-боте от&nbsp;Миши&nbsp;Розова</div></div><h1 class=\"h1-negative-margin max-width-80\">Делаем продуктовую страницу при&nbsp;помощи Jobs&nbsp;To&nbsp;Be&nbsp;Done</h1><div class=\"container-498 is--full-width-mob\"><a href=\"#request\" class=\"btn btn--arrow btn--l btn--black w-inline-block\"><p>Начать учиться бесплатно</p><p>↓</p></a></div></div><div id=\"w-node-_8e8c0da4-aac1-9919-4780-ed0abfec182a-54528219\" class=\"container-749 flex-v-24 flex-v-24--mob-12\"><p class=\"is--dark-grey\">Мини-курс для дизайнеров в&nbsp;телеграм-боте: разберём теорию про&nbsp;job&nbsp;stories и&nbsp;покажем, как сделать лендинг и&nbsp;интерфейс на&nbsp;основе&nbsp;JTBD</p></div><img src=\"https://cdn.prod.website-files.com/663e20e43c55b32b80cbc405/68a33871590f211ea5a51696_jtbd-hero.webp\" loading=\"eager\" id=\"w-node-a0318054-e9bc-bcca-a1b9-cbd1746b4bc4-54528219\" alt=\"\" class=\"hero__grid-img\"></div>"
+    },
+    {
+      "position": "after-quote",
+      "html": "<div class=\"event__photo-grid\"><img src=\"https://cdn.prod.website-files.com/663e20e43c55b32b80cbc405/66759defe3422fd369c44a68_misha-gradient.webp\" loading=\"eager\" alt=\"\" class=\"photo-128\"><p class=\"h3 is--dark-grey\">Это не&nbsp;просто теория, а&nbsp;<span class=\"is--violet\">мини-тренажёр</span>, <span class=\"no-break-desktop\">в&nbsp;котором вы&nbsp;разберёте</span>, как&nbsp;дизайнер может использовать JTBD, обосновывать свои решения перед&nbsp;командой и&nbsp;перестать работать через наитие</p></div>"
+    },
+    {
+      "position": "after-for-whom",
+      "html": "<div class=\"flex-v-48 flex-v-48--mob-20\"><h2>В&nbsp;мини-курсе разберём, как дизайнеру строить работу, чтобы общаться с&nbsp;клиентом на&nbsp;равных</h2><div class=\"flex-v-4 flex-v-4--mob-8 container-749\"><div class=\"card\"><div class=\"card__inner-ordered-grid card__inner-ordered-grid--mob-flex\"><p class=\"is--dark-grey\">01</p><p>Разберём, как аргументировать свои решения&nbsp;— выбирать визуальную концепцию и&nbsp;иметь объективные аргументы в&nbsp;работе с&nbsp;клиентами</p></div></div><div class=\"card\"><div class=\"card__inner-ordered-grid card__inner-ordered-grid--mob-flex\"><p class=\"is--dark-grey\">02</p><p>Научимся строить системную работу на&nbsp;основе job stories и&nbsp;расскажем про те&nbsp;самые исследования, которых все ждут от&nbsp;дизайнера в&nbsp;вакансиях</p></div></div><div class=\"card\"><div class=\"card__inner-ordered-grid card__inner-ordered-grid--mob-flex\"><p class=\"is--dark-grey\">03</p><p>Покажем, как собрать страницы при&nbsp;помощи JTBD</p></div></div><div class=\"card card-p-10\"><div class=\"card__imgs-grid\"><img src=\"https://cdn.prod.website-files.com/663e20e43c55b32b80cbc405/689f656b7bb30857d7c83760_our-projects-jtbd.webp\" loading=\"eager\" alt=\"\" class=\"is--full-width\"><img src=\"https://cdn.prod.website-files.com/663e20e43c55b32b80cbc405/689f656bb6963e47cdba7ff2_jtbd-q-1.webp\" loading=\"eager\" alt=\"\" class=\"is--full-width\"></div></div><div class=\"card card-p-10\"><div class=\"card__imgs-grid\"><img src=\"https://cdn.prod.website-files.com/663e20e43c55b32b80cbc405/689f656bc8c5eff6be80a995_enhance-your-journey-jtbd.webp\" loading=\"eager\" alt=\"\" class=\"is--full-width\"><img src=\"https://cdn.prod.website-files.com/663e20e43c55b32b80cbc405/689f656bc1f938fd6fbb8fcd_jtbd-q-2.webp\" loading=\"eager\" alt=\"\" class=\"is--full-width\"></div></div></div></div>"
+    }
+  ]
+}

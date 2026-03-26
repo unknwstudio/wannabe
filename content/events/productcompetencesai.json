@@ -1,0 +1,43 @@
+{
+  "slug": "productcompetencesai",
+  "publishedPath": "/events/productcompetencesai",
+  "badges": [
+    "Участие бесплатное",
+    "Записи не будет"
+  ],
+  "title": "Какие компетенции нужны продакту даже в эпоху AI",
+  "ctaLabel": "Зарегистрироваться",
+  "description": "Мастер-класс от Андрея Денисова и Юры Мешалкина 16 сентября, 19:00 по мск",
+  "eventDate": "16 сентября, 19:00",
+  "eventInfo": "",
+  "speakerAvatar": "/images/events/productcompetencesai/speaker.webp",
+  "speakerName": "Андрей Денисов",
+  "speakerRoles": [],
+  "quote": "«Продуктовая культура» — канал о создании продуктов и управлении ими",
+  "quoteHighlight": "",
+  "forWhomTitle": "для кого",
+  "forWhom": [],
+  "programTitle": "программа",
+  "programDate": "",
+  "programItems": [],
+  "speakerSectionTitle": "спикер",
+  "speakerAbout": [],
+  "hosts": null,
+  "formDate": "",
+  "formInfo": "Зарегистрироваться→Нажимая кнопку, я принимаю условия оферты и соглашаюсь на обработку персональных данных←НазадРасскажите о себе, чтобы продолжитьВ каком направлении вы работаете? Маркетинг Продакт-м",
+  "formEndpoint": "/api/events/productcompetencesai/register",
+  "extraSections": [
+    {
+      "position": "after-hero",
+      "html": "<div class=\"hero__grid\"><div class=\"container-749 flex-v-24 flex-v-24--mob-12\"><div class=\"tags-wrap\"><div class=\"violet-tag\">Участие бесплатное</div></div><h1 class=\"h1-negative-margin\">Какие компетенции нужны продакту даже в&nbsp;эпоху&nbsp;AI</h1><p class=\"is--dark-grey\">Андрей Денисов, CPO в&nbsp;WANNABE, и&nbsp;Юрий Мешалкин, Product Manager в&nbsp;RapidSeedbox, расскажут, что нужно делать продакт-менеджеру, чтобы системно управлять продуктом и&nbsp;расти в&nbsp;грейде</p></div><div class=\"card card--announcement card--sm\"><div class=\"flex-v-12 flex-v-12--mob-8\"><div class=\"event__photos-block\"><img src=\"https://cdn.prod.website-files.com/663e20e43c55b32b80cbc405/669a8ba34a71eb16f54a0c35_andrei.webp\" loading=\"eager\" alt=\"\" class=\"icon-40 icon-40--bordered\"><img src=\"https://cdn.prod.website-files.com/663e20e43c55b32b80cbc405/68c059d1dba100b972c9cc5c_yura-meshalkin.webp\" loading=\"eager\" alt=\"\" class=\"icon-40 icon-40--bordered\"></div><p class=\"text-xs\">Записи не будет</p><p class=\"h3\">16&nbsp;сентября, 19:00 по&nbsp;мск</p></div></div><div class=\"container-498 is--full-width-mob\"><a href=\"#request\" class=\"btn btn--arrow btn--l btn--black w-inline-block\"><p>Зарегистрироваться</p><p>↓</p></a></div></div>"
+    },
+    {
+      "position": "after-quote",
+      "html": "<div class=\"event__photo-grid\"><img src=\"https://cdn.prod.website-files.com/663e20e43c55b32b80cbc405/68c059d1dba100b972c9cc5c_yura-meshalkin.webp\" loading=\"eager\" alt=\"\" class=\"photo-128\"><p class=\"h3 is--dark-grey\">Нет одного фреймворка или той самой методологии, которые нужно изучить&nbsp;— и&nbsp;результат придёт. Но&nbsp;есть <span class=\"is--violet\">системный подход и&nbsp;список компетенций</span>, которые должны быть развиты у&nbsp;продакта, чтобы стабильно перформить в&nbsp;продукте</p></div>"
+    },
+    {
+      "position": "after-for-whom",
+      "html": "<div class=\"heading-block\"><h2>О&nbsp;чём поговорим: разберём главные боли продактов и&nbsp;тех, кто хочет перейти в&nbsp;профессию</h2></div><div class=\"flex-v-4 flex-v-4--mob-8 container-749\"><div class=\"card\"><p class=\"is--dark-grey\">Не&nbsp;понимаю, как перейти в&nbsp;продакт-менеджмент</p></div><div class=\"card\"><p class=\"is--dark-grey container-574\">Не&nbsp;знаю, какой мой следующий шаг, чтобы вырасти в&nbsp;грейде</p></div><div class=\"card\"><p class=\"is--dark-grey container-574\">Много делаю, постоянно перегружен, но&nbsp;застрял в&nbsp;своём грейде&nbsp;— что мне делать?</p></div><div class=\"card\"><p class=\"is--dark-grey\">Не&nbsp;понимаю, какие компетенции нужны продакту</p></div><div class=\"card\"><p class=\"is--dark-grey\">Много знаний, но&nbsp;нет общей картины в&nbsp;голове</p></div><div class=\"card\"><p class=\"is--dark-grey container-574\">Иногда смотрю на&nbsp;задачи и&nbsp;не&nbsp;понимаю, как к&nbsp;ним подступиться</p></div><div class=\"card\"><p class=\"is--dark-grey\">Не умею составлять стратегию продукта</p></div><div class=\"card\"><p class=\"is--dark-grey container-574\">Чувствую себя неуверенно в&nbsp;работе с&nbsp;экономикой и&nbsp;финансами</p></div><div class=\"card\"><p class=\"is--dark-grey\">Аналитика и&nbsp;метрики&nbsp;— мой главный страх</p></div><div class=\"card\"><p class=\"is--dark-grey\">Команда разработки не&nbsp;считается с&nbsp;моим мнением</p></div></div>"
+    }
+  ]
+}
