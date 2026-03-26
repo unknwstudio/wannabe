@@ -33,7 +33,7 @@ type EventLayoutProps = {
 const PX: React.CSSProperties = { paddingLeft: 'clamp(20px,15vw,220px)', paddingRight: 'clamp(20px,15vw,220px)' }
 const PY = { paddingTop: 'clamp(40px,6vw,90px)' as const, paddingBottom: 'clamp(40px,6vw,90px)' as const }
 const PLAIN: React.CSSProperties = { background: '#fff', borderRadius: 12, padding: 24 }
-const CARD: React.CSSProperties = { background: '#fff', boxShadow: '0 1px 4px rgba(0,0,0,0.12)', borderRadius: 12, padding: 24 }
+const CARD: React.CSSProperties = { background: '#fff', borderRadius: 12, padding: 24 }
 const BG: React.CSSProperties = { background: '#e5e5e5', ...PX, paddingBottom: 'clamp(40px,6vw,90px)' }
 
 const CSS = `

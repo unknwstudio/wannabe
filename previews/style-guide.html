@@ -29,10 +29,12 @@ body { font-family:'Unica 77 LL',sans-serif; background:#fff; color:#000; paddin
 .btn-subscribe:hover { filter:brightness(105%); }
 .btn-menu { background:none; border:none; font-family:inherit; font-weight:500; font-size:28px; letter-spacing:-0.04em; cursor:pointer; transition:opacity 150ms ease; }
 .btn-menu:hover { opacity:0.6; }
+.btn-subscribe-black { width:100%; padding:16px; border-radius:4px; border:none; background:#000; color:#fff; font-family:inherit; font-size:15px; cursor:pointer; display:inline-flex; justify-content:space-between; transition:background 200ms ease, color 200ms ease; }
+.btn-subscribe-black:hover { background:#8f67ff; }
 
 /* ── Chip ─────────────────────────────────────────────────── */
-.chip { display:inline-block; padding:4px 16px; border-radius:4px; background:#fff; box-shadow:0 1px 2px rgba(0,0,0,0.25); font-size:15px; font-weight:500; letter-spacing:-0.01em; text-decoration:none; color:#000; transition:opacity 150ms ease; }
-.chip:hover { opacity:0.7; }
+.chip { display:inline-flex; align-items:center; justify-content:space-between; padding:4px 8px; border-radius:4px; background:#eaeaea; font-size:14px; color:#000; cursor:pointer; text-decoration:none; transition:background 200ms ease, color 200ms ease; }
+.chip:hover { background:#8f67ff; color:#fff; }
 
 /* ── Toggle ───────────────────────────────────────────────── */
 .toggle-pill { border:1px solid #000; border-radius:40px; padding:4px; display:inline-flex; }
@@ -60,7 +62,7 @@ h2 { font-size:10px; font-weight:500; letter-spacing:0.12em; text-transform:uppe
 <body>
 
 <h1>wannabe.ru — style guide</h1>
-<p class="date">Generated 2026-03-25 · v3 — .text-h4 added</p>
+<p class="date">Generated 2026-03-26 · v4 — .chip updated, .btn-subscribe-black added</p>
 
 <!-- ══════════════════ 1. COLORS ══════════════════════════ -->
 <section>
@@ -141,6 +143,10 @@ h2 { font-size:10px; font-weight:500; letter-spacing:0.12em; text-transform:uppe
       <button class="btn-menu">+меню</button>
       <span class="meta">.btn-menu<br>text-only · hover: opacity 0.6</span>
     </div>
+    <div class="col" style="min-width:220px;">
+      <button class="btn-subscribe-black"><span>Зарегистрироваться</span><span>→</span></button>
+      <span class="meta">.btn-subscribe-black<br>#000 · hover: #8f67ff · arrow right-aligned</span>
+    </div>
   </div>
 </section>
 
@@ -161,8 +167,15 @@ h2 { font-size:10px; font-weight:500; letter-spacing:0.12em; text-transform:uppe
   <h2>5 — Badges & Pills</h2>
   <div class="row" style="align-items:flex-start;">
     <div class="col">
-      <a href="#" class="chip">next level concepts</a>
-      <span class="meta">.chip<br>white bg + shadow · 4px radius</span>
+      <a href="#" class="chip">смотреть портфолио →</a>
+      <span class="meta">.chip<br>#eaeaea bg · 4px radius · hover: #8f67ff</span>
+    </div>
+    <div class="col">
+      <div style="display:flex;gap:4px;flex-wrap:wrap;">
+        <span class="chip">Участие бесплатное</span>
+        <span class="chip">Записи не будет</span>
+      </div>
+      <span class="meta">.chip · event badges row · gap 4px</span>
     </div>
     <div class="col">
       <span class="text-small" style="border:1px solid #000;border-radius:40px;padding:4px 16px;display:inline-block;">с 13 марта вырастет до 105 000 ₽</span>
