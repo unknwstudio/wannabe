@@ -1,4 +1,6 @@
 {
+  "slug": "valuedesigner",
+  "publishedPath": "/events/valuedesigner",
   "badges": [
     "Дизайн-кружок WANNABE"
   ],
@@ -6,39 +8,26 @@
   "ctaLabel": "Зарегистрироваться",
   "description": "Эфир с Мишей Розовым, Дашей Щербаковой, Артёмом Казаковым и Эмиром Касымовым. 18 декабря в 19:30 по Москве",
   "eventDate": "18 декабря в 19:30 по",
-  "eventInfo": "Эфир с Мишей Розовым, Дашей Щербаковой, Артёмом Казаковым и Эмиром Касымовым",
-  "speakerAvatar": "/images/persons/emir-kasymov.webp",
-  "speakerName": "Эмир Касымов",
-  "speakerRoles": [],
+  "speakerIds": [
+    "emir-kasymov"
+  ],
+  "heroSubline": "Эфир с Мишей Розовым, Дашей Щербаковой, Артёмом Казаковым и Эмиром Касымовым",
   "quote": "Часто ощущают тревогу: «А вдруг уволят?», «Достаточно ли я хорош?»",
   "quoteHighlight": "Устойчивость — это навык, а не врождённая черта",
-  "forWhomTitle": "для кого",
-  "forWhom": [
+  "quoteSpeakerId": "emir-kasymov",
+  "contentSections": [
     {
-      "number": "01",
-      "boldText": "",
-      "text": "Переживают, что их могут заменить в любой момент"
-    },
-    {
-      "number": "02",
-      "boldText": "",
-      "text": "Часто ощущают тревогу: «А вдруг уволят?», «Достаточно ли я хорош?»"
-    },
-    {
-      "number": "03",
-      "boldText": "",
-      "text": "Хотят выстроить траекторию роста, которая защитит от увольнений и турбулентности рынка"
+      "headline": "для кого",
+      "items": [
+        "Переживают, что их могут заменить в любой момент",
+        "Часто ощущают тревогу: «А вдруг уволят?», «Достаточно ли я хорош?»",
+        "Хотят выстроить траекторию роста, которая защитит от увольнений и турбулентности рынка"
+      ]
     }
   ],
-  "programTitle": "программа",
-  "programDate": "",
-  "programItems": [],
-  "speakerSectionTitle": "спикер",
-  "speakerAbout": [],
-  "hosts": null,
+  "speakerCardIds": [
+    "emir-kasymov"
+  ],
   "formDate": "18 декабря в 19:30 по мск",
-  "formInfo": "",
-  "formEndpoint": "/api/events/valuedesigner/register",
-  "slug": "valuedesigner",
-  "publishedPath": "/events/valuedesigner"
+  "formEndpoint": "/api/events/valuedesigner/register"
 }

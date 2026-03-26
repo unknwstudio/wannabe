@@ -1,28 +1,21 @@
 {
+  "slug": "archive-sale",
+  "publishedPath": "/events/archive-sale",
   "badges": [
     "Курсы дизайнеров WANNABE, онлайн обучение для дизайнеров"
   ],
   "title": "креативный дом для дизайнеров, где каждый сезон приносит новые идеи и навыки — формируя непрерывный ритм роста, и доказательств твоей силы",
   "ctaLabel": "Зарегистрироваться",
   "description": "креативный дом для дизайнеров, где каждый сезон приносит новые идеи и навыки",
-  "eventDate": "",
-  "eventInfo": "",
-  "speakerAvatar": "/images/persons/misha-rozov.webp",
-  "speakerName": "Миша Розов",
-  "speakerRoles": [],
+  "speakerIds": [
+    "misha-rozov"
+  ],
   "quote": "«Продуктовая культура» — канал о создании продуктов и управлении ими",
-  "quoteHighlight": "",
-  "forWhomTitle": "для кого",
-  "forWhom": [],
-  "programTitle": "программа",
-  "programDate": "",
-  "programItems": [],
-  "speakerSectionTitle": "спикер",
-  "speakerAbout": [],
-  "hosts": null,
+  "quoteSpeakerId": "misha-rozov",
+  "speakerCardIds": [
+    "misha-rozov"
+  ],
   "formDate": "Расскажите о себе, чтобы продолжить",
   "formInfo": "Довольны обучениемНашли новую работуВыросли в грейдеПовысили доходThank you! Your submission has been received!Oops! Something went wrong while submitting the form.",
-  "formEndpoint": "/api/events/archive-sale/register",
-  "slug": "archive-sale",
-  "publishedPath": "/events/archive-sale"
+  "formEndpoint": "/api/events/archive-sale/register"
 }

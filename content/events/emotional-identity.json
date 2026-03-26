@@ -1,4 +1,6 @@
 {
+  "slug": "emotional-identity",
+  "publishedPath": "/events/emotional-identity",
   "badges": [
     "Дизайн-кружок WANNABE"
   ],
@@ -6,44 +8,27 @@
   "ctaLabel": "Зарегистрироваться",
   "description": "Эфир с Артёмом Казаковым, Лизой Северовой и Пашей Охотиным 19 марта в 19:00 по Москве",
   "eventDate": "19 марта в 19:00 по",
-  "eventInfo": "Эфир с Артёмом Казаковым, Лизой Северовой и Пашей Охотиным",
-  "speakerAvatar": "/images/persons/pasha-okhotin.webp",
-  "speakerName": "Паша Охотин",
-  "speakerRoles": [],
+  "speakerIds": [
+    "pasha-okhotin"
+  ],
+  "heroSubline": "Эфир с Артёмом Казаковым, Лизой Северовой и Пашей Охотиным",
   "quote": "Арт-директор wannabe и лидер тарифа «Мастерская» на T-Shaped Designer",
   "quoteHighlight": "Именно это отличает случайный визуал от сильной бренд-коммуникации",
-  "forWhomTitle": "для кого",
-  "forWhom": [
+  "quoteSpeakerId": "pasha-okhotin",
+  "contentSections": [
     {
-      "number": "01",
-      "boldText": "",
-      "text": "Хотят делать не отдельные макеты, а полноценные дизайн-концепции"
-    },
-    {
-      "number": "02",
-      "boldText": "",
-      "text": "Хотят научиться создавать визуальный язык бренда и переносить его в разные форматы дизайна"
-    },
-    {
-      "number": "03",
-      "boldText": "",
-      "text": "Работают с брендом фрагментами и хотят начать мыслить системно"
-    },
-    {
-      "number": "04",
-      "boldText": "",
-      "text": "Используют AI как генератор картинок, но пока не понимают, как применять его для поиска концепции и визуальной идеи"
+      "headline": "для кого",
+      "items": [
+        "Хотят делать не отдельные макеты, а полноценные дизайн-концепции",
+        "Хотят научиться создавать визуальный язык бренда и переносить его в разные форматы дизайна",
+        "Работают с брендом фрагментами и хотят начать мыслить системно",
+        "Используют AI как генератор картинок, но пока не понимают, как применять его для поиска концепции и визуальной идеи"
+      ]
     }
   ],
-  "programTitle": "программа",
-  "programDate": "",
-  "programItems": [],
-  "speakerSectionTitle": "спикер",
-  "speakerAbout": [],
-  "hosts": null,
+  "speakerCardIds": [
+    "pasha-okhotin"
+  ],
   "formDate": "19 марта в 19:00 по мск",
-  "formInfo": "",
-  "formEndpoint": "/api/events/emotional-identity/register",
-  "slug": "emotional-identity",
-  "publishedPath": "/events/emotional-identity"
+  "formEndpoint": "/api/events/emotional-identity/register"
 }

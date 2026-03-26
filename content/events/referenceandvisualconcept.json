@@ -1,4 +1,6 @@
 {
+  "slug": "referenceandvisualconcept",
+  "publishedPath": "/events/referenceandvisualconcept",
   "badges": [
     "Дизайн-кружок WANNABE"
   ],
@@ -6,40 +8,18 @@
   "ctaLabel": "Зарегистрироваться",
   "description": "Мастер-класс от Артёма Казакова 25 сентября, 19:00 по Москве",
   "eventDate": "25 сентября в 19:00 по",
-  "eventInfo": "Воркшоп с Артёмом Казаковым",
-  "speakerAvatar": "/images/events/referenceandvisualconcept/speaker.webp",
-  "speakerName": "Артёма Казакова",
-  "speakerRoles": [
-    "Лидер курса T-Shaped designerHead of Design в Pinkman",
-    "Лидер курса T-Shaped designer",
-    "Head of Design в Pinkman"
-  ],
+  "heroSubline": "Воркшоп с Артёмом Казаковым",
   "quote": "Выступает на Design Weekend, проводит вебинары о профессии дизайнера и индустрии, ведёт подкаст «Прожектор pinkman»",
-  "quoteHighlight": "",
-  "forWhomTitle": "для кого",
-  "forWhom": [],
-  "programTitle": "программа",
-  "programDate": "",
-  "programItems": [
+  "contentSections": [
     {
-      "number": "01",
-      "text": "01Работа с референсами и визуальной концепцией: теория, частые ошибки, как с ними работает лично Артём"
-    },
-    {
-      "number": "02",
-      "text": "02Как использовать референсы в лейаутах, типографике и цветах"
-    },
-    {
-      "number": "03",
-      "text": "03Мастер-класс от Артёма Казакова — собираем продуктовую страницу, используя референсы"
+      "headline": "программа",
+      "items": [
+        "01 — 01Работа с референсами и визуальной концепцией: теория, частые ошибки, как с ними работает лично Артём",
+        "02 — 02Как использовать референсы в лейаутах, типографике и цветах",
+        "03 — 03Мастер-класс от Артёма Казакова — собираем продуктовую страницу, используя референсы"
+      ]
     }
   ],
-  "speakerSectionTitle": "спикер",
-  "speakerAbout": [],
-  "hosts": null,
   "formDate": "25 сентября, 19:00 по мск",
-  "formInfo": "",
-  "formEndpoint": "/api/events/referenceandvisualconcept/register",
-  "slug": "referenceandvisualconcept",
-  "publishedPath": "/events/referenceandvisualconcept"
+  "formEndpoint": "/api/events/referenceandvisualconcept/register"
 }

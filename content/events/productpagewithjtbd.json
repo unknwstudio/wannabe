@@ -1,4 +1,6 @@
 {
+  "slug": "productpagewithjtbd",
+  "publishedPath": "/minicoursefree/productpagewithjtbd",
   "badges": [
     "Бесплатный курс в телеграм-боте от Миши Розова",
     "Начать учиться бесплатно"
@@ -6,28 +8,8 @@
   "title": "Делаем продуктовую страницу при помощи Jobs To Be Done",
   "ctaLabel": "Зарегистрироваться",
   "description": "Мини-курс для дизайнеров в телеграм-боте от Миши Розова",
-  "eventDate": "",
-  "eventInfo": "",
-  "speakerAvatar": "/images/events/productpagewithjtbd/speaker.webp",
-  "speakerName": "",
-  "speakerRoles": [
-    "Основатель WANNABEОснователь Pinkman",
-    "Основатель WANNABE",
-    "Основатель Pinkman"
-  ],
   "quote": "Начните бесплатный курс «Делаем продуктовую страницу при помощи Jobs To Be Done»",
   "quoteHighlight": "мини-тренажёр",
-  "forWhomTitle": "для кого",
-  "forWhom": [],
-  "programTitle": "программа",
-  "programDate": "",
-  "programItems": [],
-  "speakerSectionTitle": "спикер",
-  "speakerAbout": [],
-  "hosts": null,
   "formDate": "Начните бесплатный курс «Делаем продуктовую страницу при помощи Jobs To Be Done»",
-  "formInfo": "",
-  "formEndpoint": "/api/events/productpagewithjtbd/register",
-  "slug": "productpagewithjtbd",
-  "publishedPath": "/minicoursefree/productpagewithjtbd"
+  "formEndpoint": "/api/events/productpagewithjtbd/register"
 }

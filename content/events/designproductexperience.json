@@ -1,4 +1,6 @@
 {
+  "slug": "designproductexperience",
+  "publishedPath": "/events/designproductexperience",
   "badges": [
     "Участие бесплатное",
     "Записи не будет",
@@ -8,54 +10,28 @@
   "ctaLabel": "Зарегистрироваться",
   "description": "Трехдневный мастер-класс от Миши Розова и Юры Мешалкина 27, 28 и 29 мая, 19:00 по мск",
   "eventDate": "29 мая в 19:00 по мск",
-  "eventInfo": "Записи не будет",
-  "speakerAvatar": "/images/persons/misha-rozov.webp",
-  "speakerName": "Миша Розов",
-  "speakerRoles": [],
+  "speakerIds": [
+    "misha-rozov"
+  ],
+  "heroSubline": "Записи не будет",
   "quote": "За 7 лет студия Pinkman заработала больше 1 миллиарда рублей и поработала с «Яндексом», Mercedes, Nike, McDonald’s, СберБанком и другими",
-  "quoteHighlight": "",
-  "forWhomTitle": "для кого",
-  "forWhom": [
+  "quoteSpeakerId": "misha-rozov",
+  "contentSections": [
     {
-      "number": "01",
-      "boldText": "",
-      "text": "Как использовать продуктовый подход в вебе"
-    },
-    {
-      "number": "02",
-      "boldText": "",
-      "text": "Работа с дизайн-концепцией"
-    },
-    {
-      "number": "03",
-      "boldText": "",
-      "text": "Как 3D & AI помогают делать продвинутый визуал"
-    },
-    {
-      "number": "04",
-      "boldText": "",
-      "text": "Мастер-класс от Миши Розова"
-    },
-    {
-      "number": "05",
-      "boldText": "",
-      "text": "Компетенции, которые нужны для работы в продукте"
-    },
-    {
-      "number": "06",
-      "boldText": "",
-      "text": "Решение типовых продуктовых задач вместе с Юрой Мешалкиным"
+      "headline": "для кого",
+      "items": [
+        "Как использовать продуктовый подход в вебе",
+        "Работа с дизайн-концепцией",
+        "Как 3D & AI помогают делать продвинутый визуал",
+        "Мастер-класс от Миши Розова",
+        "Компетенции, которые нужны для работы в продукте",
+        "Решение типовых продуктовых задач вместе с Юрой Мешалкиным"
+      ]
     }
   ],
-  "programTitle": "программа",
-  "programDate": "",
-  "programItems": [],
-  "speakerSectionTitle": "спикер",
-  "speakerAbout": [],
-  "hosts": null,
+  "speakerCardIds": [
+    "misha-rozov"
+  ],
   "formDate": "27, 28 и 29 мая 19:00 по мск",
-  "formInfo": "",
-  "formEndpoint": "/api/events/designproductexperience/register",
-  "slug": "designproductexperience",
-  "publishedPath": "/events/designproductexperience"
+  "formEndpoint": "/api/events/designproductexperience/register"
 }

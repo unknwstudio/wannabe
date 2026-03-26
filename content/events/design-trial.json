@@ -1,4 +1,6 @@
 {
+  "slug": "design-trial",
+  "publishedPath": "/events/design-trial",
   "badges": [
     "Бесплатно",
     "Бесплатный мини-курс от Миши Розова по работе с референсами"
@@ -7,71 +9,36 @@
   "ctaLabel": "Зарегистрироваться",
   "description": "Бесплатный мини-курс от Миши Розова",
   "eventDate": "4 часа обучения",
-  "eventInfo": "Бесплатный мини-курс от Миши Розова по работе с референсами",
-  "speakerAvatar": "/images/persons/misha-rozov.webp",
-  "speakerName": "Миша Розов",
-  "speakerRoles": [
-    "Основатель WANNABEОснователь Pinkman",
-    "Основатель WANNABE",
-    "Основатель Pinkman"
+  "speakerIds": [
+    "misha-rozov"
   ],
+  "heroSubline": "Бесплатный мини-курс от Миши Розова по работе с референсами",
   "quote": "Хочешь аргументировать свои работы перед заказчиком не на уровне «ну... это красиво»",
-  "quoteHighlight": "",
-  "forWhomTitle": "для кого",
-  "forWhom": [
+  "quoteSpeakerId": "misha-rozov",
+  "contentSections": [
     {
-      "number": "01",
-      "boldText": "",
-      "text": "Методология Миши Розова"
+      "headline": "для кого",
+      "items": [
+        "Методология Миши Розова",
+        "Как делить референсы на слои",
+        "Список ресурсов, где искать референсы",
+        "Процесс работы от Миши Розова",
+        "Что сделать: обновить визуал",
+        "Как: по нашей методологии"
+      ]
     },
     {
-      "number": "02",
-      "boldText": "",
-      "text": "Как делить референсы на слои"
-    },
-    {
-      "number": "03",
-      "boldText": "",
-      "text": "Список ресурсов, где искать референсы"
-    },
-    {
-      "number": "04",
-      "boldText": "",
-      "text": "Процесс работы от Миши Розова"
-    },
-    {
-      "number": "05",
-      "boldText": "",
-      "text": "Что сделать: обновить визуал"
-    },
-    {
-      "number": "06",
-      "boldText": "",
-      "text": "Как: по нашей методологии"
+      "headline": "программа",
+      "items": [
+        "01 — Основал топ3-студию Pinkman. За 7 лет студия заработала больше 1 миллиарда рублей. Клиенты студии — Британская Школа Дизайна, BestDoctor, Нетология, Яндекс, Mercedes, Nike, Skoda, McDonald’s, СберБанк, ВТБ и др.",
+        "02 — Основал WANNABE и передал свой опыт и навыки >2000 человек. У курсов уровень удовлетворенности 95%+Все отзывы на все потоки курсов→",
+        "03 — С командой студии сделал пэк из 1000 3D-иконок, и получил Product of the Day на Product HuntПэк 3D-иконок→На Behance можно посмотреть актуальные проектыПортфолио проектов на Behance→"
+      ]
     }
   ],
-  "programTitle": "программа",
-  "programDate": "",
-  "programItems": [
-    {
-      "number": "01",
-      "text": "Основал топ3-студию Pinkman. За 7 лет студия заработала больше 1 миллиарда рублей. Клиенты студии — Британская Школа Дизайна, BestDoctor, Нетология, Яндекс, Mercedes, Nike, Skoda, McDonald’s, СберБанк, ВТБ и др."
-    },
-    {
-      "number": "02",
-      "text": "Основал WANNABE и передал свой опыт и навыки >2000 человек. У курсов уровень удовлетворенности 95%+Все отзывы на все потоки курсов→"
-    },
-    {
-      "number": "03",
-      "text": "С командой студии сделал пэк из 1000 3D-иконок, и получил Product of the Day на Product HuntПэк 3D-иконок→На Behance можно посмотреть актуальные проектыПортфолио проектов на Behance→"
-    }
+  "speakerCardIds": [
+    "misha-rozov"
   ],
-  "speakerSectionTitle": "спикер",
-  "speakerAbout": [],
-  "hosts": null,
   "formDate": "Расскажите о себе, чтобы продолжить",
-  "formInfo": "",
-  "formEndpoint": "/api/events/design-trial/register",
-  "slug": "design-trial",
-  "publishedPath": "/events/design-trial"
+  "formEndpoint": "/api/events/design-trial/register"
 }

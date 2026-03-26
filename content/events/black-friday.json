@@ -1,28 +1,14 @@
 {
+  "slug": "black-friday",
+  "publishedPath": "/events/black-friday",
   "badges": [
     "много бесплатного и доступного контента"
   ],
   "title": "Обучение для тех, кто хочет стать по-настоящему сильным",
   "ctaLabel": "Зарегистрироваться",
   "description": "Обучение для дизайнеров и product-менеджеров. Учитесь проектировать, запускать и развивать цифровые продукты.",
-  "eventDate": "",
-  "eventInfo": "Неочевидные способы развивать навыки продакта. Часть 2",
-  "speakerAvatar": "",
-  "speakerName": "",
-  "speakerRoles": [],
+  "heroSubline": "Неочевидные способы развивать навыки продакта. Часть 2",
   "quote": "«Продуктовая культура» — канал о создании продуктов и управлении ими",
-  "quoteHighlight": "",
-  "forWhomTitle": "для кого",
-  "forWhom": [],
-  "programTitle": "программа",
-  "programDate": "",
-  "programItems": [],
-  "speakerSectionTitle": "спикер",
-  "speakerAbout": [],
-  "hosts": null,
   "formDate": "Расскажите о себе, чтобы продолжить",
-  "formInfo": "",
-  "formEndpoint": "/api/events/black-friday/register",
-  "slug": "black-friday",
-  "publishedPath": "/events/black-friday"
+  "formEndpoint": "/api/events/black-friday/register"
 }

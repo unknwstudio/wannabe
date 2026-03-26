@@ -1,4 +1,6 @@
 {
+  "slug": "uxuiliveshow",
+  "publishedPath": "/events/uxuiliveshow",
   "badges": [
     "Дизайн-кружок WANNABE"
   ],
@@ -6,25 +8,8 @@
   "ctaLabel": "Зарегистрироваться",
   "description": "В прямом эфире покажем, как улучшить интерфейсы Booking.com, Nike Training Club и Tripadvisor",
   "eventDate": "25 августа, 19:00",
-  "eventInfo": "Дарья Щербакова",
-  "speakerAvatar": "/images/events/uxuiliveshow/speaker.webp",
-  "speakerName": "Дарья Щербакова",
-  "speakerRoles": [
-    "Senior Product Designer в Emex"
-  ],
+  "heroSubline": "Дарья Щербакова",
   "quote": "«Продуктовая культура» — канал о создании продуктов и управлении ими",
-  "quoteHighlight": "",
-  "forWhomTitle": "для кого",
-  "forWhom": [],
-  "programTitle": "программа",
-  "programDate": "",
-  "programItems": [],
-  "speakerSectionTitle": "спикер",
-  "speakerAbout": [],
-  "hosts": null,
   "formDate": "25 августа в 19:00 по Москве",
-  "formInfo": "",
-  "formEndpoint": "/api/events/uxuiliveshow/register",
-  "slug": "uxuiliveshow",
-  "publishedPath": "/events/uxuiliveshow"
+  "formEndpoint": "/api/events/uxuiliveshow/register"
 }

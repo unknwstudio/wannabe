@@ -1,4 +1,6 @@
 {
+  "slug": "notboringdesign",
+  "publishedPath": "/events/notboringdesign",
   "badges": [
     "Дизайн-кружок WANNABE"
   ],
@@ -6,44 +8,20 @@
   "ctaLabel": "Зарегистрироваться",
   "description": "Мастер-класс от Миши Розова и Артёма Казакова 10 марта, 19:00 по Москве",
   "eventDate": "10 марта в 19:00 по",
-  "eventInfo": "Миша Розов и Артём Казаков",
-  "speakerAvatar": "/images/events/notboringdesign/speaker.webp",
-  "speakerName": "Артёма Казакова",
-  "speakerRoles": [],
+  "heroSubline": "Миша Розов и Артём Казаков",
   "quote": "Смотришь на своё портфолио и думаешь: «Ну... нормально»",
   "quoteHighlight": "Это навык — и его можно разобрать",
-  "forWhomTitle": "для кого",
-  "forWhom": [
+  "contentSections": [
     {
-      "number": "01",
-      "boldText": "",
-      "text": "Смотришь на своё портфолио и думаешь: «Ну... нормально»"
-    },
-    {
-      "number": "02",
-      "boldText": "",
-      "text": "Видишь, что визуально всё аккуратно, но ничего не цепляет"
-    },
-    {
-      "number": "03",
-      "boldText": "",
-      "text": "Собираешь референсы пачками, но не понимаешь, как из них рождается идея"
-    },
-    {
-      "number": "04",
-      "boldText": "",
-      "text": "Слышишь от заказчиков: «Всё ок, но хочется чего-то поинтереснее»"
+      "headline": "для кого",
+      "items": [
+        "Смотришь на своё портфолио и думаешь: «Ну... нормально»",
+        "Видишь, что визуально всё аккуратно, но ничего не цепляет",
+        "Собираешь референсы пачками, но не понимаешь, как из них рождается идея",
+        "Слышишь от заказчиков: «Всё ок, но хочется чего-то поинтереснее»"
+      ]
     }
   ],
-  "programTitle": "программа",
-  "programDate": "",
-  "programItems": [],
-  "speakerSectionTitle": "спикер",
-  "speakerAbout": [],
-  "hosts": null,
   "formDate": "10 марта в 19:00 по мск",
-  "formInfo": "",
-  "formEndpoint": "/api/events/notboringdesign/register",
-  "slug": "notboringdesign",
-  "publishedPath": "/events/notboringdesign"
+  "formEndpoint": "/api/events/notboringdesign/register"
 }

@@ -1,4 +1,6 @@
 {
+  "slug": "designintensive",
+  "publishedPath": "/events/designintensive",
   "badges": [
     "Участие бесплатное",
     "Записи не будет",
@@ -8,54 +10,28 @@
   "ctaLabel": "Зарегистрироваться",
   "description": "Интенсив с Мишей Розовым, Лизой Северовой, Дашей Щербаковой 13, 14 и 15 мая в 19:00 по мск",
   "eventDate": "15 мая 19:00 по мск",
-  "eventInfo": "Записи не будет",
-  "speakerAvatar": "/images/persons/misha-rozov.webp",
-  "speakerName": "Миша Розов",
-  "speakerRoles": [],
+  "speakerIds": [
+    "misha-rozov"
+  ],
+  "heroSubline": "Записи не будет",
   "quote": "За 7 лет студия Pinkman заработала больше 1 миллиарда рублей и поработала с «Яндексом», Mercedes, Nike, McDonald’s, СберБанком и другими",
-  "quoteHighlight": "",
-  "forWhomTitle": "для кого",
-  "forWhom": [
+  "quoteSpeakerId": "misha-rozov",
+  "contentSections": [
     {
-      "number": "01",
-      "boldText": "",
-      "text": "Основы графдизайна, композицию и типографику"
-    },
-    {
-      "number": "02",
-      "boldText": "",
-      "text": "Как сделать первые шаги в продуктовом дизайне, user flow и job story"
-    },
-    {
-      "number": "03",
-      "boldText": "",
-      "text": "Компетенции дизайнера: что самое важное и из чего состоит база профессии"
-    },
-    {
-      "number": "04",
-      "boldText": "",
-      "text": "Путь дизайнера: как дойти от джуниора до дизайн лида, как не застревать на одном уровне"
-    },
-    {
-      "number": "05",
-      "boldText": "",
-      "text": "Зачем нужно знать графдизайн, примеры хорошего и плохого графдизайна"
-    },
-    {
-      "number": "06",
-      "boldText": "",
-      "text": "Как работает композиция"
+      "headline": "для кого",
+      "items": [
+        "Основы графдизайна, композицию и типографику",
+        "Как сделать первые шаги в продуктовом дизайне, user flow и job story",
+        "Компетенции дизайнера: что самое важное и из чего состоит база профессии",
+        "Путь дизайнера: как дойти от джуниора до дизайн лида, как не застревать на одном уровне",
+        "Зачем нужно знать графдизайн, примеры хорошего и плохого графдизайна",
+        "Как работает композиция"
+      ]
     }
   ],
-  "programTitle": "программа",
-  "programDate": "",
-  "programItems": [],
-  "speakerSectionTitle": "спикер",
-  "speakerAbout": [],
-  "hosts": null,
+  "speakerCardIds": [
+    "misha-rozov"
+  ],
   "formDate": "13, 14 и 15 мая 19:00 по мск Записи не будет",
-  "formInfo": "",
-  "formEndpoint": "/api/events/designintensive/register",
-  "slug": "designintensive",
-  "publishedPath": "/events/designintensive"
+  "formEndpoint": "/api/events/designintensive/register"
 }

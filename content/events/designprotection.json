@@ -1,4 +1,6 @@
 {
+  "slug": "designprotection",
+  "publishedPath": "/events/designprotection",
   "badges": [
     "Дизайн-кружок WANNABE"
   ],
@@ -6,23 +8,16 @@
   "ctaLabel": "Зарегистрироваться",
   "description": "Мастер-класс от Миши Розова и Даши Щербаковой",
   "eventDate": "22 сентября, 19:00",
-  "eventInfo": "Миша Розов и Даша Щербакова",
-  "speakerAvatar": "/images/persons/misha-rozov.webp",
-  "speakerName": "Миша Розов",
-  "speakerRoles": [],
+  "speakerIds": [
+    "misha-rozov"
+  ],
+  "heroSubline": "Миша Розов и Даша Щербакова",
   "quote": "«Продуктовая культура» — канал о создании продуктов и управлении ими",
   "quoteHighlight": "нехватку глубины и системности",
-  "forWhomTitle": "для кого",
-  "forWhom": [],
-  "programTitle": "программа",
-  "programDate": "",
-  "programItems": [],
-  "speakerSectionTitle": "спикер",
-  "speakerAbout": [],
-  "hosts": null,
+  "quoteSpeakerId": "misha-rozov",
+  "speakerCardIds": [
+    "misha-rozov"
+  ],
   "formDate": "22 сентября, 19:00 по мск",
-  "formInfo": "",
-  "formEndpoint": "/api/events/designprotection/register",
-  "slug": "designprotection",
-  "publishedPath": "/events/designprotection"
+  "formEndpoint": "/api/events/designprotection/register"
 }

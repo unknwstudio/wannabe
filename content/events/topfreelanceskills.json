@@ -1,4 +1,6 @@
 {
+  "slug": "topfreelanceskills",
+  "publishedPath": "/events/topfreelanceskills",
   "badges": [
     "Дизайн-кружок WANNABE"
   ],
@@ -6,34 +8,18 @@
   "ctaLabel": "Зарегистрироваться",
   "description": "Мастер-класс от Миши Розова и Артёма Казакова 20 августа, 19:00 по Москве",
   "eventDate": "20 августа в 19:00 по",
-  "eventInfo": "Миша Розов и Артём Казаков",
-  "speakerAvatar": "/images/events/topfreelanceskills/speaker.webp",
-  "speakerName": "Артёма Казакова",
-  "speakerRoles": [],
+  "heroSubline": "Миша Розов и Артём Казаков",
   "quote": "За 7 лет студия Pinkman заработала больше 1 миллиарда рублей и поработала с «Яндексом», Mercedes, Nike, McDonald’s, СберБанком и другими",
   "quoteHighlight": "Но все они закрыты, если дизайнер не умеет работать системно, быстро и предсказуемо",
-  "forWhomTitle": "для кого",
-  "forWhom": [
+  "contentSections": [
     {
-      "number": "01",
-      "boldText": "",
-      "text": "Хотят пройти путь от дизайнера с сырым портфолио к востребованному фрилансеру"
-    },
-    {
-      "number": "02",
-      "boldText": "",
-      "text": "Научиться качественно и быстро решать задачи, с которыми чаще всего приходят заказчики — баннеры, лендинги и интерфейсы"
+      "headline": "для кого",
+      "items": [
+        "Хотят пройти путь от дизайнера с сырым портфолио к востребованному фрилансеру",
+        "Научиться качественно и быстро решать задачи, с которыми чаще всего приходят заказчики — баннеры, лендинги и интерфейсы"
+      ]
     }
   ],
-  "programTitle": "программа",
-  "programDate": "",
-  "programItems": [],
-  "speakerSectionTitle": "спикер",
-  "speakerAbout": [],
-  "hosts": null,
   "formDate": "20 августа в 19:00 по мск",
-  "formInfo": "",
-  "formEndpoint": "/api/events/topfreelanceskills/register",
-  "slug": "topfreelanceskills",
-  "publishedPath": "/events/topfreelanceskills"
+  "formEndpoint": "/api/events/topfreelanceskills/register"
 }
