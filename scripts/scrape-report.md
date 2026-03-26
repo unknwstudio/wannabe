@@ -1,12 +1,12 @@
 # Scrape Report
-Generated: 2026-03-26T00:59:06.737Z
+Generated: 2026-03-26T00:59:40.430Z
 
 ## Summary
-- Pages scraped successfully: 25
+- Pages scraped successfully: 28
 - Pages with errors: 0
-- Pages with extra sections: 25
-- Pages with missing data: 25
-- Images downloaded: 158
+- Pages with extra sections: 28
+- Pages with missing data: 28
+- Images downloaded: 171
 
 ## Successful Pages
 - ✓ design-trial-reg
@@ -34,6 +34,9 @@ Generated: 2026-03-26T00:59:06.737Z
 - ✓ product-trial
 - ✓ artdirection
 - ✓ designproductexperience
+- ✓ fromfeaturestostrategy
+- ✓ pm-competence
+- ✓ designintensive
 
 ## Errors
 
@@ -63,6 +66,9 @@ Generated: 2026-03-26T00:59:06.737Z
 - product-trial: 3 section(s) at [after-hero, after-quote, after-for-whom]
 - artdirection: 3 section(s) at [after-hero, after-quote, after-for-whom]
 - designproductexperience: 3 section(s) at [after-hero, after-quote, after-for-whom]
+- fromfeaturestostrategy: 3 section(s) at [after-hero, after-quote, after-for-whom]
+- pm-competence: 3 section(s) at [after-hero, after-quote, after-for-whom]
+- designintensive: 3 section(s) at [after-hero, after-quote, after-for-whom]
 
 ## Missing Data
 - design-trial-reg: missing eventDate, programItems
@@ -90,6 +96,9 @@ Generated: 2026-03-26T00:59:06.737Z
 - product-trial: missing eventDate, programItems
 - artdirection: missing programItems
 - designproductexperience: missing programItems
+- fromfeaturestostrategy: missing programItems
+- pm-competence: missing programItems
+- designintensive: missing programItems
 
 ## Images
 - ✓ design-trial-reg/speaker.webp
@@ -250,3 +259,16 @@ Generated: 2026-03-26T00:59:06.737Z
 - ✓ designproductexperience/image-1.webp
 - ✓ designproductexperience/image-2.webp
 - ✓ designproductexperience/image-5.webp
+- ✓ fromfeaturestostrategy/speaker.webp
+- ✓ fromfeaturestostrategy/image-3.webp
+- ✓ fromfeaturestostrategy/image-4.svg
+- ✓ pm-competence/speaker.webp
+- ✓ pm-competence/image-1.webp
+- ✓ pm-competence/image-3.webp
+- ✓ pm-competence/image-4.webp
+- ✓ pm-competence/image-5.svg
+- ✓ designintensive/speaker.webp
+- ✓ designintensive/image-1.webp
+- ✓ designintensive/image-2.webp
+- ✓ designintensive/image-3.webp
+- ✓ designintensive/image-6.webp
