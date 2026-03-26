@@ -1,24 +1,59 @@
 {
-  "badges": [],
+  "badges": [
+    "Дизайн-кружок WANNABE"
+  ],
   "title": "Отпуск на Мальдивах: научимся формулировать JTBD и создавать сценарии для эмоционального пользовательского опыта",
   "ctaLabel": "Зарегистрироваться",
   "description": "Воркшоп от Даши Щербаковой, 03 марта, 19:00 по Москве",
   "eventDate": "03 марта в 19:00 по Москве",
-  "eventInfo": "",
+  "eventInfo": "Воркшоп с Дашей Щербаковой",
   "speakerAvatar": "/images/events/designvacation/speaker.webp",
   "speakerName": "Даша Щербакова",
-  "speakerRoles": [],
+  "speakerRoles": [
+    "Арт-директор WANNABE и лидер курса Superpowered UX/UI"
+  ],
   "quote": "Получают много правок и слышат «что-то не то», но не понимают, где именно проблема",
-  "quoteHighlight": "",
+  "quoteHighlight": "Появляется логика, уверенность и ясный путь к результату — от задачи к эмоции и UX-решению",
   "forWhomTitle": "для кого",
-  "forWhom": [],
+  "forWhom": [
+    {
+      "number": "01",
+      "boldText": "",
+      "text": "Хотят спланировать отпуск мечты — пусть пока только в JTBD и сценариях"
+    },
+    {
+      "number": "02",
+      "boldText": "",
+      "text": "Часто не уверены в своих решениях и тяжело их защищают"
+    },
+    {
+      "number": "03",
+      "boldText": "",
+      "text": "Чувствуют, что JTBD — это какое-то умное слово, но не понимают, как реально применять его в работе"
+    },
+    {
+      "number": "04",
+      "boldText": "",
+      "text": "Получают много правок и слышат «что-то не то», но не понимают, где именно проблема"
+    },
+    {
+      "number": "05",
+      "boldText": "",
+      "text": "Хотят проектировать пользовательский опыт как систему, а не набор отдельных решений"
+    },
+    {
+      "number": "06",
+      "boldText": "",
+      "text": "Думают о росте в UX, продуктовых ролях и более сложных задачах"
+    }
+  ],
   "programTitle": "программа",
   "programDate": "",
   "programItems": [],
   "speakerSectionTitle": "спикер",
   "speakerAbout": [],
   "hosts": null,
-  "formDate": "",
+  "formDate": "03 марта в 19:00 по мск",
   "formInfo": "",
   "formEndpoint": "/api/events/designvacation/register",
   "slug": "designvacation",

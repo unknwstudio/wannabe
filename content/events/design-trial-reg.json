@@ -6,11 +6,15 @@
   "title": "Как работать с референсами",
   "ctaLabel": "Зарегистрироваться",
   "description": "Бесплатный мини-курс от Миши Розова",
-  "eventDate": "",
-  "eventInfo": "",
+  "eventDate": "4 часа обучения",
+  "eventInfo": "Бесплатный мини-курс от Миши Розова по работе с референсами",
   "speakerAvatar": "/images/events/design-trial-reg/speaker.webp",
   "speakerName": "",
-  "speakerRoles": [],
+  "speakerRoles": [
+    "Основатель WANNABEОснователь Pinkman",
+    "Основатель WANNABE",
+    "Основатель Pinkman"
+  ],
   "quote": "Хочешь аргументировать свои работы перед заказчиком не на уровне «ну... это красиво»",
   "quoteHighlight": "",
   "forWhomTitle": "для кого",
@@ -48,11 +52,24 @@
   ],
   "programTitle": "программа",
   "programDate": "",
-  "programItems": [],
+  "programItems": [
+    {
+      "number": "01",
+      "text": "Основал топ3-студию Pinkman. За 7 лет студия заработала больше 1 миллиарда рублей. Клиенты студии — Британская Школа Дизайна, BestDoctor, Нетология, Яндекс, Mercedes, Nike, Skoda, McDonald’s, СберБанк, ВТБ и др."
+    },
+    {
+      "number": "02",
+      "text": "Основал WANNABE и передал свой опыт и навыки >2000 человек. У курсов уровень удовлетворенности 95%+Все отзывы на все потоки курсов→"
+    },
+    {
+      "number": "03",
+      "text": "С командой студии сделал пэк из 1000 3D-иконок, и получил Product of the Day на Product HuntПэк 3D-иконок→На Behance можно посмотреть актуальные проектыПортфолио проектов на Behance→"
+    }
+  ],
   "speakerSectionTitle": "спикер",
   "speakerAbout": [],
   "hosts": null,
-  "formDate": "",
+  "formDate": "Присоединитесь к триалу",
   "formInfo": "",
   "formEndpoint": "/api/events/design-trial-reg/register",
   "slug": "design-trial-reg",
