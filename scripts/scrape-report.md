@@ -1,12 +1,12 @@
 # Scrape Report
-Generated: 2026-03-26T00:55:48.177Z
+Generated: 2026-03-26T00:56:45.855Z
 
 ## Summary
-- Pages scraped successfully: 10
+- Pages scraped successfully: 15
 - Pages with errors: 0
-- Pages with extra sections: 10
-- Pages with missing data: 10
-- Images downloaded: 66
+- Pages with extra sections: 15
+- Pages with missing data: 15
+- Images downloaded: 97
 
 ## Successful Pages
 - ✓ design-trial-reg
@@ -19,6 +19,11 @@ Generated: 2026-03-26T00:55:48.177Z
 - ✓ valuedesigner
 - ✓ archive-sale
 - ✓ cleansheet
+- ✓ black-friday
+- ✓ elitefreelancer
+- ✓ referenceandvisualconcept
+- ✓ designprotection
+- ✓ product-trial-reg
 
 ## Errors
 
@@ -33,6 +38,11 @@ Generated: 2026-03-26T00:55:48.177Z
 - valuedesigner: 3 section(s) at [after-hero, after-quote, after-for-whom]
 - archive-sale: 3 section(s) at [after-hero, after-quote, after-for-whom]
 - cleansheet: 3 section(s) at [after-hero, after-quote, after-for-whom]
+- black-friday: 3 section(s) at [after-hero, after-quote, after-for-whom]
+- elitefreelancer: 3 section(s) at [after-hero, after-quote, after-for-whom]
+- referenceandvisualconcept: 3 section(s) at [after-hero, after-quote, after-for-whom]
+- designprotection: 3 section(s) at [after-hero, after-quote, after-for-whom]
+- product-trial-reg: 3 section(s) at [after-hero, after-quote, after-for-whom]
 
 ## Missing Data
 - design-trial-reg: missing eventDate, programItems
@@ -45,6 +55,11 @@ Generated: 2026-03-26T00:55:48.177Z
 - valuedesigner: missing programItems
 - archive-sale: missing speakerName, eventDate, programItems
 - cleansheet: missing programItems
+- black-friday: missing speakerName, eventDate, programItems
+- elitefreelancer: missing programItems
+- referenceandvisualconcept: missing programItems
+- designprotection: missing programItems
+- product-trial-reg: missing eventDate, programItems
 
 ## Images
 - ✓ design-trial-reg/speaker.webp
@@ -113,3 +128,34 @@ Generated: 2026-03-26T00:55:48.177Z
 - ✓ cleansheet/image-7.svg
 - ✓ cleansheet/image-8.svg
 - ✓ cleansheet/image-9.svg
+- ✓ black-friday/speaker.webp
+- ✓ black-friday/image-1.webp
+- ✓ black-friday/image-2.webp
+- ✓ black-friday/image-3.svg
+- ✓ black-friday/image-4.svg
+- ✓ black-friday/image-5.svg
+- ✓ black-friday/image-6.svg
+- ✓ black-friday/image-7.svg
+- ✓ black-friday/image-8.svg
+- ✓ black-friday/image-9.svg
+- ✓ elitefreelancer/speaker.webp
+- ✓ elitefreelancer/image-1.webp
+- ✓ elitefreelancer/image-3.webp
+- ✓ elitefreelancer/image-6.webp
+- ✓ referenceandvisualconcept/speaker.webp
+- ✓ referenceandvisualconcept/image-3.svg
+- ✓ referenceandvisualconcept/image-4.svg
+- ✓ referenceandvisualconcept/image-5.webp
+- ✓ referenceandvisualconcept/image-6.webp
+- ✓ designprotection/speaker.webp
+- ✓ designprotection/image-1.webp
+- ✓ designprotection/image-2.webp
+- ✓ designprotection/image-6.webp
+- ✓ product-trial-reg/speaker.webp
+- ✓ product-trial-reg/image-2.webp
+- ✓ product-trial-reg/image-3.webp
+- ✓ product-trial-reg/image-4.webp
+- ✓ product-trial-reg/image-5.webp
+- ✓ product-trial-reg/image-6.webp
+- ✓ product-trial-reg/image-7.webp
+- ✓ product-trial-reg/image-9.svg
