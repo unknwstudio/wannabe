@@ -1,0 +1,42 @@
+{
+  "slug": "artdirection",
+  "publishedPath": "/events/artdirection",
+  "badges": [
+    "Участие бесплатное"
+  ],
+  "title": "Почему всем дизайнерам нужен арт-дирекшен",
+  "ctaLabel": "Зарегистрироваться",
+  "description": "Мастер-класс от Миши Розова и Мити Осадчука 16 июня в 19:00 по мск",
+  "eventDate": "16 июня в 19:00 по мскЗарегистрироваться↓Мастер-кл, 19:00",
+  "eventInfo": "",
+  "speakerAvatar": "/images/events/artdirection/speaker.webp",
+  "speakerName": "Миша Розов",
+  "speakerRoles": [],
+  "quote": "За 7 лет студия Pinkman заработала больше 1 миллиарда рублей и поработала с «Яндексом», Mercedes, Nike, McDonald’s, СберБанком и другими",
+  "quoteHighlight": "",
+  "forWhomTitle": "для кого",
+  "forWhom": [],
+  "programTitle": "программа",
+  "programDate": "",
+  "programItems": [],
+  "speakerSectionTitle": "спикер",
+  "speakerAbout": [],
+  "hosts": null,
+  "formDate": "",
+  "formInfo": "Зарегистрироваться→Нажимая кнопку, я принимаю условия оферты и соглашаюсь на обработку персональных данных←НазадРасскажите о себе, чтобы продолжитьВ каком направлении вы работаете? Маркетинг Продакт-м",
+  "formEndpoint": "/api/events/artdirection/register",
+  "extraSections": [
+    {
+      "position": "after-hero",
+      "html": "<div class=\"hero__grid hero__grid--wider\"><div class=\"container-749 flex-v-24 flex-v-24--mob-12\"><div class=\"tags-wrap\"><div class=\"violet-tag\">Участие бесплатное</div><div class=\"violet-tag\">С записью</div></div><h1 class=\"h1-negative-margin\">Почему всем дизайнерам нужен&nbsp;арт-дирекшен</h1></div><div class=\"card card--announcement card--sm card--announcement-wide card--announcement-wide--not-last\"><div class=\"flex-v-12 flex-v-12--mob-8\"><div class=\"event__photos-block\"><img src=\"https://cdn.prod.website-files.com/663e20e43c55b32b80cbc405/68347c700f31a532f6eb5a86_mitya-osadchuk.webp\" loading=\"eager\" alt=\"\" class=\"icon-40 icon-40--bordered\"><img src=\"https://cdn.prod.website-files.com/663e20e43c55b32b80cbc405/671f56f99a01de9dc8e02d80_misha-dark-crop.webp\" loading=\"eager\" alt=\"\" class=\"icon-40 icon-40--bordered\"></div><p class=\"text-xs\">Митя Осадчук даёт фидбэк Мише&nbsp;Розову</p><p class=\"h3\">16 июня в&nbsp;19:00&nbsp;по&nbsp;мск</p></div></div><div id=\"w-node-_8e8c0da4-aac1-9919-4780-ed0abfec182a-171897ae\" class=\"container-749 flex-v-24 flex-v-24--mob-12\"><div class=\"container-498 is--full-width-mob\"><a href=\"#request\" class=\"btn btn--arrow btn--l btn--black w-inline-block\"><p>Зарегистрироваться</p><p>↓</p></a></div><p class=\"is--dark-grey\">Мастер-класс для дизайнеров, у&nbsp;которых нет сильных наставников в&nbsp;команде&nbsp;— как распознать хороший арт-дирекшен и&nbsp;где его искать</p></div></div>"
+    },
+    {
+      "position": "after-quote",
+      "html": "<div class=\"container-749\"><div class=\"heading-block\"><h2>Будет полезно Junior- и&nbsp;Middle-дизайнерам с&nbsp;опытом в&nbsp;UX/UI или&nbsp;из&nbsp;других сфер, которые:</h2></div><div class=\"flex-v-4 flex-v-4--mob-8\"><div class=\"card\"><p class=\"is--dark-grey container-574\">Чувствуют стагнацию, варятся в&nbsp;собственном соку, только в&nbsp;контексте своей команды, не&nbsp;растут и&nbsp;долго остаются в&nbsp;одном грейде</p></div><div class=\"card\"><p class=\"is--dark-grey container-574\">Регулярно сдают задачи с&nbsp;десятого раза и&nbsp;с&nbsp;кучей стресса, так как не&nbsp;понимают, где ошибка, почему не&nbsp;работает то&nbsp;или иное решение</p></div></div></div>"
+    },
+    {
+      "position": "after-for-whom",
+      "html": "<div class=\"flex-v-48 flex-v-48--mob-20\"><h2>Вы&nbsp;увидите, как&nbsp;работают два&nbsp;сильнейших дизайнера</h2><div class=\"flex-v-4 flex-v-4--mob-8 container-749\"><div class=\"card\"><div class=\"card__inner-ordered-grid card__inner-ordered-grid--mob-flex\"><p class=\"is--dark-grey\">01</p><p>Миша и&nbsp;Митя на&nbsp;деле покажут, что&nbsp;даже сильнейшим очень помогает внешний взгляд</p></div></div><div class=\"card\"><div class=\"card__inner-ordered-grid card__inner-ordered-grid--mob-flex\"><p class=\"is--dark-grey\">02</p><p>Чем больше сильных арт-директоров в&nbsp;жизни дизайнера, тем&nbsp;шире картина мира и&nbsp;качество его работы</p></div></div></div></div>"
+    }
+  ]
+}

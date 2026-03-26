@@ -1,0 +1,40 @@
+{
+  "slug": "topfreelanceskills",
+  "publishedPath": "/events/topfreelanceskills",
+  "badges": [],
+  "title": "Top freelance skills для начинающих дизайнеров",
+  "ctaLabel": "Зарегистрироваться",
+  "description": "Мастер-класс от Миши Розова и Артёма Казакова 20 августа, 19:00 по Москве",
+  "eventDate": "20 августа в 19:00 по МосквеЗарегистрироваться↓Мас, 19:00",
+  "eventInfo": "",
+  "speakerAvatar": "/images/events/topfreelanceskills/speaker.webp",
+  "speakerName": "Фото Артёма",
+  "speakerRoles": [],
+  "quote": "За 7 лет студия Pinkman заработала больше 1 миллиарда рублей и поработала с «Яндексом», Mercedes, Nike, McDonald’s, СберБанком и другими",
+  "quoteHighlight": "",
+  "forWhomTitle": "для кого",
+  "forWhom": [],
+  "programTitle": "программа",
+  "programDate": "",
+  "programItems": [],
+  "speakerSectionTitle": "спикер",
+  "speakerAbout": [],
+  "hosts": null,
+  "formDate": "",
+  "formInfo": "Зарегистрироваться→Нажимая кнопку, я принимаю условия оферты и соглашаюсь на обработку персональных данных←НазадРасскажите о себе, чтобы продолжитьВ каком направлении вы работаете? Маркетинг Продакт-м",
+  "formEndpoint": "/api/events/topfreelanceskills/register",
+  "extraSections": [
+    {
+      "position": "after-hero",
+      "html": "<div class=\"hero__grid\"><div class=\"container-749 flex-v-24 flex-v-24--mob-12\"><div class=\"tags-wrap\"><div class=\"violet-tag\">Дизайн-кружок WANNABE</div></div><h1 class=\"h1-negative-margin\">Top freelance skills для&nbsp;начинающих дизайнеров</h1><p class=\"is--dark-grey\">Собираем фундамент, чтобы щёлкать самые востребованные задачи: лендинги, баннеры, интерфейсы</p></div><div class=\"card card--announcement card--sm\"><div class=\"flex-v-12 flex-v-12--mob-8\"><div class=\"event__photos-block\"><img src=\"https://cdn.prod.website-files.com/663e20e43c55b32b80cbc405/671f96b853a744c49d8900c2_misha-dark-crop-large.webp\" loading=\"eager\" alt=\"\" class=\"icon-40 icon-40--bordered\"><img src=\"https://cdn.prod.website-files.com/663e20e43c55b32b80cbc405/6891164a02adc9a1c354f199_artem-kazakov.webp\" loading=\"eager\" alt=\"Фото Артёма Казакова\" class=\"icon-40 icon-40--bordered\"></div><p class=\"text-xs\">Миша Розов и&nbsp;Артём Казаков</p><p class=\"h3\">20&nbsp;августа в&nbsp;19:00 по&nbsp;Москве</p></div></div><div class=\"container-749 flex-v-24 flex-v-24--mob-12\"><div class=\"container-498 is--full-width-mob\"><a href=\"#request\" class=\"btn btn--arrow btn--l btn--black w-inline-block\"><p>Зарегистрироваться</p><p>↓</p></a></div><p class=\"is--dark-grey\">Мастер-класс для дизайнеров, у&nbsp;которых есть опыт, но&nbsp;портфолио пока слабое, работа строится на&nbsp;ощупь и&nbsp;кустарно, нет постоянных клиентов, а&nbsp;в&nbsp;сильные компании тоже не&nbsp;берут</p></div></div>"
+    },
+    {
+      "position": "after-quote",
+      "html": "<div class=\"heading-block\"><h2>Будет полезно начинающим и&nbsp;Junior-дизайнерам, которые:</h2></div><div class=\"flex-v-4 flex-v-4--mob-8 container-749\"><div class=\"card\"><p class=\"is--dark-grey container-574\">Хотят пройти путь от&nbsp;дизайнера с&nbsp;сырым портфолио к&nbsp;востребованному фрилансеру</p></div><div class=\"card\"><p class=\"is--dark-grey container-574\">Научиться качественно и&nbsp;быстро решать задачи, с&nbsp;которыми чаще всего приходят заказчики&nbsp;— баннеры, лендинги и&nbsp;интерфейсы</p></div></div>"
+    },
+    {
+      "position": "after-for-whom",
+      "html": "<div class=\"event__photo-grid\"><img src=\"https://cdn.prod.website-files.com/663e20e43c55b32b80cbc405/66759defe3422fd369c44a68_misha-gradient.webp\" loading=\"eager\" alt=\"\" class=\"photo-128\"><p class=\"h3 is--dark-grey\">Фриланс-проекты бывают разные. В&nbsp;одних можно заработать деньги, в&nbsp;других получить мощные знакомства, в&nbsp;третьих сделать классный кейс, в&nbsp;четвертых научиться чему-то новому. <span class=\"is--violet\">Но&nbsp;все они закрыты, если дизайнер не&nbsp;умеет работать системно, быстро и&nbsp;предсказуемо</span></p></div>"
+    }
+  ]
+}

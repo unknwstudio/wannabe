@@ -1,0 +1,73 @@
+{
+  "slug": "ai-genius",
+  "publishedPath": "/conference/ai-genius",
+  "badges": [
+    "Онлайн 30 августа"
+  ],
+  "title": "Программа",
+  "ctaLabel": "Зарегистрироваться",
+  "description": "30 августа, онлайн 11:00–17:30 по Москве",
+  "eventDate": "30 августаРазвеиваем хаос вокруг AI. Вместе собира, 11:00",
+  "eventInfo": "",
+  "speakerAvatar": "/images/events/ai-genius/speaker.webp",
+  "speakerName": "Алина Вербенчук",
+  "speakerRoles": [],
+  "quote": "Мероприятие от и до делают выпускники интенсива «Системное управление продуктом»",
+  "quoteHighlight": "",
+  "forWhomTitle": "для кого",
+  "forWhom": [
+    {
+      "number": "01",
+      "boldText": "",
+      "text": "Запись конференции от 30 августа — все доклады, панельная дискуссия и воркшопы"
+    },
+    {
+      "number": "02",
+      "boldText": "",
+      "text": "Бонусный воркшоп от WANNABE — практическое видео занятие о том, как формулировать продуктовые гипотезы и описывать их быстрее с помощью ChatGPT"
+    },
+    {
+      "number": "03",
+      "boldText": "",
+      "text": "Подборка материалов и советов от экспертов — как эффективно использовать AI в продуктовой и дизайнерской работе"
+    },
+    {
+      "number": "04",
+      "boldText": "",
+      "text": "Записи сессий и воркшопов конференции со всеми презентациями, чек-листами и шаблонами"
+    },
+    {
+      "number": "05",
+      "boldText": "",
+      "text": "Бонусный урок от экспертов WANNABE про формулирование гипотез с помощью ChatGPT"
+    },
+    {
+      "number": "06",
+      "boldText": "",
+      "text": "Подборка материалов и советов от экспертов после конференции на основе запросов участников"
+    }
+  ],
+  "programTitle": "программа",
+  "programDate": "",
+  "programItems": [],
+  "speakerSectionTitle": "спикер",
+  "speakerAbout": [],
+  "hosts": null,
+  "formDate": "",
+  "formInfo": "ПодписатьсяНажимая кнопку, я принимаю условия оферты и соглашаюсь на обработку персональных данных←НазадРасскажите о себе, чтобы продолжитьВ каком направлении вы работаете? Маркетинг Продакт-менеджмен",
+  "formEndpoint": "/api/events/ai-genius/register",
+  "extraSections": [
+    {
+      "position": "after-hero",
+      "html": "<div class=\"flex-v-48 overflow-hidden-mob\"><div class=\"hero__img-block\"><img src=\"https://cdn.prod.website-files.com/663e20e43c55b32b80cbc405/689312d1c2ce43c1f8abff28_Illustration%20web.svg\" loading=\"eager\" alt=\"\" class=\"hero__main-img is--desktop-only\"><img src=\"https://cdn.prod.website-files.com/663e20e43c55b32b80cbc405/68934a50fbf07b6445ee528e_Illustration%20mob.svg\" loading=\"eager\" alt=\"\" class=\"hero__main-img hero__main-img--crop is--mobile-only\"><div class=\"hero__absolute-text-block is-ai\"><img src=\"https://cdn.prod.website-files.com/663e20e43c55b32b80cbc405/68a6d81fb61850f788419379_Group%205519.svg\" loading=\"eager\" alt=\"\" class=\"hero__title-ai is--desktop-only\"><img src=\"https://cdn.prod.website-files.com/663e20e43c55b32b80cbc405/68a6d813e77377d7f49aa2bb_Group%205520.svg\" loading=\"eager\" alt=\"\" class=\"hero__title-ai is--mobile-only\"></div></div><div class=\"container\"><div id=\"btns-trigger\" class=\"hero__2-cols-grid width-1000\"><div class=\"flex-v-24 container-749 flex-v-24--mob-12\"><div class=\"tags-wrap tags-wrap--multirow\"><div class=\"new-tag bg-color-black is--white\">Конференция WANNABE</div><div class=\"new-tag bg-color-black is--white\">Онлайн 30&nbsp;августа</div></div><p class=\"h3\">Развеиваем хаос вокруг AI. <br>Вместе собираем арсенал инструментов, который начнёт работать с&nbsp;первого дня</p><div class=\"flex-v-4\"><div id=\"btns-show\" class=\"card card--sm\"><div class=\"container-486 flex-v-8 text-s\"><p>Для&nbsp;тех, кто&nbsp;делает продукт</p><p class=\"is--dark-grey\">Аналитика, дизайн, исследования&nbsp;— всё&nbsp;на&nbsp;вас. Покажем,&nbsp;что можно ускорить с&nbsp;AI</p></div></div><div id=\"btns-show\" class=\"card card--sm\"><div class=\"container-486 flex-v-8 text-s\"><p>Лидерам, которые определяют стратегию</p><p class=\"is--dark-grey\">Разберём, где&nbsp;AI работает, а&nbsp;где&nbsp;нет&nbsp;и&nbsp;как&nbsp;использовать его&nbsp;для&nbsp;прогнозируемого роста</p></div></div></div></div><div class=\"cta is--full-width-mob flex-v-24 flex-v-24-mob\"><div class=\"cta__date card card--sm bg-color-black is--white card--no-shadow\"><div class=\"h3\">Ивент уже прошёл, но&nbsp;запись в&nbsp;продаже</div></div><div class=\"is--full-width\"><a href=\"#pricing\" class=\"r-btn btn--l btn--black w-inline-block\"><p>Купить доступ</p><p>→</p></a><a href=\"https://t.me/wnbl_rozova_bot?start=w49060740--340418\" target=\"_blank\" class=\"r-btn btn--l btn--transparent is--full-width w-inline-block\"><p class=\"is--underlined\">У&nbsp;меня есть&nbsp;вопрос</p></a></div></div></div></div></div>"
+    },
+    {
+      "position": "after-quote",
+      "html": "<div class=\"container\"><p class=\"h1 is--center-align is--white mob-h2\">Вопросы, на&nbsp;которые вы&nbsp;<span class=\"m-display-block\">получите&nbsp;ответ</span></p><div class=\"ai-vortex flex-v-48 flex-v-24-mob\"><div class=\"ai-vortex__card card card--no-shadow card--sm flex-v-12 bg-color-black is--white is-1\"><div class=\"card__number text-xs\">01</div><div>Руководство требует внедрять&nbsp;AI, а&nbsp;вы&nbsp;не&nbsp;знаете, с&nbsp;чего начать. Как выстроить стратегию, которая сработает?</div></div><div class=\"ai-vortex__card card card--no-shadow card--sm flex-v-12 bg-color-black is--white is-2\"><div class=\"card__number text-xs\">02</div><div>Как отсеять хайп среди шума и&nbsp;найти решения, которые реально вырастят бизнес-метрики?</div></div><div class=\"ai-vortex__card card card--no-shadow card--sm flex-v-12 bg-color-black is--white is-3\"><div class=\"card__number text-xs\">03</div><div>Что будет с&nbsp;моей позицией через&nbsp;год, когда&nbsp;AI научится всему?</div></div></div></div>"
+    },
+    {
+      "position": "after-for-whom",
+      "html": "<h2>30&nbsp;августа мы&nbsp;провели AI&nbsp;GENIUS: Product &amp;&nbsp;Design&nbsp;— день с&nbsp;экспертами по&nbsp;AI, продукту и&nbsp;дизайну</h2><p class=\"h3 is--dark-grey container-749\">Теперь вы&nbsp;можете приобрести записи, чтобы пересмотреть все выступления и&nbsp;воркшопы в&nbsp;удобное время. При покупке вы&nbsp;получаете:</p><div class=\"card card--black container-749\"><ul role=\"list\" class=\"classic-list text-s flex-v-12 container-486\"><li><p>Запись конференции от&nbsp;30&nbsp;августа&nbsp;<span class=\"is--dark-grey\">— все&nbsp;доклады, панельная дискуссия и&nbsp;воркшопы</span></p></li><li><p>Бонусный воркшоп от&nbsp;WANNABE<span class=\"is--dark-grey\">&nbsp;— практическое видео занятие о&nbsp;том, как&nbsp;формулировать продуктовые гипотезы и&nbsp;описывать их&nbsp;быстрее с&nbsp;помощью ChatGPT</span></p></li><li><p>Подборка материалов и&nbsp;советов от&nbsp;экспертов&nbsp;<span class=\"is--dark-grey\">— как&nbsp;эффективно использовать&nbsp;AI в&nbsp;продуктовой и&nbsp;дизайнерской работе</span></p></li></ul></div>"
+    }
+  ]
+}

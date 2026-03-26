@@ -1,12 +1,12 @@
 # Scrape Report
-Generated: 2026-03-26T00:58:10.441Z
+Generated: 2026-03-26T00:59:06.737Z
 
 ## Summary
-- Pages scraped successfully: 20
+- Pages scraped successfully: 25
 - Pages with errors: 0
-- Pages with extra sections: 20
-- Pages with missing data: 20
-- Images downloaded: 128
+- Pages with extra sections: 25
+- Pages with missing data: 25
+- Images downloaded: 158
 
 ## Successful Pages
 - ✓ design-trial-reg
@@ -29,6 +29,11 @@ Generated: 2026-03-26T00:58:10.441Z
 - ✓ product-trial-ya
 - ✓ uxuiliveshow
 - ✓ productpagewithjtbd
+- ✓ topfreelanceskills
+- ✓ ai-genius
+- ✓ product-trial
+- ✓ artdirection
+- ✓ designproductexperience
 
 ## Errors
 
@@ -53,6 +58,11 @@ Generated: 2026-03-26T00:58:10.441Z
 - product-trial-ya: 3 section(s) at [after-hero, after-quote, after-for-whom]
 - uxuiliveshow: 3 section(s) at [after-hero, after-quote, after-for-whom]
 - productpagewithjtbd: 3 section(s) at [after-hero, after-quote, after-for-whom]
+- topfreelanceskills: 3 section(s) at [after-hero, after-quote, after-for-whom]
+- ai-genius: 3 section(s) at [after-hero, after-quote, after-for-whom]
+- product-trial: 3 section(s) at [after-hero, after-quote, after-for-whom]
+- artdirection: 3 section(s) at [after-hero, after-quote, after-for-whom]
+- designproductexperience: 3 section(s) at [after-hero, after-quote, after-for-whom]
 
 ## Missing Data
 - design-trial-reg: missing eventDate, programItems
@@ -75,6 +85,11 @@ Generated: 2026-03-26T00:58:10.441Z
 - product-trial-ya: missing eventDate, programItems
 - uxuiliveshow: missing programItems
 - productpagewithjtbd: missing eventDate, programItems
+- topfreelanceskills: missing programItems
+- ai-genius: missing programItems
+- product-trial: missing eventDate, programItems
+- artdirection: missing programItems
+- designproductexperience: missing programItems
 
 ## Images
 - ✓ design-trial-reg/speaker.webp
@@ -205,3 +220,33 @@ Generated: 2026-03-26T00:58:10.441Z
 - ✓ productpagewithjtbd/image-7.webp
 - ✓ productpagewithjtbd/image-8.svg
 - ✓ productpagewithjtbd/image-9.svg
+- ✓ topfreelanceskills/speaker.webp
+- ✓ topfreelanceskills/image-1.webp
+- ✓ topfreelanceskills/image-3.webp
+- ✓ topfreelanceskills/image-6.webp
+- ✓ ai-genius/speaker.webp
+- ✓ ai-genius/image-1.svg
+- ✓ ai-genius/image-2.svg
+- ✓ ai-genius/image-3.svg
+- ✓ ai-genius/image-4.svg
+- ✓ ai-genius/image-6.webp
+- ✓ ai-genius/image-7.webp
+- ✓ ai-genius/image-8.webp
+- ✓ ai-genius/image-9.webp
+- ✓ product-trial/speaker.webp
+- ✓ product-trial/image-2.webp
+- ✓ product-trial/image-3.webp
+- ✓ product-trial/image-4.webp
+- ✓ product-trial/image-5.webp
+- ✓ product-trial/image-6.webp
+- ✓ product-trial/image-7.webp
+- ✓ product-trial/image-9.svg
+- ✓ artdirection/speaker.webp
+- ✓ artdirection/image-1.webp
+- ✓ artdirection/image-2.webp
+- ✓ artdirection/image-5.webp
+- ✓ artdirection/image-6.webp
+- ✓ designproductexperience/speaker.webp
+- ✓ designproductexperience/image-1.webp
+- ✓ designproductexperience/image-2.webp
+- ✓ designproductexperience/image-5.webp
