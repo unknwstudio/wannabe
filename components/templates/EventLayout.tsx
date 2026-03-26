@@ -1,6 +1,7 @@
 'use client'
 import React, { useState } from 'react'
 import Footer from '@/components/global/Footer'
+import { getPersonById } from '@/lib/persons'
 
 type EventLayoutProps = {
   badges: string[]
@@ -9,9 +10,10 @@ type EventLayoutProps = {
   description: string
   eventDate: string
   eventInfo: string
-  speakerAvatar: string
-  speakerName: string
-  speakerRoles: string[]
+  speakerId?: string
+  speakerAvatar?: string
+  speakerName?: string
+  speakerRoles?: string[]
   quote: string
   quoteHighlight: string
   forWhomTitle: string
@@ -58,6 +60,11 @@ export default function EventLayout(p: EventLayoutProps) {
   const hi = p.quote.indexOf(p.quoteHighlight)
   const [datePart, ...restParts] = p.formDate.split(' ')
 
+  const person = p.speakerId ? getPersonById(p.speakerId) : null
+  const speakerPhoto = person?.photo || p.speakerAvatar || ''
+  const speakerName  = person?.name  || p.speakerName  || ''
+  const speakerRoles = person?.roles || p.speakerRoles || []
+
   return (
     <div>
       <style>{CSS}</style>
@@ -75,7 +82,7 @@ export default function EventLayout(p: EventLayoutProps) {
           </div>
           <div className="ev-hero-r">
             <div style={{ background: '#cfbeff', borderRadius: 12, padding: 16 }}>
-              <img src={p.speakerAvatar} alt={p.speakerName} style={{ width: 40, height: 40, borderRadius: '50%', objectFit: 'cover', display: 'block', marginBottom: 8 }} />
+              <img src={speakerPhoto} alt={speakerName} style={{ width: 40, height: 40, borderRadius: '50%', objectFit: 'cover', display: 'block', marginBottom: 8 }} />
               <p className="text-small" style={{ margin: '0 0 4px' }}>{p.eventInfo}</p>
               <p className="text-h3" style={{ margin: 0 }}>{p.eventDate}</p>
             </div>
@@ -86,7 +93,7 @@ export default function EventLayout(p: EventLayoutProps) {
       {/* 2 — Quote */}
       <section style={{ ...BG, paddingTop: 'clamp(40px,6vw,90px)' }}>
         <div className="ev-quote">
-          <img src={p.speakerAvatar} alt={p.speakerName} style={{ width: 128, height: 128, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }} />
+          <img src={speakerPhoto} alt={speakerName} style={{ width: 128, height: 128, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }} />
           <p className="text-h3" style={{ color: '#7c7c7c', margin: 0 }}>
             {p.quote.slice(0, hi)}
             <span style={{ color: '#8f67ff' }}>{p.quoteHighlight}</span>
@@ -127,9 +134,9 @@ export default function EventLayout(p: EventLayoutProps) {
         <p className="text-h2" style={{ margin: '0 0 24px' }}>{p.speakerSectionTitle}</p>
         <div className="ev-two">
           <div style={{ flexShrink: 0 }}>
-            <img src={p.speakerAvatar} alt={p.speakerName} style={{ width: 'clamp(160px,18vw,260px)', aspectRatio: '1/1', objectFit: 'cover', borderRadius: 12, display: 'block', marginBottom: 16 }} />
-            <p className="text-h3" style={{ margin: '0 0 8px' }}>{p.speakerName}</p>
-            {p.speakerRoles.map(r => <p key={r} className="text-body" style={{ color: '#7c7c7c', margin: 0 }}>{r}</p>)}
+            <img src={speakerPhoto} alt={speakerName} style={{ width: 'clamp(160px,18vw,375px)', aspectRatio: '1/1', objectFit: 'cover', borderRadius: '50%', display: 'block', marginBottom: 16 }} />
+            <p className="text-h3" style={{ margin: '0 0 8px' }}>{speakerName}</p>
+            {speakerRoles.map(r => <p key={r} className="text-body" style={{ color: '#7c7c7c', margin: 0 }}>— {r}</p>)}
           </div>
           <div style={{ flex: 1, display: 'flex', flexDirection: 'column', gap: 4 }}>
             {p.speakerAbout.map((ab, i) => (
