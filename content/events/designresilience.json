@@ -1,6 +1,4 @@
 {
-  "slug": "designresilience",
-  "publishedPath": "/events/designresilience",
   "badges": [
     "Участие бесплатное",
     "Записи не будет"
@@ -8,7 +6,7 @@
   "title": "Дизайн-устойчивость: как расти в эпоху неопределённости",
   "ctaLabel": "Зарегистрироваться",
   "description": "Эфир с Мишей Розовым, Дашей Щербаковой и Артёмом Казаковым 25 февраля в 19:00 по Москве",
-  "eventDate": "25 февраля в 19:00 по МосквеЗарегистрироваться↓Что, 19:00",
+  "eventDate": "25 февраля в 19:00 по",
   "eventInfo": "",
   "speakerAvatar": "/images/speaker-anna.jpg",
   "speakerName": "Анна Соколова",
@@ -128,18 +126,6 @@
   "formDate": "15 апреля 2025, 19:00 МСК",
   "formInfo": "Вебинар пройдёт в Zoom. Ссылку пришлём на почту за час до начала. Количество мест ограничено.",
   "formEndpoint": "/api/events/designresilience/register",
-  "extraSections": [
-    {
-      "position": "after-hero",
-      "html": "<div class=\"hero__grid\"><div class=\"container-749 flex-v-24 flex-v-24--mob-12\"><div class=\"tags-wrap\"><div class=\"violet-tag\">Дизайн-кружок WANNABE</div></div><div><h1 class=\"h1-negative-margin\">Как дизайнеру не&nbsp;выживать, а&nbsp;зарабатывать в&nbsp;2026 году</h1></div><p class=\"is--dark-grey is--m-bold\">Встреча с&nbsp;арт-директорами: как&nbsp;меняется профессия в&nbsp;2026&nbsp;году, какие специалисты остаются востребованными на&nbsp;новом рынке и&nbsp;какие навыки действительно приносят деньги дизайнерам</p></div><div class=\"card card--announcement card--sm\"><div class=\"flex-v-12 flex-v-12--mob-8\"><div class=\"event__photos-block\"><img src=\"https://cdn.prod.website-files.com/663e20e43c55b32b80cbc405/671f56f99a01de9dc8e02d80_misha-dark-crop.webp\" loading=\"eager\" alt=\"\" class=\"icon-40 icon-40--bordered\"><img src=\"https://cdn.prod.website-files.com/663e20e43c55b32b80cbc405/68cab17d9d7b688e6fe3d884_dasha-crop-l.webp\" loading=\"eager\" alt=\"\" class=\"icon-40 icon-40--bordered\"><img src=\"https://cdn.prod.website-files.com/663e20e43c55b32b80cbc405/6891164a02adc9a1c354f199_artem-kazakov.webp\" loading=\"eager\" alt=\"Фото Артёма Казакова\" class=\"icon-40 icon-40--bordered\"></div><p class=\"text-xs\">Эфир с&nbsp;Мишей Розовым, Дашей Щербаковой и&nbsp;Артёмом Казаковым</p><p class=\"h3\">25&nbsp;февраля в&nbsp;19:00 по&nbsp;Москве</p></div></div><div class=\"container-498 is--full-width-mob\"><a href=\"#request\" class=\"btn btn--arrow btn--l btn--black w-inline-block\"><p>Зарегистрироваться</p><p>↓</p></a></div></div>"
-    },
-    {
-      "position": "after-quote",
-      "html": "<div class=\"heading-block\"><h2>Что происходит с&nbsp;рынком дизайна <span class=\"no-break\">в&nbsp;2026 году</span>&nbsp;— по&nbsp;данным hh.ru:</h2></div><div class=\"grid-4-cols\"><div class=\"card card--sm flex-v-12\"><p class=\"is--dark-grey\">01</p><p class=\"is--m-bold\">растёт конкуренция</p></div><div class=\"card card--sm flex-v-12\"><p class=\"is--dark-grey\">02</p><p class=\"is--m-bold\">AI меняет роль дизайнера</p></div><div class=\"card card--sm flex-v-12\"><p class=\"is--dark-grey\">03</p><p class=\"is--m-bold\">работодатели усиливают требования к&nbsp;продуктовым и&nbsp;стратегическим навыкам</p></div><div class=\"card card--sm flex-v-12\"><p class=\"is--dark-grey\">04</p><p class=\"is--m-bold\">растёт спрос на&nbsp;дизайнеров с&nbsp;системным мышлением</p></div></div>"
-    },
-    {
-      "position": "after-for-whom",
-      "html": "<div class=\"event__photo-grid\"><img src=\"https://cdn.prod.website-files.com/663e20e43c55b32b80cbc405/66759defe3422fd369c44a68_misha-gradient.webp\" loading=\"eager\" alt=\"\" class=\"photo-128\"><p class=\"h3 is--dark-grey\">Большинство дизайнеров сегодня растут хаотично: осваивают инструменты, копируют тренды, но&nbsp;не&nbsp;понимают, какие навыки реально влияют на&nbsp;карьеру и&nbsp;доход. Рынок сейчас меняется быстрее, чем раньше, поэтому востребованность дизайнера всё сильнее зависит от&nbsp;системного мышления. <span class=\"is--violet\">Устойчивость в&nbsp;профессии&nbsp;— это не&nbsp;удача, а&nbsp;результат стратегии развития</span></p></div>"
-    }
-  ]
+  "slug": "designresilience",
+  "publishedPath": "/events/designresilience"
 }

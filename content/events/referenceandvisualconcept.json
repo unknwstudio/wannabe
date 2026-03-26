@@ -1,14 +1,12 @@
 {
-  "slug": "referenceandvisualconcept",
-  "publishedPath": "/events/referenceandvisualconcept",
   "badges": [],
   "title": "Как дизайнеру работать с референсами и визуальной концепцией",
   "ctaLabel": "Зарегистрироваться",
   "description": "Мастер-класс от Артёма Казакова 25 сентября, 19:00 по Москве",
-  "eventDate": "25 сентября в 19:00 по МосквеЗарегистрироваться↓Дл, 19:00",
+  "eventDate": "25 сентября в 19:00 по",
   "eventInfo": "",
   "speakerAvatar": "/images/events/referenceandvisualconcept/speaker.webp",
-  "speakerName": "Фото Артёма",
+  "speakerName": "",
   "speakerRoles": [],
   "quote": "Выступает на Design Weekend, проводит вебинары о профессии дизайнера и индустрии, ведёт подкаст «Прожектор pinkman»",
   "quoteHighlight": "",
@@ -21,20 +19,8 @@
   "speakerAbout": [],
   "hosts": null,
   "formDate": "",
-  "formInfo": "Зарегистрироваться→Нажимая кнопку, я принимаю условия оферты и соглашаюсь на обработку персональных данных←НазадРасскажите о себе, чтобы продолжитьВ каком направлении вы работаете? Маркетинг Продакт-м",
+  "formInfo": "",
   "formEndpoint": "/api/events/referenceandvisualconcept/register",
-  "extraSections": [
-    {
-      "position": "after-hero",
-      "html": "<div class=\"hero__grid\"><div class=\"container-749 flex-v-24 flex-v-24--mob-12\"><div class=\"tags-wrap\"><div class=\"violet-tag\">Дизайн-кружок WANNABE</div></div><h1 class=\"h1-negative-margin\">Как дизайнеру работать с&nbsp;референсами и&nbsp;визуальной концепцией</h1><p class=\"is--dark-grey\">В&nbsp;прямом эфире расскажем про&nbsp;базовые принципы визуала для&nbsp;стабильного результата в&nbsp;UI и&nbsp;графике</p></div><div class=\"card card--announcement card--sm\"><div class=\"flex-v-12 flex-v-12--mob-8\"><div class=\"event__photos-block\"><img src=\"https://cdn.prod.website-files.com/663e20e43c55b32b80cbc405/6891164a02adc9a1c354f199_artem-kazakov.webp\" loading=\"eager\" alt=\"Фото Артёма Казакова\" class=\"icon-40 icon-40--bordered\"></div><p class=\"text-xs\">Воркшоп с&nbsp;Артёмом Казаковым</p><p class=\"h3\">25&nbsp;сентября в&nbsp;19:00 по&nbsp;Москве</p></div></div><div class=\"container-749 flex-v-24 flex-v-24--mob-12\"><div class=\"container-498 is--full-width-mob\"><a href=\"#request\" class=\"btn btn--arrow btn--l btn--black w-inline-block\"><p>Зарегистрироваться</p><p>↓</p></a></div><p class=\"is--dark-grey\">Для начинающих и&nbsp;junior дизайнеров, которые не&nbsp;умеют работать с&nbsp;референсами: сводят всё к&nbsp;копированию или вовсе не&nbsp;понимают, что&nbsp;именно нужно забирать</p></div></div>"
-    },
-    {
-      "position": "after-quote",
-      "html": "<div class=\"container-749\"><div class=\"heading-block\"><h2>Этот мастер-класс поможет:</h2></div><div class=\"flex-v-4 flex-v-4--mob-8\"><div class=\"card\"><div class=\"flex-v-8 container-574\"><p class=\"is--dark-grey\">Системно работать с&nbsp;референсами в&nbsp;UI и&nbsp;графике, наслаивая их&nbsp;слой за&nbsp;слоем и&nbsp;комбинируя, чтобы получить уникальный результат, и&nbsp;не&nbsp;зависеть при этом от&nbsp;вдохновения и&nbsp;удачи</p></div></div></div></div>"
-    },
-    {
-      "position": "after-for-whom",
-      "html": "<div class=\"flex-v-48 flex-v-48--mob-20\"><h2>Встречаемся 25&nbsp;сентября в&nbsp;19:00 по&nbsp;мск. В&nbsp;программе:</h2><div class=\"flex-v-4 flex-v-4--mob-8 container-749\"><div class=\"card\"><div class=\"card__inner-ordered-grid\"><p class=\"is--dark-grey\">01</p><p>Работа с&nbsp;референсами и&nbsp;визуальной концепцией: теория, частые ошибки, как&nbsp;с&nbsp;ними работает лично Артём</p></div></div><div class=\"card\"><div class=\"card__inner-ordered-grid\"><p class=\"is--dark-grey\">02</p><p>Как использовать референсы в&nbsp;лейаутах, типографике и&nbsp;цветах</p></div></div><div class=\"card\"><div class=\"card__inner-ordered-grid\"><p class=\"is--dark-grey\">03</p><p>Мастер-класс от&nbsp;Артёма Казакова&nbsp;— собираем продуктовую страницу, используя референсы</p></div></div></div></div>"
-    }
-  ]
+  "slug": "referenceandvisualconcept",
+  "publishedPath": "/events/referenceandvisualconcept"
 }

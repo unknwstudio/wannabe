@@ -1,16 +1,14 @@
 {
-  "slug": "elitefreelancer",
-  "publishedPath": "/events/elitefreelancer",
   "badges": [
     "Это не просто вебинар, а двухдневный онлайн мастер-класс"
   ],
   "title": "Как дизайнеру стать элитным фрилансером",
   "ctaLabel": "Зарегистрироваться",
   "description": "Мастер-класс от Миши Розова и Артёма Казакова 13 и 17 ноября, 19:00 по Москве",
-  "eventDate": "17 ноября в 19:00 по МосквеЗарегистрироваться↓Плюс, 19:00",
+  "eventDate": "17 ноября в 19:00 по",
   "eventInfo": "",
   "speakerAvatar": "/images/events/elitefreelancer/speaker.webp",
-  "speakerName": "Фото Артёма",
+  "speakerName": "",
   "speakerRoles": [],
   "quote": "За 7 лет студия Pinkman заработала больше 1 миллиарда рублей и поработала с «Яндексом», Mercedes, Nike, McDonald’s, СберБанком и другими",
   "quoteHighlight": "",
@@ -54,20 +52,8 @@
   "speakerAbout": [],
   "hosts": null,
   "formDate": "",
-  "formInfo": "Зарегистрироваться→Нажимая кнопку, я принимаю условия оферты и соглашаюсь на обработку персональных данных←НазадРасскажите о себе, чтобы продолжитьВ каком направлении вы работаете? Маркетинг Продакт-м",
+  "formInfo": "",
   "formEndpoint": "/api/events/elitefreelancer/register",
-  "extraSections": [
-    {
-      "position": "after-hero",
-      "html": "<div class=\"hero__grid\"><div class=\"container-749 flex-v-24 flex-v-24--mob-12\"><div class=\"tags-wrap\"><div class=\"violet-tag\">Дизайн-кружок WANNABE</div></div><h1 class=\"h1-negative-margin\">Как дизайнеру стать элитным фрилансером</h1><p class=\"is--dark-grey is--m-bold\">Расскажем, как получать лучшие проекты и&nbsp;построить работу с&nbsp;клиентами так, чтобы они платили много лет подряд</p></div><div class=\"card card--announcement card--sm\"><div class=\"flex-v-12 flex-v-12--mob-8\"><div class=\"event__photos-block\"><img src=\"https://cdn.prod.website-files.com/663e20e43c55b32b80cbc405/671f56f99a01de9dc8e02d80_misha-dark-crop.webp\" loading=\"eager\" alt=\"\" class=\"icon-40 icon-40--bordered\"><img src=\"https://cdn.prod.website-files.com/663e20e43c55b32b80cbc405/6891164a02adc9a1c354f199_artem-kazakov.webp\" loading=\"eager\" alt=\"Фото Артёма Казакова\" class=\"icon-40 icon-40--bordered\"></div><p class=\"text-xs\">Миша Розов и&nbsp;Артём Казаков</p><p class=\"h3\">13&nbsp;и&nbsp;17&nbsp;ноября в&nbsp;19:00 по&nbsp;Москве</p></div></div><div id=\"w-node-e4b212b8-e27c-1233-006b-6215940e46ba-7ee5c67c\" class=\"container-749 flex-v-24 flex-v-24--mob-12\"><div class=\"container-498 is--full-width-mob\"><a href=\"#request\" class=\"btn btn--arrow btn--l btn--black w-inline-block\"><p>Зарегистрироваться</p><p>↓</p></a></div><p class=\"is--dark-grey is--m-bold\"><span class=\"is--violet\">Плюс мастер-класс:</span> продуктовый лендинг с&nbsp;рекламными креативами</p></div></div>"
-    },
-    {
-      "position": "after-quote",
-      "html": "<div class=\"container-749\"><div class=\"heading-block\"><h2>Будет полезно дизайнерам:</h2></div><div class=\"flex-v-4 flex-v-4--mob-8\"><div class=\"card\"><div class=\"flex-v-8 container-574\"><p class=\"is--dark-grey\">У&nbsp;которых уже есть опыт, но&nbsp;они застряли на&nbsp;уровне мелких нерегулярных заказов</p></div></div><div class=\"card\"><div class=\"flex-v-8 container-574\"><p class=\"is--dark-grey\">И&nbsp;для тех, у&nbsp;кого есть поток клиентов, но&nbsp;нет стабильности и&nbsp;ощущения развития</p></div></div></div></div>"
-    },
-    {
-      "position": "after-for-whom",
-      "html": "<div class=\"event__photo-grid\"><img src=\"https://cdn.prod.website-files.com/663e20e43c55b32b80cbc405/66759defe3422fd369c44a68_misha-gradient.webp\" loading=\"eager\" alt=\"\" class=\"photo-128\"><p class=\"h3 is--dark-grey\">Фриланс-проекты бывают разные. В&nbsp;одних можно заработать деньги, в&nbsp;других получить мощные знакомства, в&nbsp;третьих сделать классный кейс, в&nbsp;четвертых научиться чему-то новому. <span class=\"is--violet\">Но&nbsp;все они закрыты, если дизайнер не&nbsp;умеет работать системно, быстро и&nbsp;предсказуемо</span></p></div>"
-    }
-  ]
+  "slug": "elitefreelancer",
+  "publishedPath": "/events/elitefreelancer"
 }

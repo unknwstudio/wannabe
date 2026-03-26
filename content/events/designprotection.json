@@ -1,11 +1,9 @@
 {
-  "slug": "designprotection",
-  "publishedPath": "/events/designprotection",
   "badges": [],
   "title": "Как делать обоснованный дизайн и защищать его перед заказчиком?",
   "ctaLabel": "Зарегистрироваться",
   "description": "Мастер-класс от Миши Розова и Даши Щербаковой",
-  "eventDate": "22 сентября, 19:00",
+  "eventDate": "22 сентября, 19:00",
   "eventInfo": "",
   "speakerAvatar": "/images/events/designprotection/speaker.webp",
   "speakerName": "Миша Розов",
@@ -21,20 +19,8 @@
   "speakerAbout": [],
   "hosts": null,
   "formDate": "",
-  "formInfo": "Зарегистрироваться→Нажимая кнопку, я принимаю условия оферты и соглашаюсь на обработку персональных данных←НазадРасскажите о себе, чтобы продолжитьВ каком направлении вы работаете? Маркетинг Продакт-м",
+  "formInfo": "",
   "formEndpoint": "/api/events/designprotection/register",
-  "extraSections": [
-    {
-      "position": "after-hero",
-      "html": "<div class=\"hero__grid\"><div class=\"container-749 flex-v-24 flex-v-24--mob-12\"><div class=\"tags-wrap\"><div class=\"violet-tag\">Дизайн-кружок WANNABE</div></div><h1 class=\"h1-negative-margin\">Как делать обоснованный дизайн и&nbsp;защищать его перед заказчиком?</h1><p class=\"is--dark-grey\">Зачем нужны исследования, бенчмарки и&nbsp;эвристики, и&nbsp;как сторителлинг может помочь UX/UI дизайнеру презентовать решение по&nbsp;продукту</p></div><div class=\"card card--announcement card--sm\"><div class=\"flex-v-12 flex-v-12--mob-8\"><div class=\"event__photos-block\"><img src=\"https://cdn.prod.website-files.com/663e20e43c55b32b80cbc405/671f56f99a01de9dc8e02d80_misha-dark-crop.webp\" loading=\"eager\" alt=\"\" class=\"icon-40 icon-40--bordered\"><img src=\"https://cdn.prod.website-files.com/663e20e43c55b32b80cbc405/67a4a0255fe04bd2282a3862_dasha.webp\" loading=\"eager\" alt=\"\" class=\"icon-40 icon-40--bordered\"></div><p class=\"text-xs\">Миша Розов и&nbsp;Даша Щербакова</p><p class=\"h3\">22&nbsp;сентября, 19:00 по&nbsp;мск</p></div></div><div class=\"container-498 is--full-width-mob\"><a href=\"#request\" class=\"btn btn--arrow btn--l btn--black w-inline-block\"><p>Зарегистрироваться</p><p>↓</p></a></div></div>"
-    },
-    {
-      "position": "after-quote",
-      "html": "<div class=\"event__photo-grid\"><img src=\"https://cdn.prod.website-files.com/663e20e43c55b32b80cbc405/66759defe3422fd369c44a68_misha-gradient.webp\" loading=\"eager\" alt=\"\" class=\"photo-128\"><p class=\"h3 is--dark-grey\">Мастер-класс для Junior и&nbsp;Middle UX/UI-дизайнеров, которые чувствуют <span class=\"is--violet\">нехватку глубины и&nbsp;системности</span>, не&nbsp;понимают, как вырваться вперед</p></div>"
-    },
-    {
-      "position": "after-for-whom",
-      "html": "<div class=\"flex-v-48 flex-v-48--mob-20\"><h2>Этот мастер-класс поможет:</h2><div class=\"flex-v-4 flex-v-4--mob-8 container-749\"><div class=\"card\"><div class=\"card__inner-ordered-grid card__inner-ordered-grid--mob-flex\"><p class=\"is--dark-grey\">01</p><p>Увидеть, как системный подход помогает не&nbsp;только разработать продуктовое решение, но&nbsp;и&nbsp;защитить его</p></div></div><div class=\"card\"><div class=\"card__inner-ordered-grid card__inner-ordered-grid--mob-flex\"><p class=\"is--dark-grey\">02</p><p>Выбрать подходящие инструменты для&nbsp;создания презентации</p></div></div><div class=\"card\"><div class=\"card__inner-ordered-grid card__inner-ordered-grid--mob-flex\"><p class=\"is--dark-grey\">03</p><p>Получить советы от&nbsp;Миши по&nbsp;тому, как провести презентацию и&nbsp;не&nbsp;ударить в&nbsp;грязь лицом перед заказчиком</p></div></div></div></div>"
-    }
-  ]
+  "slug": "designprotection",
+  "publishedPath": "/events/designprotection"
 }

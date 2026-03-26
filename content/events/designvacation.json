@@ -1,11 +1,9 @@
 {
-  "slug": "designvacation",
-  "publishedPath": "/events/designvacation",
   "badges": [],
   "title": "Отпуск на Мальдивах: научимся формулировать JTBD и создавать сценарии для эмоционального пользовательского опыта",
   "ctaLabel": "Зарегистрироваться",
   "description": "Воркшоп от Даши Щербаковой, 03 марта, 19:00 по Москве",
-  "eventDate": "03 марта в 19:00 по МосквеБудет полезно дизайнерам, 19:00",
+  "eventDate": "03 марта в 19:00 по Москве",
   "eventInfo": "",
   "speakerAvatar": "/images/events/designvacation/speaker.webp",
   "speakerName": "Даша Щербакова",
@@ -21,20 +19,8 @@
   "speakerAbout": [],
   "hosts": null,
   "formDate": "",
-  "formInfo": "Зарегистрироваться→Нажимая кнопку, я принимаю условия оферты и соглашаюсь на обработку персональных данных←НазадРасскажите о себе, чтобы продолжитьВ каком направлении вы работаете? Маркетинг Продакт-м",
+  "formInfo": "",
   "formEndpoint": "/api/events/designvacation/register",
-  "extraSections": [
-    {
-      "position": "after-hero",
-      "html": "<div class=\"hero__grid\"><div class=\"container-749 flex-v-24 flex-v-24--mob-12\"><div class=\"tags-wrap\"><div class=\"violet-tag\">Дизайн-кружок WANNABE</div></div><div class=\"flex-v-12\"><h1 class=\"h1-negative-margin\">Отпуск на&nbsp;Мальдивах: научимся формулировать JTBD и&nbsp;создавать сценарии для&nbsp;эмоционального пользовательского опыта</h1><p class=\"h2\">(и&nbsp;почти уедем на&nbsp;острова)</p></div></div><div id=\"w-node-_8e8c0da4-aac1-9919-4780-ed0abfec182a-47da97e8\" class=\"container-749 flex-v-24 flex-v-24--mob-12\"><div class=\"container-498 is--full-width-mob\"><a href=\"#request\" class=\"btn btn--arrow btn--l btn--black w-inline-block\"><p>Зарегистрироваться</p><p>↓</p></a></div><p class=\"is--dark-grey\">Даша Щербакова, Lead Product Designer в&nbsp;Emex, проведёт игровой воркшоп, где&nbsp;мы&nbsp;на&nbsp;примере отпуска на&nbsp;Мальдивах научимся формулировать JTBD и&nbsp;превращать потребности пользователя в&nbsp;запоминающиеся эмоции и&nbsp;сценарии</p></div><div class=\"card card--announcement card--sm card--white\"><div class=\"flex-v-12 flex-v-12--mob-8\"><div class=\"event__photos-block\"><img src=\"https://cdn.prod.website-files.com/663e20e43c55b32b80cbc405/68cab17d9d7b688e6fe3d884_dasha-crop-l.webp\" loading=\"eager\" alt=\"\" class=\"icon-40 icon-40--bordered\"></div><p class=\"text-xs\">Воркшоп с&nbsp;Дашей Щербаковой</p><p class=\"h3\">03&nbsp;марта в&nbsp;19:00 по&nbsp;Москве</p></div></div><img src=\"https://cdn.prod.website-files.com/663e20e43c55b32b80cbc405/699cabd25d669033585953a7_event-esc.webp\" loading=\"eager\" alt=\"\" class=\"event-esc\"></div>"
-    },
-    {
-      "position": "after-quote",
-      "html": "<div><div class=\"heading-block\"><h2>Будет полезно дизайнерам, которые:</h2></div><div class=\"flex-v-4 flex-v-4--mob-8 container-749\"><div class=\"card card--maldives\"><p class=\"container-574\">Хотят спланировать отпуск мечты&nbsp;— пусть пока только в&nbsp;JTBD и&nbsp;сценариях</p><img src=\"https://cdn.prod.website-files.com/663e20e43c55b32b80cbc405/699cabd0f31595c3bd172521_event-border.svg\" loading=\"eager\" alt=\"\" class=\"border-maldives is--desktop-only\"><img src=\"https://cdn.prod.website-files.com/663e20e43c55b32b80cbc405/699d6ff012697dc5d4f47030_event-border-m.svg\" loading=\"eager\" alt=\"\" class=\"border-maldives is--mobile-only\"></div><div class=\"card\"><p class=\"is--dark-grey container-574\">Часто не&nbsp;уверены в&nbsp;своих решениях и&nbsp;тяжело их&nbsp;защищают</p></div><div class=\"card\"><p class=\"is--dark-grey container-574\">Чувствуют, что JTBD&nbsp;— это какое-то умное слово, но&nbsp;не&nbsp;понимают, как&nbsp;реально применять его в&nbsp;работе</p></div><div class=\"card\"><p class=\"is--dark-grey container-574\">Получают много правок и&nbsp;слышат «что-то не&nbsp;то», но&nbsp;не&nbsp;понимают, где&nbsp;именно проблема</p></div><div class=\"card\"><p class=\"is--dark-grey container-574\">Хотят проектировать пользовательский опыт как&nbsp;систему, а&nbsp;не&nbsp;набор отдельных решений</p></div><div class=\"card\"><p class=\"is--dark-grey container-574\">Думают о&nbsp;росте в&nbsp;UX, продуктовых ролях и&nbsp;более сложных задачах</p></div></div></div>"
-    },
-    {
-      "position": "after-for-whom",
-      "html": "<div class=\"event__photo-grid\"><img src=\"https://cdn.prod.website-files.com/663e20e43c55b32b80cbc405/690633586e79013799c74c23_dasha-total-black.webp\" loading=\"eager\" alt=\"\" class=\"photo-128\"><p class=\"h3 is--dark-grey\">Когда дизайнер понимает, зачем пользователь приходит в&nbsp;продукт и&nbsp;какую задачу решает, решения перестают быть спорными. <span class=\"is--violet\">Появляется логика, уверенность и&nbsp;ясный путь к&nbsp;результату&nbsp;— от&nbsp;задачи к&nbsp;эмоции и&nbsp;UX-решению</span></p></div>"
-    }
-  ]
+  "slug": "designvacation",
+  "publishedPath": "/events/designvacation"
 }

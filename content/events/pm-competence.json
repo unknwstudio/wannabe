@@ -1,6 +1,4 @@
 {
-  "slug": "pm-competence",
-  "publishedPath": "/events/pm-competence",
   "badges": [
     "Участие бесплатное",
     "Записи не будет"
@@ -8,7 +6,7 @@
   "title": "Компетенции продакт-менеджера",
   "ctaLabel": "Зарегистрироваться",
   "description": "Воркшоп с Машей Дыбкиной, Продакт-менеджер в Авито 22 мая, 19:00 по мск",
-  "eventDate": "22 мая, 19:00",
+  "eventDate": "22 мая, 19:00",
   "eventInfo": "",
   "speakerAvatar": "/images/events/pm-competence/speaker.webp",
   "speakerName": "Маша Дыбкина",
@@ -24,20 +22,8 @@
   "speakerAbout": [],
   "hosts": null,
   "formDate": "",
-  "formInfo": "Зарегистрироваться→Нажимая кнопку, я принимаю условия оферты и соглашаюсь на обработку персональных данных←НазадРасскажите о себе, чтобы продолжитьВ каком направлении вы работаете? Маркетинг Продакт-м",
+  "formInfo": "",
   "formEndpoint": "/api/events/pm-competence/register",
-  "extraSections": [
-    {
-      "position": "after-hero",
-      "html": "<div class=\"hero__grid\"><div class=\"container-749 flex-v-24 flex-v-24--mob-12\"><div class=\"tags-wrap\"><div class=\"violet-tag\">Участие бесплатное</div><div class=\"violet-tag\">Записи не&nbsp;будет</div></div><div><h1 class=\"h1-negative-margin\">Компетенции продакт-менеджера</h1><p class=\"sm-heading-part h3\">Какие навыки развивать, чтобы системно управлять продуктом и&nbsp;расти по&nbsp;карьере</p></div><p class=\"is--dark-grey\">Обсудим, что нужно делать продакт-менеджеру, чтобы наметить план и&nbsp;расти в&nbsp;профессии</p></div><div class=\"card card--announcement card--sm\"><div class=\"flex-v-12 flex-v-12--mob-8\"><div class=\"event__photos-block\"><img src=\"https://cdn.prod.website-files.com/663e20e43c55b32b80cbc405/66e80b5a01da0103ddd088a1_masha-crop.webp\" loading=\"eager\" alt=\"\" class=\"icon-40 icon-40--bordered\"></div><p class=\"text-xs\">Воркшоп с&nbsp;Машей Дыбкиной, Продакт-менеджер в&nbsp;Авито</p><p class=\"h3\">22&nbsp;мая, 19:00 по&nbsp;мск</p></div></div><div class=\"container-498 is--full-width-mob\"><a href=\"#request\" class=\"btn btn--arrow btn--l btn--black w-inline-block\"><p>Зарегистрироваться</p><p>↓</p></a></div></div>"
-    },
-    {
-      "position": "after-quote",
-      "html": "<div class=\"event__photo-grid\"><img src=\"https://cdn.prod.website-files.com/663e20e43c55b32b80cbc405/672decdab2c32af1aecc188e_masha-large.webp\" loading=\"eager\" alt=\"\" class=\"photo-128\"><p class=\"h3 is--dark-grey\">Нет одного фреймворка или той самой методологии, которые нужно изучить&nbsp;— и&nbsp;результат придёт. Но&nbsp;есть <span class=\"is--violet\">системный подход и&nbsp;список компетенций</span>, которые должны быть развиты у&nbsp;продакта, чтобы перформить в&nbsp;продукте</p></div>"
-    },
-    {
-      "position": "after-for-whom",
-      "html": "<div class=\"flex-v-48 flex-v-48--mob-20\"><h2>О&nbsp;чём поговорим: разберём главные боли продактов и&nbsp;тех, кто хочет перейти в&nbsp;профессию</h2><div class=\"flex-v-48\"><div class=\"flex-v-24 is--full-width flex-v-24--mob-20\"><div class=\"flex-v-4 flex-v-4--mob-8 container-749\"><div class=\"card\"><div class=\"card__inner-ordered-grid\"><p class=\"is--dark-grey\">01</p><p>Не&nbsp;понимаю, как&nbsp;перейти в&nbsp;продакт-менеджмент</p></div></div><div class=\"card\"><div class=\"card__inner-ordered-grid\"><p class=\"is--dark-grey\">02</p><p>Не&nbsp;знаю, какой мой следующий шаг, чтобы вырасти в&nbsp;грейде</p></div></div><div class=\"card\"><div class=\"card__inner-ordered-grid\"><p class=\"is--dark-grey\">03</p><p>Много делаю, постоянно перегружен, но&nbsp;застрял в&nbsp;своём грейде&nbsp;— что мне делать?</p></div></div><div class=\"card\"><div class=\"card__inner-ordered-grid\"><p class=\"is--dark-grey\">04</p><p>Не&nbsp;понимаю, какие компетенции нужны продакту</p></div></div><div class=\"card\"><div class=\"card__inner-ordered-grid\"><p class=\"is--dark-grey\">05</p><p>Много знаний, но&nbsp;нет общей картины в&nbsp;голове</p></div></div><div class=\"card\"><div class=\"card__inner-ordered-grid\"><p class=\"is--dark-grey\">06</p><p>Часто не&nbsp;знаю, что мне делать с&nbsp;продуктом</p></div></div><div class=\"card\"><div class=\"card__inner-ordered-grid\"><p class=\"is--dark-grey\">07</p><p>Иногда смотрю на&nbsp;задачи и&nbsp;не&nbsp;понимаю, как к&nbsp;ним подступиться</p></div></div><div class=\"card\"><div class=\"card__inner-ordered-grid\"><p class=\"is--dark-grey\">08</p><p>Не&nbsp;умею составлять стратегию продукта</p></div></div><div class=\"card\"><div class=\"card__inner-ordered-grid\"><p class=\"is--dark-grey\">09</p><p>Чувствую себя неуверенно в&nbsp;работе с&nbsp;экономикой и&nbsp;финансами</p></div></div><div class=\"card\"><div class=\"card__inner-ordered-grid\"><p class=\"is--dark-grey\">10</p><p>Аналитика и&nbsp;метрики&nbsp;— мой главный страх</p></div></div><div class=\"card\"><div class=\"card__inner-ordered-grid\"><p class=\"is--dark-grey\">11</p><p>Команда разработки не&nbsp;считается с&nbsp;моим мнением</p></div></div></div></div></div></div>"
-    }
-  ]
+  "slug": "pm-competence",
+  "publishedPath": "/events/pm-competence"
 }
