@@ -2,12 +2,16 @@
 import React, { useState } from 'react'
 import Footer from '@/components/global/Footer'
 import { getPersonById } from '@/lib/persons'
+import SpeakerFullSection from '@/components/templates/SpeakerFull'
 
 type ContentSection = { headline: string; items: string[] }
+type SpeakerFullBullet =
+  | { type: 'text'; text: string }
+  | { type: 'text+link'; text: string; link: { label: string; href: string } }
 type SpeakerFull = {
   speakerId: string
-  description?: string
-  bullets: string[]
+  sectionTitle?: string
+  bullets: SpeakerFullBullet[]
   links?: { label: string; href: string }[]
 }
 export type EventLayoutProps = {
@@ -125,36 +129,14 @@ export default function EventLayout(p: EventLayoutProps) {
       )}
 
       {/* 5 — Speaker full */}
-      {p.speakerFull && (() => {
-        const q = getPersonById(p.speakerFull.speakerId)
-        return (
-          <section style={BG}>
-            <p className="text-h2" style={{ margin: '0 0 24px' }}>спикер</p>
-            <div className="ev-two">
-              <div style={{ maxWidth: 375, display: 'flex', flexDirection: 'column', gap: 16 }}>
-                {q && <>
-                  <img src={q.photo} alt={q.name} style={{ width: '100%', aspectRatio: '1/1', borderRadius: 12, objectFit: 'cover', display: 'block' }} />
-                  <p className="text-h3" style={{ margin: 0 }}>{q.name}</p>
-                  <div>{q.roles.map((r, i) => <p key={i} className="text-body" style={{ color: '#7c7c7c', margin: 0 }}>— {r}</p>)}</div>
-                </>}
-                {p.speakerFull.description && <p className="text-body" style={{ margin: 0 }}>{p.speakerFull.description}</p>}
-              </div>
-              <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
-                {p.speakerFull.bullets.map((b, i) => (
-                  <div key={i} style={CARD}>
-                    <p className="text-body" style={{ color: '#7c7c7c', margin: 0 }}>{b}</p>
-                  </div>
-                ))}
-                {!!p.speakerFull.links?.length && (
-                  <div style={{ borderTop: '1px solid #cacaca', paddingTop: 16, display: 'flex', gap: 8, flexWrap: 'wrap' }}>
-                    {p.speakerFull.links.map(l => <a key={l.href} href={l.href} className="chip">{l.label}</a>)}
-                  </div>
-                )}
-              </div>
-            </div>
-          </section>
-        )
-      })()}
+      {p.speakerFull && (
+        <SpeakerFullSection
+          speakerId={p.speakerFull.speakerId}
+          sectionTitle={p.speakerFull.sectionTitle}
+          bullets={p.speakerFull.bullets}
+          links={p.speakerFull.links}
+        />
+      )}
 
       {/* 6 — Form */}
       <section style={{ background: '#fff', ...PX, ...PY }}>

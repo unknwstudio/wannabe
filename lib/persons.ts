@@ -5,6 +5,7 @@ export type Person = {
   name: string
   photo: string
   roles: string[]
+  shortRoles?: string[]
 }
 
 export function getPersonById(id: string): Person | null {

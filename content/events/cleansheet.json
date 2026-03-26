@@ -36,5 +36,39 @@
     "misha-rozov"
   ],
   "formDate": "09 декабря в 19:00 по мск",
-  "formEndpoint": "/api/events/cleansheet/register"
+  "formEndpoint": "/api/events/cleansheet/register",
+  "speakerFull": {
+    "speakerId": "misha-rozov",
+    "sectionTitle": "Ведущий эфира",
+    "bullets": [
+      {
+        "type": "text",
+        "text": "Основал топ3-студию Pinkman. За 7 лет студия заработала больше 1 миллиарда рублей. Клиенты — Яндекс, Nike, McDonald's, СберБанк и другие"
+      },
+      {
+        "type": "text+link",
+        "text": "Основал WANNABE и передал свой опыт и навыки >2000 человек. У курсов сотни положительных отзывов",
+        "link": {
+          "label": "смотреть",
+          "href": "https://wannabe.ru"
+        }
+      },
+      {
+        "type": "text+link",
+        "text": "Выступает на мероприятиях и входит в жюри: дизайн-выходные, G8, РИФ, RIW, Tagline, Design Line и другие. Имеет актуальный и редкий скиллсет, больше 50 наград на разных конкурсах",
+        "link": {
+          "label": "смотреть",
+          "href": "https://wannabe.ru"
+        }
+      },
+      {
+        "type": "text+link",
+        "text": "Регулярно пишет о дизайне, мышлении, отношении к работе в телеграм-канале Wannabe like Rozov",
+        "link": {
+          "label": "смотреть",
+          "href": "https://t.me/wannabelikerozov"
+        }
+      }
+    ]
+  }
 }
