@@ -25,7 +25,7 @@ type EventLayoutProps = {
   speakerAbout: { icon: string; text: string; links?: { label: string; href: string }[] }[]
   hosts?: {
     title: string
-    speakers: { name: string; photo: string; roles: string[] }[]
+    speakerIds: string[]
   }
   formDate: string
   formInfo: string
@@ -132,13 +132,13 @@ export default function EventLayout(p: EventLayoutProps) {
       {/* 5 — Speaker */}
       <section style={BG}>
         <p className="text-h2" style={{ margin: '0 0 24px' }}>{p.speakerSectionTitle}</p>
-        <div className="ev-two">
-          <div style={{ flexShrink: 0 }}>
-            <img src={speakerPhoto} alt={speakerName} style={{ width: 'clamp(160px,18vw,375px)', aspectRatio: '1/1', objectFit: 'cover', borderRadius: '50%', display: 'block', marginBottom: 16 }} />
-            <p className="text-h3" style={{ margin: '0 0 8px' }}>{speakerName}</p>
-            {speakerRoles.map(r => <p key={r} className="text-body" style={{ color: '#7c7c7c', margin: 0 }}>— {r}</p>)}
+        <div style={{ display: 'flex', gap: 48, alignItems: 'flex-start', width: '100%', flexWrap: 'wrap' }}>
+          <div style={{ flex: 1, minWidth: 220, display: 'flex', flexDirection: 'column', gap: 16 }}>
+            <img src={speakerPhoto} alt={speakerName} style={{ width: 375, height: 375, maxWidth: '100%', borderRadius: 12, objectFit: 'cover', display: 'block' }} />
+            <p className="text-h3" style={{ margin: 0 }}>{speakerName}</p>
+            <div>{speakerRoles.map((r, i) => <p key={i} className="text-body" style={{ color: '#7c7c7c', margin: 0 }}>— {r}</p>)}</div>
           </div>
-          <div style={{ flex: 1, display: 'flex', flexDirection: 'column', gap: 4 }}>
+          <div style={{ flex: 1, minWidth: 220, display: 'flex', flexDirection: 'column', gap: 4 }}>
             {p.speakerAbout.map((ab, i) => (
               <div key={i} style={CARD}>
                 <div style={{ display: 'flex', gap: 16, alignItems: 'flex-start' }}>
@@ -147,9 +147,7 @@ export default function EventLayout(p: EventLayoutProps) {
                 </div>
                 {ab.links && (
                   <div style={{ borderTop: '1px solid #cacaca', marginTop: 16, paddingTop: 16, display: 'flex', gap: 8, flexWrap: 'wrap' }}>
-                    {ab.links.map(l => (
-                      <a key={l.href} href={l.href} className="chip">{l.label} →</a>
-                    ))}
+                    {ab.links.map(l => <a key={l.href} href={l.href} className="chip">{l.label}</a>)}
                   </div>
                 )}
               </div>
@@ -163,13 +161,17 @@ export default function EventLayout(p: EventLayoutProps) {
         <section style={{ background: '#e5e5e5', ...PX, ...PY }}>
           <p className="text-h2" style={{ margin: '0 0 24px' }}>{p.hosts.title}</p>
           <div className="ev-hosts">
-            {p.hosts.speakers.map(s => (
-              <div key={s.name} style={{ ...PLAIN, display: 'flex', flexDirection: 'column', gap: 16 }}>
-                <img src={s.photo} alt={s.name} style={{ width: 150, height: 150, borderRadius: '50%', objectFit: 'cover' }} />
-                <p className="text-h3" style={{ margin: 0 }}>{s.name}</p>
-                <div>{s.roles.map(r => <p key={r} className="text-body" style={{ color: '#7c7c7c', margin: 0 }}>— {r}</p>)}</div>
-              </div>
-            ))}
+            {p.hosts.speakerIds.map(id => {
+              const person = getPersonById(id)
+              if (!person) return null
+              return (
+                <div key={id} style={{ ...PLAIN, display: 'flex', flexDirection: 'column', gap: 16 }}>
+                  <img src={person.photo} alt={person.name} style={{ width: 150, height: 150, borderRadius: '50%', objectFit: 'cover' }} />
+                  <p className="text-h3" style={{ margin: 0 }}>{person.name}</p>
+                  <div>{person.roles.map((r, i) => <p key={i} className="text-body" style={{ color: '#7c7c7c', margin: 0 }}>— {r}</p>)}</div>
+                </div>
+              )
+            })}
           </div>
         </section>
       )}

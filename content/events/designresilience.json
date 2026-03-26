@@ -103,24 +103,9 @@
   ],
   "hosts": {
     "title": "ведущие мастер-класса",
-    "speakers": [
-      {
-        "name": "Анна Соколова",
-        "photo": "/images/speaker-anna.jpg",
-        "roles": [
-          "Арт-директор wannabe",
-          "10 лет в продуктовом дизайне"
-        ]
-      },
-      {
-        "name": "Максим Орлов",
-        "photo": "/images/speaker-maxim.jpg",
-        "roles": [
-          "Продуктовый дизайнер",
-          "ex-Google, ex-Airbnb",
-          "Ментор wannabe"
-        ]
-      }
+    "speakerIds": [
+      "misha-rozov",
+      "artem-kazakov"
     ]
   },
   "formDate": "15 апреля 2025, 19:00 МСК",

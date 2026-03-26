@@ -45,18 +45,7 @@ const DATA = {
   ],
   hosts: {
     title: 'ведущие мастер-класса',
-    speakers: [
-      {
-        name: 'Миша Розов',
-        photo: '/images/persons/misha-rozov.webp',
-        roles: ['Сооснователь WANNABE', 'Основатель Pinkman'],
-      },
-      {
-        name: 'Артём Казаков',
-        photo: '/images/persons/artem-kazakov.webp',
-        roles: ['Design Head в pinkman', 'Арт-директор wannabe'],
-      },
-    ],
+    speakerIds: ['misha-rozov', 'artem-kazakov'],
   },
   formDate: '25 февраля 2025, 19:00 МСК',
   formInfo: 'Вебинар пройдёт в Zoom. Ссылку пришлём на почту за час до начала. Количество мест ограничено.',
