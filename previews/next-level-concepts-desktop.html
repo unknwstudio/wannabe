@@ -59,6 +59,25 @@ body { margin:0; font-family:'Unica 77 LL',sans-serif; -webkit-font-smoothing:an
 /* ── Theory List ── */
 .tl-hr    { border:none; border-top:1px solid rgba(255,255,255,0.3); margin:0; }
 .tl-item  { display:flex; flex-direction:column; gap:20px; padding:48px 0; }
+
+/* ── PUSH REQUESTS — course page new styles ── */
+.font-panama    { font-family:'Panama','Unica 77 LL',sans-serif; }
+.font-saint     { font-family:'Saint',serif; font-style:italic; }
+.text-display   { font-size:113px; line-height:0.69; letter-spacing:-5.65px; margin:0; }
+.text-feature   { font-size:60px; line-height:0.8; letter-spacing:-1.2px; margin:0; }
+.text-display-sm{ font-size:64px; line-height:0.8; letter-spacing:-2.56px; margin:0; }
+.text-stat      { font-size:80px; line-height:0.8; letter-spacing:-4px; margin:0; }
+.text-body-lg   { font-size:32px; line-height:1; letter-spacing:-0.32px; margin:0; }
+.text-body-xl   { font-size:38px; line-height:0.9; letter-spacing:-0.76px; margin:0; }
+.bg-mint-cta    { background:rgba(127,255,255,0.9); }
+.btn-subscribe-black { display:flex; align-items:center; justify-content:space-between; gap:16px; background:#000; color:#fff; border:none; border-radius:40px; padding:16px 24px; font-family:inherit; font-size:clamp(14px,1.2vw,17px); cursor:pointer; }
+.chip { display:inline-flex; align-items:center; padding:4px 8px; border-radius:4px; background:rgba(255,255,255,0.15); font-size:14px; color:#fff; }
+.co-cards { display:flex; gap:4px; flex-wrap:wrap; }
+.co-cards > * { flex:1; min-width:180px; }
+.co-stack { display:flex; flex-direction:column; gap:4px; }
+.co-two   { display:flex; gap:48px; flex-wrap:wrap; align-items:flex-start; }
+.co-two > * { flex:1; min-width:220px; }
+.co-card  { background:#fff; border-radius:12px; padding:24px; }
 </style>
 </head>
 <body>
@@ -252,6 +271,280 @@ body { margin:0; font-family:'Unica 77 LL',sans-serif; -webkit-font-smoothing:an
   <div class="tl-item"><p class="text-h3" style="color:#FF6225;">claude code</p><p class="text-body" style="color:#FF6225;">разработка интерфейсов с помощью ai инструментов нового поколения</p></div>
   <hr class="tl-hr" />
   <div class="tl-item"><p class="text-h3" style="color:#4EF968;">ai static &amp; motion</p><p class="text-body" style="color:#4EF968;">создание статичных и анимированных материалов с помощью ai</p></div>
+</section>
+
+
+<!-- ═══ COURSE HERO ════════════════════════════════════════════ -->
+<section style="position:relative;min-height:100vh;background:#1c1a31;color:#fff;display:flex;flex-direction:column;">
+  <div style="position:absolute;inset:0;background:linear-gradient(160deg,#2a2550 0%,#1c1a31 60%);z-index:0;"></div>
+  <div style="position:relative;z-index:1;display:flex;flex-direction:column;flex:1;">
+    <!-- Announcement bar -->
+    <div style="width:100%;padding:10px 24px;background:linear-gradient(90deg,#8f67ff,#cfbeff);display:flex;justify-content:space-between;align-items:center;">
+      <span class="text-small">скоро старт нового сезона</span>
+      <span class="text-small">набор открыт до 15 апреля</span>
+    </div>
+    <!-- Nav -->
+    <div class="px" style="display:flex;justify-content:space-between;align-items:center;padding-top:16px;padding-bottom:16px;">
+      <div style="display:flex;align-items:center;gap:24px;">
+        <span class="text-body" style="font-weight:700;">wannabe</span>
+        <span class="chip">дизайн</span>
+        <span class="chip">продакт</span>
+        <span class="chip">конференция</span>
+      </div>
+      <button style="background:#cfbeff;color:#000;border:none;border-radius:40px;padding:12px 24px;font-family:inherit;font-size:14px;cursor:pointer;">профиль</button>
+    </div>
+    <!-- Center -->
+    <div class="px" style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding-top:48px;padding-bottom:48px;gap:24px;">
+      <p class="text-display font-panama" style="color:#fff;">next level concepts</p>
+      <div style="width:80px;height:80px;border-radius:50%;background:#cfbeff;display:flex;align-items:center;justify-content:center;overflow:hidden;">
+        <img src="../public/images/persons/misha-rozov.webp" alt="Миша Розов" style="width:100%;height:100%;object-fit:cover;" onerror="this.style.display='none'" />
+      </div>
+      <p class="text-body" style="color:rgba(255,255,255,0.7);max-width:480px;margin:0;">интенсив по концептуальному дизайну для продвинутых дизайнеров</p>
+      <!-- Mint CTA card -->
+      <div class="bg-mint-cta" style="border-radius:90px;padding:24px 48px;display:flex;flex-direction:column;align-items:center;gap:16px;max-width:560px;width:100%;">
+        <p class="text-h3" style="color:#1c1a31;margin:0;">от 29 900 ₽</p>
+        <p class="text-small" style="color:#1c1a31;margin:0;">старт 22 апреля · 6 недель</p>
+        <div style="display:flex;gap:16px;align-items:center;">
+          <button style="background:#000;color:#fff;border:none;border-radius:90px;padding:12px 32px;font-family:inherit;font-size:14px;cursor:pointer;">участвовать</button>
+          <button style="background:none;border:none;color:#1c1a31;text-decoration:underline;font-family:inherit;font-size:14px;cursor:pointer;">задать вопрос</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ COURSE FEATURES ════════════════════════════════════════ -->
+<section class="px py" style="background:#1c1a31;">
+  <p class="font-panama text-display-sm" style="color:#fff;text-align:center;margin:0 0 48px;">почему это работает</p>
+  <div style="display:flex;flex-direction:column;gap:24px;">
+    <div><p class="text-feature" style="color:#fff;font-weight:500;">концептуальный</p><p class="text-feature font-panama" style="color:#4ef968;">подход к дизайну</p></div>
+    <div><p class="text-feature" style="color:#fff;font-weight:500;">работа с <span class="font-saint">реальными</span></p><p class="text-feature font-panama" style="color:#4ef968;">проектами</p></div>
+    <div><p class="text-feature" style="color:#fff;font-weight:500;">международный</p><p class="text-feature font-panama" style="color:#4ef968;">уровень качества</p></div>
+    <div><p class="text-feature" style="color:#fff;font-weight:500;">арт-дирекшн</p><p class="text-feature font-panama" style="color:#4ef968;">и визуальный язык</p></div>
+  </div>
+</section>
+
+<!-- ═══ COURSE AUTHOR ══════════════════════════════════════════ -->
+<section style="position:relative;min-height:clamp(400px,50vw,700px);background:#1c1a31;display:flex;align-items:flex-end;justify-content:center;overflow:hidden;">
+  <div style="position:absolute;inset:0;background:linear-gradient(180deg,#2a2550 0%,#1c1a31 100%);"></div>
+  <div style="position:relative;z-index:1;padding:48px;display:flex;justify-content:center;">
+    <div style="border:1px solid #fff;border-radius:40px;padding:4px;">
+      <div style="background:#4ef968;border-radius:36px;padding:12px 24px;display:flex;align-items:center;gap:12px;">
+        <div style="width:24px;height:24px;background:#1c1a31;border-radius:4px;"></div>
+        <span class="font-panama text-body" style="color:#1c1a31;font-weight:500;">автор и ведущий интенсива</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ COURSE GUESTS ══════════════════════════════════════════ -->
+<section class="px py" style="background:#1c1a31;position:relative;overflow:hidden;">
+  <p aria-hidden="true" class="font-panama tracking-watermark" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-size:250px;color:rgba(255,255,255,0.04);white-space:nowrap;pointer-events:none;margin:0;line-height:1;">гости</p>
+  <p class="font-panama text-display-sm" style="color:#fff;text-align:center;margin:0 0 48px;position:relative;">гости</p>
+  <div class="co-cards" style="position:relative;">
+    <div style="flex:1;min-width:140px;display:flex;flex-direction:column;align-items:center;gap:16px;">
+      <div style="width:150px;height:150px;border-radius:50%;background:#2a2550;display:flex;align-items:center;justify-content:center;"><span class="text-h3" style="color:#cfbeff;">К</span></div>
+      <p class="text-body" style="color:#fff;margin:0;text-align:center;">Катя Соловьёва</p>
+    </div>
+    <div style="flex:1;min-width:140px;display:flex;flex-direction:column;align-items:center;gap:16px;">
+      <div style="width:150px;height:150px;border-radius:50%;background:#2a2550;display:flex;align-items:center;justify-content:center;"><span class="text-h3" style="color:#cfbeff;">И</span></div>
+      <p class="text-body" style="color:#fff;margin:0;text-align:center;">Иван Петров</p>
+    </div>
+    <div style="flex:1;min-width:140px;display:flex;flex-direction:column;align-items:center;gap:16px;">
+      <div style="width:150px;height:150px;border-radius:50%;background:#2a2550;display:flex;align-items:center;justify-content:center;"><span class="text-h3" style="color:#cfbeff;">М</span></div>
+      <p class="text-body" style="color:#fff;margin:0;text-align:center;">Маша Тихонова</p>
+    </div>
+    <div style="flex:1;min-width:140px;display:flex;flex-direction:column;align-items:center;gap:16px;">
+      <div style="width:150px;height:150px;border-radius:50%;background:#2a2550;display:flex;align-items:center;justify-content:center;"><span class="text-h3" style="color:#cfbeff;">А</span></div>
+      <p class="text-body" style="color:#fff;margin:0;text-align:center;">Антон Дмитриев</p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ COURSE CHOICE GUIDE ════════════════════════════════════ -->
+<section class="px py" style="background:#1c1a31;">
+  <p class="font-panama text-display-sm" style="color:#fff;text-align:center;margin:0 0 48px;">как выбрать курс</p>
+  <div style="display:flex;gap:48px;flex-wrap:wrap;">
+    <div style="flex:1;min-width:260px;display:flex;flex-direction:column;gap:16px;">
+      <p class="text-body-xl" style="color:#fff;font-weight:500;">если тебе важно:</p>
+      <p class="text-body-lg" style="color:rgba(255,255,255,0.7);">работать с концептом</p>
+      <p class="text-body-lg" style="color:rgba(255,255,255,0.7);">арт-дирекшн и визуальный язык</p>
+      <p class="text-body-lg" style="color:rgba(255,255,255,0.7);">нестандартные решения</p>
+      <p class="text-body-lg"><span style="color:#ff6225;">тебе на </span><span style="color:#4ef968;font-weight:500;">next level concepts</span></p>
+    </div>
+    <div style="flex:1;min-width:260px;display:flex;flex-direction:column;gap:16px;">
+      <p class="text-body-xl" style="color:#fff;font-weight:500;">если тебе важно:</p>
+      <p class="text-body-lg" style="color:rgba(255,255,255,0.7);">системный подход к продукту</p>
+      <p class="text-body-lg" style="color:rgba(255,255,255,0.7);">ux и пользовательское мышление</p>
+      <p class="text-body-lg" style="color:rgba(255,255,255,0.7);">интерфейсная логика</p>
+      <p class="text-body-lg"><span style="color:#ff6225;">тебе на </span><span style="color:#4ef968;font-weight:500;">superpowered</span></p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ COURSE HOW IT WORKS ════════════════════════════════════ -->
+<section class="px py" style="background:#eaeaea;">
+  <p class="text-h2" style="color:#1c1a31;margin:0 0 48px;">как всё устроено</p>
+  <div class="co-stack">
+    <div class="co-card" style="display:flex;gap:16px;align-items:flex-start;">
+      <span class="text-small" style="color:#7c7c7c;width:72px;flex-shrink:0;">01</span>
+      <div><p class="text-body" style="color:#1c1a31;margin:0 0 4px;font-weight:500;">смотришь лекции</p><p class="text-body" style="color:#7c7c7c;margin:0;">в удобное время — видео доступны в личном кабинете</p></div>
+    </div>
+    <div class="co-card" style="display:flex;gap:16px;align-items:flex-start;">
+      <span class="text-small" style="color:#7c7c7c;width:72px;flex-shrink:0;">02</span>
+      <div><p class="text-body" style="color:#1c1a31;margin:0 0 4px;font-weight:500;">делаешь практику</p><p class="text-body" style="color:#7c7c7c;margin:0;">задания по каждой теме с проверкой от кураторов</p></div>
+    </div>
+    <div class="co-card" style="display:flex;gap:16px;align-items:flex-start;">
+      <span class="text-small" style="color:#7c7c7c;width:72px;flex-shrink:0;">03</span>
+      <div><p class="text-body" style="color:#1c1a31;margin:0 0 4px;font-weight:500;">получаешь фидбек</p><p class="text-body" style="color:#7c7c7c;margin:0;">арт-директора проверяют работы и дают подробные комментарии</p></div>
+    </div>
+    <div class="co-card" style="display:flex;gap:16px;align-items:flex-start;">
+      <span class="text-small" style="color:#7c7c7c;width:72px;flex-shrink:0;">04</span>
+      <div><p class="text-body" style="color:#1c1a31;margin:0 0 4px;font-weight:500;">защищаешь концепт</p><p class="text-body" style="color:#7c7c7c;margin:0;">финальная презентация перед командой арт-директоров</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ COURSE REVIEWS ═════════════════════════════════════════ -->
+<section class="px py" style="background:#eaeaea;">
+  <p class="text-h2" style="color:#1c1a31;margin:0 0 48px;">отзывы</p>
+  <div class="co-two" style="margin-bottom:24px;">
+    <p class="text-h3" style="color:#1c1a31;margin:0;">уже более 500 дизайнеров прошли через наши программы и изменили свою карьеру</p>
+    <div style="display:flex;gap:48px;flex-wrap:wrap;">
+      <div><p class="text-stat" style="color:#1c1a31;font-weight:500;">500+</p><p class="text-h3" style="color:#7c7c7c;">выпускников</p></div>
+      <div><p class="text-stat" style="color:#1c1a31;font-weight:500;">4.9</p><p class="text-h3" style="color:#7c7c7c;">средняя оценка</p></div>
+    </div>
+  </div>
+  <!-- Featured review -->
+  <div class="co-card" style="margin-bottom:4px;">
+    <div style="display:flex;justify-content:space-between;margin-bottom:16px;">
+      <span class="text-small" style="color:#1c1a31;">Маша Тихонова</span>
+      <span class="text-small" style="color:#7c7c7c;">15 марта 2025</span>
+    </div>
+    <p class="text-h3" style="color:#1c1a31;margin:0 0 16px;">Это был переломный момент в моей карьере. После курса я получила оффер в международную студию.</p>
+    <button style="background:none;border:none;padding:0;font-family:inherit;font-size:14px;color:#1c1a31;text-decoration:underline;cursor:pointer;">Читать полностью →</button>
+  </div>
+  <!-- Video thumbnails -->
+  <div class="co-cards">
+    <div style="flex:1;min-width:140px;background:#fff;border-radius:12px;padding:12px;">
+      <div style="aspect-ratio:9/16;background:#eaeaea;border-radius:8px;display:flex;align-items:center;justify-content:center;position:relative;">
+        <div style="width:40px;height:40px;border-radius:50%;background:rgba(0,0,0,0.4);display:flex;align-items:center;justify-content:center;"><span style="color:#fff;">▶</span></div>
+      </div>
+      <p class="text-small" style="color:#1c1a31;margin:8px 0 2px;">Аня К.</p><p class="text-small" style="color:#7c7c7c;margin:0;">UI/UX дизайнер</p>
+    </div>
+    <div style="flex:1;min-width:140px;background:#fff;border-radius:12px;padding:12px;">
+      <div style="aspect-ratio:9/16;background:#eaeaea;border-radius:8px;display:flex;align-items:center;justify-content:center;">
+        <div style="width:40px;height:40px;border-radius:50%;background:rgba(0,0,0,0.4);display:flex;align-items:center;justify-content:center;"><span style="color:#fff;">▶</span></div>
+      </div>
+      <p class="text-small" style="color:#1c1a31;margin:8px 0 2px;">Серёжа Л.</p><p class="text-small" style="color:#7c7c7c;margin:0;">Product Designer</p>
+    </div>
+    <div style="flex:1;min-width:140px;background:#fff;border-radius:12px;padding:12px;">
+      <div style="aspect-ratio:9/16;background:#eaeaea;border-radius:8px;display:flex;align-items:center;justify-content:center;">
+        <div style="width:40px;height:40px;border-radius:50%;background:rgba(0,0,0,0.4);display:flex;align-items:center;justify-content:center;"><span style="color:#fff;">▶</span></div>
+      </div>
+      <p class="text-small" style="color:#1c1a31;margin:8px 0 2px;">Оля В.</p><p class="text-small" style="color:#7c7c7c;margin:0;">Графический дизайнер</p>
+    </div>
+    <div style="flex:1;min-width:140px;background:#fff;border-radius:12px;padding:12px;">
+      <div style="aspect-ratio:9/16;background:#eaeaea;border-radius:8px;display:flex;align-items:center;justify-content:center;">
+        <div style="width:40px;height:40px;border-radius:50%;background:rgba(0,0,0,0.4);display:flex;align-items:center;justify-content:center;"><span style="color:#fff;">▶</span></div>
+      </div>
+      <p class="text-small" style="color:#1c1a31;margin:8px 0 2px;">Паша Р.</p><p class="text-small" style="color:#7c7c7c;margin:0;">Junior Designer</p>
+    </div>
+    <div style="flex:1;min-width:140px;background:#fff;border-radius:12px;padding:12px;">
+      <div style="aspect-ratio:9/16;background:#eaeaea;border-radius:8px;display:flex;align-items:center;justify-content:center;">
+        <div style="width:40px;height:40px;border-radius:50%;background:rgba(0,0,0,0.4);display:flex;align-items:center;justify-content:center;"><span style="color:#fff;">▶</span></div>
+      </div>
+      <p class="text-small" style="color:#1c1a31;margin:8px 0 2px;">Катя М.</p><p class="text-small" style="color:#7c7c7c;margin:0;">Art Director</p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ COURSE EMAIL CAPTURE ═══════════════════════════════════ -->
+<section class="px py" style="background:#eaeaea;display:flex;flex-direction:column;align-items:center;gap:24px;">
+  <p class="text-stat" style="color:#1c1a31;text-align:center;font-weight:500;">будь в курсе новых программ</p>
+  <p class="text-body" style="color:#7c7c7c;text-align:center;max-width:480px;margin:0;">оставь email и получи подборку материалов по концептуальному дизайну бесплатно</p>
+  <div style="display:flex;gap:4px;width:100%;max-width:520px;flex-wrap:wrap;">
+    <input type="email" placeholder="твой email" class="text-body" style="flex:1;min-width:200px;background:#fff;border:none;border-radius:90px;padding:12px 24px;outline:none;font-family:inherit;" />
+    <button class="btn-subscribe-black" style="border-radius:90px;flex-shrink:0;">получить →</button>
+  </div>
+  <p class="text-small" style="color:#7c7c7c;margin:0;text-align:center;">нажимая кнопку, я принимаю <u>условия оферты</u> и соглашаюсь на <u>обработку данных</u></p>
+</section>
+
+<!-- ═══ COURSE INSTALLMENT ═════════════════════════════════════ -->
+<section class="px py" style="background:#eaeaea;">
+  <p class="text-h2" style="color:#1c1a31;margin:0 0 16px;">рассрочка без банка</p>
+  <p class="text-body" style="color:#7c7c7c;margin:0 0 48px;">никаких банков и процентов — оплата напрямую через платформу</p>
+  <div class="co-stack" style="margin-bottom:24px;">
+    <div class="co-card">
+      <div style="display:flex;gap:48px;flex-wrap:wrap;align-items:flex-start;">
+        <div style="flex:1;min-width:200px;display:flex;flex-direction:column;gap:12px;">
+          <span class="text-small" style="border:1px solid #cacaca;border-radius:40px;padding:4px 12px;display:inline-block;color:#7c7c7c;">шаг 1</span>
+          <p class="text-body" style="color:#7c7c7c;margin:0;">нажми «оплатить в рассрочку» на странице оформления</p>
+          <p class="text-small" style="color:#7c7c7c;margin:0;">без банка, без процентов</p>
+        </div>
+        <div style="flex:1;min-width:200px;background:#eaeaea;border-radius:8px;padding:16px;">
+          <p class="text-small" style="color:#7c7c7c;margin:0;">страница оформления</p>
+          <div style="margin-top:12px;height:60px;background:#cacaca;border-radius:4px;"></div>
+        </div>
+      </div>
+    </div>
+    <div class="co-card">
+      <div style="display:flex;gap:48px;flex-wrap:wrap;align-items:flex-start;">
+        <div style="flex:1;min-width:200px;display:flex;flex-direction:column;gap:12px;">
+          <span class="text-small" style="border:1px solid #cacaca;border-radius:40px;padding:4px 12px;display:inline-block;color:#7c7c7c;">шаг 2</span>
+          <p class="text-body" style="color:#7c7c7c;margin:0;">выбери удобный срок: 3, 6 или 12 месяцев</p>
+        </div>
+        <div style="flex:1;min-width:200px;background:#eaeaea;border-radius:8px;padding:16px;">
+          <p class="text-small" style="color:#7c7c7c;margin:0;">выбор срока рассрочки</p>
+          <div style="margin-top:12px;height:60px;background:#cacaca;border-radius:4px;"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button style="background:none;border:none;padding:0;font-family:inherit;font-size:14px;color:#1c1a31;text-decoration:underline;cursor:pointer;">Посмотреть все шаги →</button>
+</section>
+
+<!-- ═══ COURSE CORPORATE ═══════════════════════════════════════ -->
+<section class="px py" style="background:#fff;">
+  <p class="text-h2" style="color:#1c1a31;margin:0 0 16px;">корпоративное обучение</p>
+  <p class="text-body" style="color:#7c7c7c;margin:0 0 48px;">обучайте команду дизайнеров целиком — специальные условия для групп</p>
+  <div class="co-stack" style="margin-bottom:24px;">
+    <div style="background:#eaeaea;border-radius:12px;padding:24px;display:flex;gap:16px;align-items:flex-start;">
+      <span class="text-body" style="color:#7c7c7c;width:72px;flex-shrink:0;">01</span>
+      <p class="text-body" style="color:#7c7c7c;margin:0;">от 3 человек — скидка <strong style="color:#1c1a31;">10%</strong></p>
+    </div>
+    <div style="background:#eaeaea;border-radius:12px;padding:24px;display:flex;gap:16px;align-items:flex-start;">
+      <span class="text-body" style="color:#7c7c7c;width:72px;flex-shrink:0;">02</span>
+      <p class="text-body" style="color:#7c7c7c;margin:0;">от 5 человек — скидка <strong style="color:#1c1a31;">20%</strong></p>
+    </div>
+  </div>
+  <button class="btn-subscribe-black" style="border-radius:40px;width:100%;">Оставить заявку →</button>
+</section>
+
+<!-- ═══ COURSE FAQ ══════════════════════════════════════════════ -->
+<section class="px py" style="background:#eaeaea;">
+  <p class="text-h2" style="color:#1c1a31;margin:0 0 48px;">FAQ</p>
+  <div>
+    <div style="display:flex;gap:48px;padding:24px 0;flex-wrap:wrap;">
+      <div style="min-width:200px;flex:0 0 clamp(200px,30vw,454px);display:flex;gap:24px;"><span class="text-small" style="color:#7c7c7c;flex-shrink:0;padding-top:2px;">01</span><p class="text-body" style="color:#7c7c7c;margin:0;">нужен ли опыт для участия?</p></div>
+      <p class="text-body" style="color:#1c1a31;margin:0;flex:1;min-width:200px;">Да — этот курс для дизайнеров с базой. Мы работаем на уровне мидл и выше.</p>
+    </div>
+    <div style="height:1px;background:#cacaca;"></div>
+    <div style="display:flex;gap:48px;padding:24px 0;flex-wrap:wrap;">
+      <div style="min-width:200px;flex:0 0 clamp(200px,30vw,454px);display:flex;gap:24px;"><span class="text-small" style="color:#7c7c7c;flex-shrink:0;padding-top:2px;">02</span><p class="text-body" style="color:#7c7c7c;margin:0;">как проходит обучение?</p></div>
+      <p class="text-body" style="color:#1c1a31;margin:0;flex:1;min-width:200px;">Видео-лекции + живые эфиры + практика с проверкой арт-директоров. Всё в личном кабинете.</p>
+    </div>
+    <div style="height:1px;background:#cacaca;"></div>
+    <div style="display:flex;gap:48px;padding:24px 0;flex-wrap:wrap;">
+      <div style="min-width:200px;flex:0 0 clamp(200px,30vw,454px);display:flex;gap:24px;"><span class="text-small" style="color:#7c7c7c;flex-shrink:0;padding-top:2px;">03</span><p class="text-body" style="color:#7c7c7c;margin:0;">есть ли сертификат?</p></div>
+      <p class="text-body" style="color:#1c1a31;margin:0;flex:1;min-width:200px;">Да, выдаём сертификат wannabe по завершении финального проекта.</p>
+    </div>
+    <div style="height:1px;background:#cacaca;"></div>
+    <div style="display:flex;gap:48px;padding:24px 0;flex-wrap:wrap;">
+      <div style="min-width:200px;flex:0 0 clamp(200px,30vw,454px);display:flex;gap:24px;"><span class="text-small" style="color:#7c7c7c;flex-shrink:0;padding-top:2px;">04</span><p class="text-body" style="color:#7c7c7c;margin:0;">что если не успею?</p></div>
+      <p class="text-body" style="color:#1c1a31;margin:0;flex:1;min-width:200px;">Доступ к материалам остаётся навсегда. Можно пересмотреть в любое время.</p>
+    </div>
+  </div>
 </section>
 
 </body>
