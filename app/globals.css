@@ -166,3 +166,30 @@ body {
   box-sizing: border-box;
 }
 .input-email:focus { border-color: #000; }
+
+/* ── PUSH REQUESTS — new styles from course page, needs design review ── */
+
+/* Panama font — decorative display font used in CourseFeatures, CourseGuests,
+   CourseChoiceGuide, CourseAuthor headings. No files yet.
+   ACTION NEEDED: add Panama-Regular.woff2 to /public/fonts/ and uncomment */
+/* @font-face { font-family:'Panama'; src:url('/fonts/Panama-Regular.woff2') format('woff2'); font-weight:400; font-display:swap; } */
+.font-panama { font-family:'Panama','Unica 77 LL',sans-serif; }
+
+/* Saint font — italic decorative word in CourseFeatures. No files yet.
+   ACTION NEEDED: add Saint font files to /public/fonts/ and uncomment */
+/* @font-face { font-family:'Saint'; src:url('/fonts/Saint-Italic.woff2') format('woff2'); font-style:italic; font-display:swap; } */
+.font-saint { font-family:'Saint',serif; font-style:italic; }
+
+/* Oversized text sizes outside the h1-h4 scale */
+.text-display    { font-size:113px; line-height:0.69; letter-spacing:-5.65px; }  /* hero title — CourseHero */
+.text-feature    { font-size:60px;  line-height:0.8;  letter-spacing:-1.2px; }   /* feature rows — CourseFeatures */
+.text-display-sm { font-size:64px;  line-height:0.8;  letter-spacing:-2.56px; }  /* section headings — CourseFeatures */
+.text-stat       { font-size:80px;  line-height:0.8;  letter-spacing:-4px; }     /* stat numbers — CourseReviews */
+.text-body-lg    { font-size:32px;  line-height:1;    letter-spacing:-0.32px; }  /* choice guide items — CourseChoiceGuide */
+.text-body-xl    { font-size:38px;  line-height:0.9;  letter-spacing:-0.76px; }  /* choice guide subheading — CourseChoiceGuide */
+
+/* Mint/cyan CTA button bg — CourseHero */
+.bg-mint-cta { background-color:rgba(127,255,255,0.9); }
+
+/* Watermark letter-spacing — decorative, CourseGuests */
+.tracking-watermark { letter-spacing:-45px; }
